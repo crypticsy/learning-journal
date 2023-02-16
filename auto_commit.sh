@@ -1,4 +1,10 @@
-#!/bin/sh
+#!/bin/bash
+
+# Get today's date in YYYY-MM-DD format
+TODAY=$(date +"%Y-%m-%d")
+
+# add all changes
 git add *
-git commit -m "updated log"
+# commit changes
+git commit -m "updated learnign log till $TODAY"
 git push origin master
