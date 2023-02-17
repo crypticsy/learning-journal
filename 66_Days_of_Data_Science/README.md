@@ -33,7 +33,7 @@
 <br/>
 <details> 
 	<br/>
-    <summary> &nbsp; 📝 &nbsp; Day 3 - Joining Data in SQL with Set theory </summary>
+    <summary> &nbsp; 📝 &nbsp; Day 3 - Joins, Set theory & Subqueries in SQL </summary>
 
     🗓️ Date: 2023-02-17
 
