@@ -29,3 +29,65 @@
 </blockquote>
 
 </details>
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 3 - Joining Data in SQL with Set theory </summary>
+
+    🗓️ Date: 2023-02-17
+
+<blockquote>
+    I took the course "Joining Data in SQL", the fifth Course under the track Data Analyst in SQL. It included an introduction to various types of joins (inner, outer, cross & self) as well as set theory (union, intersect & except) joins. The cross joins and set theory section was incredibly beneficial as my perspective on desiging tables using minimal readable query was expanded due to these concepts.  While I recall reading about it in my undergrad curriculum, putting it into practice has helped me comprehend it much better. In addition, subqueries within the "WHERE" and "SELECT" keywords were covered in the course. I had never used subqueries in the choose section before and learned some cool tricks up my sleeve. I have added some syntaxes that i learned as follows:
+</blockquote>
+
+    --- Cross Join Query : creates all possible combinations
+    SELECT column_name(s)
+    FROM table1
+    CROSS JOIN table2;
+
+
+    --- UNION Operator : shows unique rows
+    SELECT column_name(s) FROM table1
+    UNION
+    SELECT column_name(s) FROM table2;
+
+    --- UNION ALL Operator : shows duplicate rows
+    SELECT column_name(s) FROM table1
+    UNION ALL
+    SELECT column_name(s) FROM table2;
+
+    --- EXCEPT Operator : shows rows not present in the table
+    SELECT column_name(s) FROM table1
+    EXCEPT
+    SELECT column_name(s) FROM table2;
+
+
+    --- SUBQUERY EXAMPLES
+    
+        --- Example 1:
+        SELECT name, country_code
+        FROM cities
+        WHERE name in (
+            SELECT capital
+            FROM countries
+        )
+
+        --- Example 2:
+        SELECT countries.name AS country_name, (
+                SELECT COUNT(*)
+                FROM cities
+                WHERE cities.country_code = country.code 
+            ) AS cities_num
+        FROM countries
+
+        --- Example 3:
+        SELECT coutries.name AS country_name, lang_num
+        FROM countries,
+            (SELECT code, COUNT(*) AS lang_num
+            FROM languages
+            GROUP BY code) AS sub
+        WHERE countries.code = sub.code
+        ORDER BY lang_num DESC;
+
+</details>
