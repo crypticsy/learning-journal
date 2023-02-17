@@ -38,7 +38,7 @@
     🗓️ Date: 2023-02-17
 
 <blockquote>
-    I took the course "Joining Data in SQL", the fifth Course under the track Data Analyst in SQL. It included an introduction to various types of joins (inner, outer, cross & self) as well as set theory (union, intersect & except) joins. The cross joins and set theory section was incredibly beneficial as my perspective on desiging tables using minimal readable query was expanded due to these concepts.  While I recall reading about it in my undergrad curriculum, putting it into practice has helped me comprehend it much better. In addition, subqueries within the "WHERE" and "SELECT" keywords were covered in the course. I had never used subqueries in the choose section before and learned some cool tricks up my sleeve. I have added some syntaxes that i learned as follows:
+    I took the course "Joining Data in SQL", the fifth Course under the track Data Analyst in SQL. It included an introduction to various types of joins (inner, outer, cross & self) as well as set theory (union, intersect & except) joins. The cross joins and set theory section was incredibly beneficial as my perspective on desiging tables using minimal readable query was expanded due to these concepts.  While I recall reading about it in my undergrad curriculum, putting it into practice has helped me comprehend it much better. In addition, subqueries after the "WHERE", "FROM" and "SELECT" keywords were covered in the course. I had never used subqueries in the "SELECT" & "FROM" section before, hence I learned some cool tricks up my sleeves. I have added some syntaxes that I learned as follows:
 </blockquote>
 
     --- Cross Join Query : creates all possible combinations
