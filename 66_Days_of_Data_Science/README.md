@@ -91,3 +91,62 @@
         ORDER BY lang_num DESC;
 
 </details>
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 4 - Data Manipulation in SQL </summary>
+
+    🗓️ Date: 2023-02-17
+
+<blockquote>
+    Machine learning, the most trending topic in today's generation is nothing more than a series of if and else statements. With SQL, a similar scenario occurs when you use the CASE statement to insert new values into a table based on existing records. To be more specific, the first module in 'Data Manipulation in SQL' that I took,' 'We'll Take the CASE,' focuses on using case statements to generate labels, probability, and percentage based on supplied criteria. While accounting for only one-quarter of the course, this subject proved useful in a variety of ways. The following are some examples of the statement:
+
+</blockquote>
+
+    --- CASE Statement Example
+    SELECT title,
+        length,
+        CASE
+            WHEN length> 0 AND length <= 50 
+                THEN 'Short'
+            WHEN length > 50 AND length <= 120 
+                THEN 'Medium'
+            WHEN length> 120 
+                THEN 'Long'
+            ELSE
+                'Outlier'
+        END AS duration
+    FROM film
+    ORDER BY title;
+
+
+    --- CASE Statement : Count Example
+    SELECT 
+        c.name AS country,
+        -- Count games from the 2012/2013 season
+        count(CASE WHEN m.season = '2012/2013' 
+                THEN m.id ELSE NULL end) AS matches_2012_2013
+    FROM country AS c
+    LEFT JOIN match AS m
+    ON c.id = m.country_id
+    -- Group by country name alias
+    GROUP BY country;
+
+
+    --- CASE Statement : Percentage Example
+    SELECT 
+        c.name AS country,
+        -- Round the percentage of tied games to 2 decimal points
+        ROUND(AVG(CASE WHEN m.season='2013/2014' AND m.home_goal = m.away_goal THEN 1
+                WHEN m.season='2013/2014' AND m.home_goal != m.away_goal THEN 0
+                END),2) AS pct_ties_2013_2014,
+        ROUND(AVG(CASE WHEN m.season='2014/2015' AND m.home_goal = m.away_goal THEN 1
+                WHEN m.season='2014/2015' AND m.home_goal != m.away_goal THEN 0
+                END),2) AS pct_ties_2014_2015
+    FROM country AS c
+    LEFT JOIN matches AS m
+    ON c.id = m.country_id
+    GROUP BY country;
+</details>
