@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get today's date in YYYY-MM-DD format
-TODAY=$(date +"%Y-%m-%d")
+TODAY=$(date +"%a,%d %b, %Y %I:%M %p")
 
 # add all changes
 git add *
