@@ -1,7 +1,5 @@
 # Journey of 66 Days of Data Science
 
-<br/>
-
 ##### Resources
 <br/>
 

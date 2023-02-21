@@ -6,5 +6,5 @@ TODAY=$(date +"%Y-%m-%d")
 # add all changes
 git add *
 # commit changes
-git commit -m "66 Days of Data Science : Updated learnig log till $TODAY"
+git commit -m "66 Days of Data Science : Updated learning log till $TODAY"
 git push origin master
