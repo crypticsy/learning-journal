@@ -8,6 +8,7 @@
 <br/><br/>
 
 ##### Daily Logs
+
 <br/>
 <details> 
 	<br/>
