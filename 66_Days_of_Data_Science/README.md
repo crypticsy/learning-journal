@@ -8,6 +8,7 @@
 - [Datacamp Career Track : Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql)
 
 <br/><br/>
+
 ##### Daily Logs
 <br/>
 <details> 
