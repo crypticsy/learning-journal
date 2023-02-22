@@ -4,7 +4,8 @@
 
 #### Resources
 
-- [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) from Datacamp
+- [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) career tracks from Datacamp
+- [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql) and [Advanced SQL](https://www.kaggle.com/learn/advanced-sql) courses from Kaggle
 
 <br/>
 <hr/>
