@@ -39,6 +39,8 @@ Course
     I also took <a href="https://app.datacamp.com/learn/courses/introduction-to-sql" target="_blank">Introduction to SQL</a> as part of the same curriculum, which helped me revise the basic sql queries to read and view data from tables. Because of this revision, I learned about "VIEW," a concept I was never aware of before. To summarize, views are virtual tables whose contents are determined by queries. It only allows you to restrict access to the database and does not significantly increase the performance of SQL queries. Nonetheless, it was a useful trick to have in my SQL toolbox for increasing readability.
 </p>
 
+----
+
 </details>
 
 
@@ -62,6 +64,8 @@ Course
 <p align="justify">
     Continuing on from Day 1, I chose the <a href="https://app.datacamp.com/learn/courses/intermediate-sql" target="_blank">Intermediate SQL</a> course from the same track, which included queries for selecting, filtering, aggregating, sorting, and grouping. Unlike the previous time, I did not get to learn a new concept, but it was a good recollection of all these principles, particularly concerning conventions for writing SQL to promote readability, as I had become a little sloopy regarding this.
 </p>
+
+----
 
 </details>
 
@@ -152,6 +156,9 @@ FROM countries,
 WHERE countries.code = sub.code
 ORDER BY lang_num DESC;
 ```
+
+----
+
 </details>
 
 <br/>
@@ -228,6 +235,8 @@ LEFT JOIN matches AS m
 ON c.id = m.country_id
     GROUP BY country;
 ```
+
+----
 
 </details>
 
@@ -358,6 +367,9 @@ WHERE
     hometeam_id = 9908
     AND season = '2011/2012';
 ```
+
+----
+
 </details>
 
 <br/>
@@ -405,5 +417,8 @@ Framing functions
 | `UNBOUNDED PRECEDING` | Return all rows before the current row.
 | `UNBOUNDED FOLLOWING` | Return all rows after the current row.
 | `CURRENT ROW` | Current row of query execution.
+
+
+----
 
 </details>
