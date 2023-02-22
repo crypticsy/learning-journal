@@ -397,6 +397,7 @@ WHERE
 
 Course
 - <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions  (Datacamp)</a>
+-<a href="https://www.kaggle.com/learn/advanced-sql">Advanced SQL (Kaggle)</a>
 
 Articles
 - <a href="https://medium.com/yavar/window-functions-in-sql-a7239bb97104">Window functions in SQL (Medium)</a>
@@ -407,6 +408,10 @@ Articles
 
 <p align="justify">
 With the continuation of window functions, I have gotten slightly familiar with the notion of window function types, particularly fetching, framing, and ranking functions, which I had practiced today. While these functions seemed intimidating at first, they turned out to be considerably easy than I had anticipated.
+</p>
+
+<p align="justify">
+Beside this,  I attempted to put my knowledge into practice by answering practice questions in the "Advanced sql" section of kaggle. It was a valuable experience since I was able to accurately utilize window functions and also learn about the 'UNNEST' function to load nested and repeated data from the tables.
 </p>
 
 ----
