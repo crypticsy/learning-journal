@@ -1,12 +1,14 @@
 # Journey of 66 Days of Data Science
 
+<br>
 ##### Resources
+<br>
 
-<br/>
+Career Track
+- [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) from Datacamp
 
-- [Datacamp Career Track : Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql)
+---
 
-<br/><br/>
 
 ##### Daily Logs
 
@@ -16,6 +18,18 @@
     <summary> &nbsp; 📝 &nbsp; Day 1 - Revision of Statistics and Basic SQL </summary>
 
     🗓️ Date: 2023-02-15
+
+<br/>
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/introduction-to-statistics">Introduction to Statistics (Datacamp)</a>
+- <a href="https://app.datacamp.com/learn/courses/introduction-to-sql">Introduction to SQL (Datacamp)</a>
+
+----
+
+##### Summary:
 
 <p align="justify">
     While taking the course <a href="https://app.datacamp.com/learn/courses/introduction-to-statistics" target="_blank">Introduction to Statistics</a> as part of the track <a href="https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql" target="_blank">Data Analyst in SQL,</a> I had the chance to review probability, distributions, the central limit theorem, correlation, and hypothesis testing. While revising the dependence and conditional probabilities, I was also able to recall the normal and poisson distributions (k = * n). 
@@ -36,6 +50,17 @@
 
     🗓️ Date: 2023-02-16
 
+<br/>
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/intermediate-sql">Intermediate SQL (Datacamp)</a>
+
+----
+
+##### Summary:
+
 <p align="justify">
     Continuing on from Day 1, I chose the <a href="https://app.datacamp.com/learn/courses/intermediate-sql" target="_blank">Intermediate SQL</a> course from the same track, which included queries for selecting, filtering, aggregating, sorting, and grouping. Unlike the previous time, I did not get to learn a new concept, but it was a good recollection of all these principles, particularly concerning conventions for writing SQL to promote readability, as I had become a little sloopy regarding this.
 </p>
@@ -49,11 +74,24 @@
 
     🗓️ Date: 2023-02-17
 
+<br/>
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/joining-data-in-sql">Joining Data in SQL (Datacamp)</a>
+
+----
+
+##### Summary:
+
 <p align="justify">
     I took the course <a href="https://app.datacamp.com/learn/courses/joining-data-in-sql" target="_blank">Joining Data in SQL</a>, the fifth Course under the track <a href="https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql" target="_blank">Data Analyst in SQL</a>. It included an introduction to various types of joins (inner, outer, cross & self) as well as set theory (union, intersect & except) joins. The cross joins and set theory section was incredibly beneficial as my perspective on desiging tables using minimal readable query was expanded due to these concepts.  While I recall reading about it in my undergrad curriculum, putting it into practice has helped me comprehend it much better. In addition, subqueries in the "WHERE", "FROM" and "SELECT" keywords were covered in the course. I had never used subqueries in the "SELECT" & "FROM" section before, hence I learned some cool tricks up my sleeves. I have added some syntaxes that I learned as follows:
 </p>
 
-</br>
+----
+
+##### Notes:
 
 Cross Join Query
 ```
@@ -127,11 +165,24 @@ ORDER BY lang_num DESC;
 
     🗓️ Date: 2023-02-20
 
+<br/>
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql">Data Manipulation in SQL (Datacamp)</a>
+
+----
+
+##### Summary:
+
 <p align="justify">
     Machine learning, the most trending topic in today's generation is nothing more than a series of if and else statements. With SQL, a similar scenario occurs when you use the CASE statement to insert new values into a table based on existing records. To be more specific, the first module in <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql" target="_blank">Data Manipulation in SQL</a> that I took,' 'We'll Take the CASE' module focused on using case statements to generate labels, probability, and percentage based on supplied criteria. While accounting for only one-quarter of the course, this subject proved useful in a variety of ways. The following are some examples of the statement:
 </p>
 
-<br/>
+----
+
+##### Notes:
 
 CASE Statement
 ```
@@ -193,6 +244,17 @@ ON c.id = m.country_id
 
     🗓️ Date: 2023-02-21
 
+<br/>
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql">Data Manipulation in SQL (Datacamp)</a>
+
+----
+
+##### Summary:
+
 <p align="justify">
     Continuing the remaining modules <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql" target="_blank">Data Manipulation in SQL</a> course, I was able to gain insights on Simple Subqueires Joins, Correlated Subqueries (takes higher processing time), Multiple/Nested Subqueries, and Common Table Expressions (CTE). These concepts were handful in allowing to perform complex actions within SQL and gain data points that I once thought were only possible through pandas (a python library).
 </p>
@@ -201,7 +263,9 @@ ON c.id = m.country_id
     However, more significantly, I learned about window functions and the various types, such as Over, Rank, Partition, and Slide, throughout this course. While I had seen it before, I had never utilized it in practice, and I am pleased that this course allowed me to do so. Aggregating on columns that aren't in the grouping columns is likely the most useful skill to have, especially when doing comparative analysis.
 </p>
 
-<br>
+----
+
+##### Notes:
 
 Correlated subquery with multiple conditions
 ```
@@ -311,14 +375,27 @@ WHERE
 
     🗓️ Date: 2023-02-22
 
-Resource : <a href="https://medium.com/yavar/window-functions-in-sql-a7239bb97104">Medium article about window functions in SQL</a>
-</br>
+<br/>
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions  (Datacamp)</a>
+
+Articles
+- <a href="https://medium.com/yavar/window-functions-in-sql-a7239bb97104">Window functions in SQL (Medium)</a>
+
+----
+
+##### Summary:
 
 <p align="justify">
     I learnt  something today
 </p>
 
-</br>
+----
+
+##### Notes:
 
 Fetching functions
 | Syntax | Description 
