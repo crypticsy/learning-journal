@@ -445,7 +445,7 @@ Ranking Functions
 | ROW_NUMBER | Unique sequential number for each row in the specified partition
 | RANK | Unique rank number for the each distinct row within the specified partition, but equal values share same rank
 | DENSE_RANK | Unique rank number for the each distinct row within the specified partition without skipping any duplicate values
-| NTILE FOLLOWING | Distribute the rows in to the rows set with a specific number of groups.
+| NTILE | Distribute the rows in to the rows set with a specific number of groups.
 
 ----
 
