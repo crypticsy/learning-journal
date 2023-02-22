@@ -27,7 +27,9 @@ Course
 - <a href="https://app.datacamp.com/learn/courses/introduction-to-statistics">Introduction to Statistics (Datacamp)</a>
 - <a href="https://app.datacamp.com/learn/courses/introduction-to-sql">Introduction to SQL (Datacamp)</a>
 
-----
+<center>
+    <hr style="border: 0; height: 3px; width: 70%; text-align: center;">
+</center>
 
 ##### Summary:
 
@@ -39,7 +41,7 @@ Course
     I also took <a href="https://app.datacamp.com/learn/courses/introduction-to-sql" target="_blank">Introduction to SQL</a> as part of the same curriculum, which helped me revise the basic sql queries to read and view data from tables. Because of this revision, I learned about "VIEW," a concept I was never aware of before. To summarize, views are virtual tables whose contents are determined by queries. It only allows you to restrict access to the database and does not significantly increase the performance of SQL queries. Nonetheless, it was a useful trick to have in my SQL toolbox for increasing readability.
 </p>
 
-----
+---
 
 </details>
 
@@ -57,7 +59,9 @@ Course
 Course
 - <a href="https://app.datacamp.com/learn/courses/intermediate-sql">Intermediate SQL (Datacamp)</a>
 
-----
+<center>
+    <hr style="border: 0; height: 3px; width: 70%; text-align: center;">
+</center>
 
 ##### Summary:
 
@@ -81,7 +85,9 @@ Course
 Course
 - <a href="https://app.datacamp.com/learn/courses/joining-data-in-sql">Joining Data in SQL (Datacamp)</a>
 
-----
+<center>
+    <hr style="border: 0; height: 3px; width: 70%; text-align: center;">
+</center>
 
 ##### Summary:
 
@@ -89,7 +95,9 @@ Course
     I took the course <a href="https://app.datacamp.com/learn/courses/joining-data-in-sql" target="_blank">Joining Data in SQL</a>, the fifth Course under the track <a href="https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql" target="_blank">Data Analyst in SQL</a>. It included an introduction to various types of joins (inner, outer, cross & self) as well as set theory (union, intersect & except) joins. The cross joins and set theory section was incredibly beneficial as my perspective on desiging tables using minimal readable query was expanded due to these concepts.  While I recall reading about it in my undergrad curriculum, putting it into practice has helped me comprehend it much better. In addition, subqueries in the "WHERE", "FROM" and "SELECT" keywords were covered in the course. I had never used subqueries in the "SELECT" & "FROM" section before, hence I learned some cool tricks up my sleeves. I have added some syntaxes that I learned as follows:
 </p>
 
-----
+<center>
+    <hr style="border: 0; height: 3px; width: 70%; text-align: center;">
+</center>
 
 ##### Notes:
 
@@ -173,7 +181,9 @@ ORDER BY lang_num DESC;
 Course
 - <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql">Data Manipulation in SQL (Datacamp)</a>
 
-----
+<center>
+    <hr style="border: 0; height: 3px; width: 70%; text-align: center;">
+</center>
 
 ##### Summary:
 
@@ -181,7 +191,9 @@ Course
     Machine learning, the most trending topic in today's generation is nothing more than a series of if and else statements. With SQL, a similar scenario occurs when you use the CASE statement to insert new values into a table based on existing records. To be more specific, the first module in <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql" target="_blank">Data Manipulation in SQL</a> that I took,' 'We'll Take the CASE' module focused on using case statements to generate labels, probability, and percentage based on supplied criteria. While accounting for only one-quarter of the course, this subject proved useful in a variety of ways. The following are some examples of the statement:
 </p>
 
-----
+<center>
+    <hr style="border: 0; height: 3px; width: 70%; text-align: center;">
+</center>
 
 ##### Notes:
 
@@ -252,7 +264,9 @@ ON c.id = m.country_id
 Course
 - <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql">Data Manipulation in SQL (Datacamp)</a>
 
-----
+<center>
+    <hr style="border: 0; height: 3px; width: 70%; text-align: center;">
+</center>
 
 ##### Summary:
 
@@ -264,7 +278,9 @@ Course
     However, more significantly, I learned about window functions and the various types, such as Over, Rank, Partition, and Slide, throughout this course. While I had seen it before, I had never utilized it in practice, and I am pleased that this course allowed me to do so. Aggregating on columns that aren't in the grouping columns is likely the most useful skill to have, especially when doing comparative analysis.
 </p>
 
-----
+<center>
+    <hr style="border: 0; height: 3px; width: 70%; text-align: center;">
+</center>
 
 ##### Notes:
 
@@ -412,11 +428,11 @@ Fetching functions
 Framing functions
 | Syntax | Description 
 | --- | ----------- 
-| `ROW/RANGE` | Uses the given row or range as a frame.
-| `PRECEDING` | Rows before the current row.
-| `UNBOUNDED PRECEDING` | Return all rows before the current row.
-| `UNBOUNDED FOLLOWING` | Return all rows after the current row.
-| `CURRENT ROW` | Current row of query execution.
+| ROW/RANGE | Uses the given row or range as a frame.
+| PRECEDING | Rows before the current row.
+| UNBOUNDED PRECEDING | Return all rows before the current row.
+| UNBOUNDED FOLLOWING | Return all rows after the current row.
+| CURRENT ROW | Current row of query execution.
 
 
 ----
