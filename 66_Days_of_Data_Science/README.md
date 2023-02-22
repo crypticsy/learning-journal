@@ -19,8 +19,6 @@ Career Track
 
     🗓️ Date: 2023-02-15
 
-<br/>
-
 ##### Resources : 
 
 Course
@@ -50,8 +48,6 @@ Course
 
     🗓️ Date: 2023-02-16
 
-<br/>
-
 ##### Resources : 
 
 Course
@@ -73,8 +69,6 @@ Course
     <summary> &nbsp; 📝 &nbsp; Day 3 - Joins, Set theory & Subqueries in SQL </summary>
 
     🗓️ Date: 2023-02-17
-
-<br/>
 
 ##### Resources : 
 
@@ -165,8 +159,6 @@ ORDER BY lang_num DESC;
 
     🗓️ Date: 2023-02-20
 
-<br/>
-
 ##### Resources : 
 
 Course
@@ -243,8 +235,6 @@ ON c.id = m.country_id
     <summary> &nbsp; 📝 &nbsp; Day 5 - Data Manipulation in SQL (Continued)</summary>
 
     🗓️ Date: 2023-02-21
-
-<br/>
 
 ##### Resources : 
 
@@ -374,8 +364,6 @@ WHERE
     <summary> &nbsp; 📝 &nbsp; Day 6 - PostgreSQL Summary Stats and Window Functions</summary>
 
     🗓️ Date: 2023-02-22
-
-<br/>
 
 ##### Resources : 
 
