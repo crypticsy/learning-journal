@@ -406,7 +406,7 @@ Articles
 ##### Summary:
 
 <p align="justify">
-    I learnt  something today
+With the continuation of window functions, I have gotten slightly familiar with the notion of window function types, particularly fetching, framing, and ranking functions, which I had practiced today. While these functions seemed intimidating at first, they turned out to be considerably easy than I had anticipated.
 </p>
 
 ----
@@ -432,6 +432,15 @@ Framing functions
 | UNBOUNDED FOLLOWING | Return all rows after the current row.
 | CURRENT ROW | Current row of query execution.
 
+</br>
+
+Ranking Functions
+| Syntax | Description 
+| --- | ----------- 
+| ROW_NUMBER | Unique sequential number for each row in the specified partition
+| RANK | Unique rank number for the each distinct row within the specified partition, but equal values share same rank
+| DENSE_RANK | Unique rank number for the each distinct row within the specified partition without skipping any duplicate values
+| NTILE FOLLOWING | Distribute the rows in to the rows set with a specific number of groups.
 
 ----
 
