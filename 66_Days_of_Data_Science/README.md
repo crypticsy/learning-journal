@@ -6,11 +6,7 @@
 
 - [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) from Datacamp
 
-<br/>
-
 ---
-
-<br/>
 
 #### Daily Logs
 
