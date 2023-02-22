@@ -397,7 +397,7 @@ WHERE
 
 Course
 - <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions  (Datacamp)</a>
--<a href="https://www.kaggle.com/learn/advanced-sql">Advanced SQL (Kaggle)</a>
+- <a href="https://www.kaggle.com/learn/advanced-sql">Advanced SQL (Kaggle)</a>
 
 Articles
 - <a href="https://medium.com/yavar/window-functions-in-sql-a7239bb97104">Window functions in SQL (Medium)</a>
