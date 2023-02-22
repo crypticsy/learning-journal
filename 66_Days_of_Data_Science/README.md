@@ -2,7 +2,7 @@
 
 <br/>
 
-##### Resources
+#### Resources
 
 Career Track
 - [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) from Datacamp
@@ -13,7 +13,7 @@ Career Track
 
 <br/>
 
-##### Daily Logs
+#### Daily Logs
 
 <br/>
 <details> 
