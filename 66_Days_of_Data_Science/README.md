@@ -453,7 +453,7 @@ Ranking Functions
 | ROW_NUMBER | Unique sequential number for each row in the specified partition
 | RANK | Unique rank number for the each distinct row within the specified partition, but equal values share same rank
 | DENSE_RANK | Unique rank number for the each distinct row within the specified partition without skipping any duplicate values
-| NTILE | Distribute the rows in to the rows set with a specific number of groups.
+| NTILE | Distribute the rows in to the rows set with a specific `n` number of groups.
 
 ----
 
@@ -471,6 +471,7 @@ Ranking Functions
 
 Course
 - <a href="https://www.linkedin.com/learning/a-day-in-the-life-of-a-data-scientist/serving-the-client/">A Day In The Life of a Data Scientist (Linkedin Learning)</a>
+- <a href="https://www.linkedin.com/learning/the-non-technical-skills-of-effective-data-scientists/">The Non-Technical Skills of Effective Data Scientists (Linkedin Learning)</a>
 - <a href="https://www.kaggle.com/learn/pandas">Pandas (Kaggle)</a>
 
 ----
@@ -478,7 +479,7 @@ Course
 ##### Summary:
 
 <p align="justify">
-Taking a break from the regular SQL courses, I delved into the everyday life of a data scientist, complete with current data science issues and how data scientists manage themselves and the organizations for which they operate. In addition, to polish my pandas abilities, I completed a Kaggle Learn course that served as a refresher on the techniques I use on a daily basis.
+Taking a break from the regular SQL courses, I delved into the everyday life of a data scientist, complete with current data science issues and how data scientists manage themselves and the organizations for which they operate. I was also able to take the following course on the non-technical abilities of a successful data scientist, which addressed not just the attributes that a person should have but also the role diplomacy plays while working in a professional setting. In addition, to polish my pandas abilities, I completed a Kaggle Learn course that served as a refresher on the techniques I use on a daily basis.
 </p>
 
 ----
