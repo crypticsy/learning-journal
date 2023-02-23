@@ -4,8 +4,15 @@
 
 #### Resources
 
-- [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) career tracks from Datacamp
-- [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql) and [Advanced SQL](https://www.kaggle.com/learn/advanced-sql) courses from Kaggle
+- Datacamp 
+    - [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) : Career track
+- Kaggle Learn
+    - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql)
+    - [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
+    - [Pandas](https://www.kaggle.com/learn/pandas)
+- LinkedIn learing
+    - [Become a Data Scientist](https://www.linkedin.com/learning/paths/become-a-data-scientist)
+
 
 <br/>
 <hr/>
@@ -447,6 +454,32 @@ Ranking Functions
 | RANK | Unique rank number for the each distinct row within the specified partition, but equal values share same rank
 | DENSE_RANK | Unique rank number for the each distinct row within the specified partition without skipping any duplicate values
 | NTILE | Distribute the rows in to the rows set with a specific number of groups.
+
+----
+
+</details>
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 7 - Data Scientist Fundamentals</summary>
+
+    🗓️ Date: 2023-02-23
+
+##### Resources : 
+
+Course
+- <a href="https://www.linkedin.com/learning/a-day-in-the-life-of-a-data-scientist/serving-the-client/">A Day In The Life of a Data Scientist (Linkedin Learning)</a>
+- <a href="https://www.kaggle.com/learn/pandas">Pandas (Kaggle)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+Taking a break from the regular SQL courses, I delved into the everyday life of a data scientist, complete with current data science issues and how data scientists manage themselves and the organizations for which they operate. In addition, to polish my pandas abilities, I completed a Kaggle Learn course that served as a refresher on the techniques I use on a daily basis.
+</p>
 
 ----
 
