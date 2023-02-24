@@ -4,15 +4,26 @@
 
 #### Resources
 
-- Datacamp 
-    - [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) : Career track
-- Kaggle Learn
-    - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql)
-    - [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
-    - [Pandas](https://www.kaggle.com/learn/pandas)
-- LinkedIn learing
-    - [Become a Data Scientist](https://www.linkedin.com/learning/paths/become-a-data-scientist)
+<details>
+    <summary> &nbsp; Datacamp </summary> 
 
+- [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) : Career track
+
+</details>
+<details>
+    <summary> &nbsp; Kaggle Learn </summary> 
+
+- [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql)
+- [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
+- [Pandas](https://www.kaggle.com/learn/pandas)
+
+</details>
+<details>
+    <summary> &nbsp; LinkedIn learing </summary> 
+
+- [Become a Data Scientist](https://www.linkedin.com/learning/paths/become-a-data-scientist)
+
+</details>
 
 <br/>
 <hr/>
@@ -107,7 +118,9 @@ Course
 
 ##### Notes:
 
-Cross Join Query
+<details>
+  <summary> &nbsp; Cross Join Query</summary>
+
 ```
 --- Creates all possible combinations
 SELECT column_name(s)
@@ -115,9 +128,11 @@ FROM table1
 CROSS JOIN table2;
 ```
 
-</br>
+</details>
 
-Operators
+<details>
+  <summary> &nbsp; Operators</summary>
+
 ```
 --- UNION Operator : shows unique rows
 SELECT column_name(s) FROM table1
@@ -135,9 +150,10 @@ EXCEPT
 SELECT column_name(s) FROM table2;
 ```
 
-</br>
+</details>
 
-Subquery
+<details>
+  <summary> &nbsp; Subquery</summary>
 
 ```
 --- Example 1: Sub query with in WHERE
@@ -171,6 +187,8 @@ WHERE countries.code = sub.code
 ORDER BY lang_num DESC;
 ```
 
+</details>
+
 ----
 
 </details>
@@ -203,7 +221,9 @@ Course
 
 ##### Notes:
 
-CASE Statement
+<details>
+  <summary> &nbsp; CASE Statement</summary>
+
 ```
 --- Example 1 : Basic
 
@@ -254,6 +274,8 @@ ON c.id = m.country_id
     GROUP BY country;
 ```
 
+</details>
+
 ----
 
 </details>
@@ -290,7 +312,9 @@ Course
 
 ##### Notes:
 
-Correlated subquery with multiple conditions
+<details>
+  <summary> &nbsp; Correlated subquery with multiple conditions</summary>
+
 ```
 SELECT
     -- Select country ID, date, home, and away goals from match
@@ -308,28 +332,32 @@ WHERE
             AND main.season = sub.season);
 ```
 
-<br>
+</details>
 
-Common Table Expressions
+<details>
+  <summary> &nbsp; Common Table Expressions</summary>
+
 ````
-    WITH match_list AS (
-        SELECT
-            country_id,
-            id
-        FROM match
-    -- Select league and count of matches from the CTE
+WITH match_list AS (
     SELECT
-        l.name AS league,
-        COUNT(match_list.id) AS matches
-    FROM league AS l
-    -- Join the CTE to the league table
-    LEFT JOIN match_list ON l.id = match_list.country_id
-    GROUP BY l.name;
+        country_id,
+        id
+    FROM match
+-- Select league and count of matches from the CTE
+SELECT
+    l.name AS league,
+    COUNT(match_list.id) AS matches
+FROM league AS l
+-- Join the CTE to the league table
+LEFT JOIN match_list ON l.id = match_list.country_id
+GROUP BY l.name;
 ````
 
-<br/>
+</details>
 
-Window Function
+<details>
+  <summary> &nbsp; Window Function</summary>
+
 ```
 -- Example 1 : Over function
 
@@ -390,6 +418,8 @@ WHERE
     AND season = '2011/2012';
 ```
 
+</details>
+
 ----
 
 </details>
@@ -397,15 +427,15 @@ WHERE
 <br/>
 <details> 
 	<br/>
-    <summary> &nbsp; 📝 &nbsp; Day 6 - PostgreSQL Summary Stats and Window Functions</summary>
+    <summary> &nbsp; 📝 &nbsp; Day 6 - PostgreSQL Summary Stats </summary>
 
     🗓️ Date: 2023-02-22
 
 ##### Resources : 
 
 Course
-- <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions  (Datacamp)</a>
 - <a href="https://www.kaggle.com/learn/advanced-sql">Advanced SQL (Kaggle)</a>
+- <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions  (Datacamp)</a>
 
 Articles
 - <a href="https://medium.com/yavar/window-functions-in-sql-a7239bb97104">Window functions in SQL (Medium)</a>
@@ -426,7 +456,9 @@ Beside this,  I attempted to put my knowledge into practice by answering practic
 
 ##### Notes:
 
-Fetching functions
+<details>
+  <summary> &nbsp; Fetching functions</summary>
+
 | Syntax | Description 
 | --- | ----------- 
 | `LAG(column, n)` | Returns column's value at the row  `n` rows before the current row
@@ -434,9 +466,11 @@ Fetching functions
 | `FIRST_VALUE(column)` | Returns the first value in table or partition
 | `LAST_VALUE(column)` | Returns the last value in table or partition
 
-</br>
+</details>
 
-Framing functions
+<details>
+  <summary> &nbsp; Framing functions</summary>
+
 | Syntax | Description 
 | --- | ----------- 
 | ROW/RANGE | Uses the given row or range as a frame.
@@ -445,15 +479,19 @@ Framing functions
 | UNBOUNDED FOLLOWING | Return all rows after the current row.
 | CURRENT ROW | Current row of query execution.
 
-</br>
+</details>
 
-Ranking Functions
+<details>
+  <summary> &nbsp; Ranking Functions</summary>
+
 | Syntax | Description 
 | --- | ----------- 
 | ROW_NUMBER | Unique sequential number for each row in the specified partition
 | RANK | Unique rank number for the each distinct row within the specified partition, but equal values share same rank
 | DENSE_RANK | Unique rank number for the each distinct row within the specified partition without skipping any duplicate values
 | NTILE | Distribute the rows in to the rows set with a specific `n` number of groups.
+
+</details>
 
 ----
 
@@ -483,5 +521,109 @@ Taking a break from the regular SQL courses, I delved into the everyday life of 
 </p>
 
 ----
+
+</details>
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 8 - PostgreSQL Window Functions</summary>
+
+    🗓️ Date: 2023-02-24
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions  (Datacamp)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+
+Leveraging the same elements in different ways has always lit up the neurons in my brain, allowing me to perceive the world in new ways. This occurred when learning how to use the aggregrate functions within the window functions to obtain new results. In fact, utilizing the same `SUM` and `AVG` functions to deliver moving totals and averages within sql itself with the assistance of frames and aggregrate functions made me leap on top of my bed.  There were so many things that sql could do that I had always assumed only pandas could accomplish. While creating sophisticated queries in pandas is faster, the execution time would be much faster if same queries were implemented directly in SQL without loading the dataset into memory.
+
+Continuing this discovery, pivoting tables in SQL was also conceivable with `CROSSTAB`, as well as other beneficial functions like `ROLLUP`, `CUBE`, `COALESCE`, and `STRING AGG`, which would come in handy when relying only on SQL.
+
+</p>
+
+----
+
+##### Notes:
+
+<details>
+  <summary> &nbsp; ROW BETWEEN</summary>
+
+Syntax
+`ROWS BETWEEN [start] AND [finish]`
+- `n PRECEDING` : `n` rows before the current row
+- `CURRENT ROW` : the current row
+- `n FOLLOWING` : `n` rows after the current row
+
+Examples
+- `ROWS BETWEEN 3 PRECEDING AND CURRENT ROW`
+- `ROWS BETWEEN 4 PRECEDING AND 4 FOLLOWING`
+- `ROWS BETWEEN CURRENT ROW AND 1 FOLLOWING`
+
+</details>
+
+<details>
+  <summary> &nbsp; CROSSTAB</summary>
+
+```
+-- Before using crosstab, use the to create an extension
+CREATE EXTENSION IF NOT EXISTS tablefunc;
+
+SELECT * FROM CROSSTAB($$
+    source_sql TEXT
+$$) AS ct(
+    column_1 DATA_TYPE_1,
+    column_2 DATA_TYPE_2,
+    ...,
+    column_n DATA_TYPE_N
+);
+```
+
+</details>
+
+<details>
+  <summary> &nbsp; ROLLUP and CUBE</summary>
+
+The `ROLLUP` option allows to include extra rows that represent the subtotals, which are commonly referred to as super-aggregate rows, along with the grand total row. 
+```
+SELECT 
+    country, warehouse, SUM(quantity)
+FROM
+    inventory
+GROUP BY ROLLUP (country, warehouse);
+```
+`ROLLUP` is hierarchical, de-aggregrating from the leftmost provided column to the right-most. 
+```
+ROLLUP (country, warehouse)     -- includes country level totals
+ROLLUP (warehouse, country)     -- includes warehouse level totals
+```
+
+However, when we need all possible group-level aggregrations, we use `CUBE` which shares similar properties to `ROLLUP`.
+```
+CUBE (country, warehouse)       -- country country level and warehouse level, and grand total
+```
+
+</details>
+
+<details>
+  <summary> &nbsp; Useful Functions</summary>
+
+- COALESCE
+`COALESCE()` takes a list of values and returns the first non-null value, going from left to right
+```
+COALESCE(null, null, 1, null, 2)        -- returns 1
+```
+
+- STRING_AGG
+`STRING_AGG(column, separator)` takes all the values of a column and concatenates them, with `separator` in between each value.
+
+</details>
 
 </details>
