@@ -13,6 +13,7 @@
 <details>
     <summary> &nbsp; Kaggle Learn </summary> 
 
+- [Intro to Programming](https://www.kaggle.com/learn/certification/crypticsy/intro-to-programming)
 - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql)
 - [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
 - [Pandas](https://www.kaggle.com/learn/pandas)
@@ -535,6 +536,7 @@ Taking a break from the regular SQL courses, I delved into the everyday life of 
 ##### Resources : 
 
 Course
+- <a href="https://www.kaggle.com/learn/certification/crypticsy/intro-to-programming">Intro to Programming (Kaggle)</a>
 - <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions  (Datacamp)</a>
 
 ----
@@ -616,12 +618,14 @@ CUBE (country, warehouse)       -- country country level and warehouse level, an
   <summary> &nbsp; Useful Functions</summary>
 
 - COALESCE
+
 `COALESCE()` takes a list of values and returns the first non-null value, going from left to right
 ```
 COALESCE(null, null, 1, null, 2)        -- returns 1
 ```
 
 - STRING_AGG
+
 `STRING_AGG(column, separator)` takes all the values of a column and concatenates them, with `separator` in between each value.
 
 </details>
