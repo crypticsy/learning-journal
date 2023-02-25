@@ -544,11 +544,11 @@ Course
 ##### Summary:
 
 <p align="justify">
-
 Leveraging the same elements in different ways has always lit up the neurons in my brain, allowing me to perceive the world in new ways. This occurred when learning how to use the aggregrate functions within the window functions to obtain new results. In fact, utilizing the same `SUM` and `AVG` functions to deliver moving totals and averages within sql itself with the assistance of frames and aggregrate functions made me leap on top of my bed.  There were so many things that sql could do that I had always assumed only pandas could accomplish. While creating sophisticated queries in pandas is faster, the execution time would be much faster if same queries were implemented directly in SQL without loading the dataset into memory.
+</p>
 
+<p align="justify">
 Continuing this discovery, pivoting tables in SQL was also conceivable with `CROSSTAB`, as well as other beneficial functions like `ROLLUP`, `CUBE`, `COALESCE`, and `STRING AGG`, which would come in handy when relying only on SQL.
-
 </p>
 
 ----
@@ -652,9 +652,7 @@ Course
 ##### Summary:
 
 <p align="justify">
-
-The focus of today's course was on data manipulation in PostgreSQL utilizing both built-in and user-defined functions. The built-in functions of PostgreSQL included common data types and their casts, date/time functions and operators, and string parsing and manipulation functions. While the most of the operators were familiar, I learned about several new ones, such as 'INTERVAL' and 'INITCAP'. Nevertheless, the postgreSQL extensions and full-text search capabilities were entirely new subjects, particularly 'tsvector' (text search vector) to execute a full text search beyond the scope of the 'LIKE' operator. Knowing that PostgreSQL offers built-in extensions such as fuzzy string matching through 'levenshtein' and'similarity' blew my mind as I had previously only used it in Python. Learning the syntax to develop my own functions was also quite instructive. Overall, it was a productive weekend spent learning more about PostgreSQL.
-
+The focus of today's course was on data manipulation in PostgreSQL utilizing both built-in and user-defined functions. The built-in functions of PostgreSQL included common data types and their casts, date/time functions and operators, and string parsing and manipulation functions. While the most of the operators were familiar, I learned about several new ones, such as `INTERVAL` and `INITCAP`. Nevertheless, the postgreSQL extensions and full-text search capabilities were entirely new subjects, particularly `tsvector` (text search vector) to execute a full text search beyond the scope of the 'LIKE' operator. Knowing that PostgreSQL offers built-in extensions such as fuzzy string matching through 'levenshtein' and'similarity' blew my mind as I had previously only used it in Python. Learning the syntax to develop my own functions was also quite instructive. Overall, it was a productive weekend spent learning more about PostgreSQL.
 </p>
 
 ----
