@@ -630,6 +630,8 @@ COALESCE(null, null, 1, null, 2)        -- returns 1
 
 </details>
 
+---
+
 </details>
 
 <br/>
@@ -797,5 +799,6 @@ $$ LANGUAGE plpgsql;
 
 </details>
 
+---
 
 </details>
