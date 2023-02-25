@@ -13,7 +13,7 @@
 <details>
     <summary> &nbsp; Kaggle Learn </summary> 
 
-- [Intro to Programming](https://www.kaggle.com/learn/certification/crypticsy/intro-to-programming)
+- [Intro to Programming](https://www.kaggle.com/learn/intro-to-programming)
 - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql)
 - [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
 - [Pandas](https://www.kaggle.com/learn/pandas)
@@ -460,7 +460,7 @@ Beside this,  I attempted to put my knowledge into practice by answering practic
 <details>
   <summary> &nbsp; Fetching functions</summary>
 
-| Syntax | Description 
+| Operator | Description 
 | --- | ----------- 
 | `LAG(column, n)` | Returns column's value at the row  `n` rows before the current row
 | `LEAD(column, n)` | Returns column's value at the row `n` rows after the current row
@@ -472,7 +472,7 @@ Beside this,  I attempted to put my knowledge into practice by answering practic
 <details>
   <summary> &nbsp; Framing functions</summary>
 
-| Syntax | Description 
+| Operator | Description 
 | --- | ----------- 
 | ROW/RANGE | Uses the given row or range as a frame.
 | PRECEDING | Rows before the current row.
@@ -485,7 +485,7 @@ Beside this,  I attempted to put my knowledge into practice by answering practic
 <details>
   <summary> &nbsp; Ranking Functions</summary>
 
-| Syntax | Description 
+| Operator | Description 
 | --- | ----------- 
 | ROW_NUMBER | Unique sequential number for each row in the specified partition
 | RANK | Unique rank number for the each distinct row within the specified partition, but equal values share same rank
@@ -525,8 +525,8 @@ Taking a break from the regular SQL courses, I delved into the everyday life of 
 
 </details>
 
-
 <br/>
+
 <details> 
 	<br/>
     <summary> &nbsp; 📝 &nbsp; Day 8 - PostgreSQL Window Functions</summary>
@@ -536,7 +536,7 @@ Taking a break from the regular SQL courses, I delved into the everyday life of 
 ##### Resources : 
 
 Course
-- <a href="https://www.kaggle.com/learn/certification/crypticsy/intro-to-programming">Intro to Programming (Kaggle)</a>
+- <a href="https://www.kaggle.com/learn/intro-to-programming">Intro to Programming (Kaggle)</a>
 - <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions  (Datacamp)</a>
 
 ----
@@ -629,5 +629,173 @@ COALESCE(null, null, 1, null, 2)        -- returns 1
 `STRING_AGG(column, separator)` takes all the values of a column and concatenates them, with `separator` in between each value.
 
 </details>
+
+</details>
+
+<br/>
+
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 9 - Functions for Data manipulation in SQL</summary>
+
+    🗓️ Date: 2023-02-25
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/functions-for-manipulating-data-in-postgresql">Functions for Manipulating Data in PostgreSQL (Datacamp)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+
+The focus of today's course was on data manipulation in PostgreSQL utilizing both built-in and user-defined functions. The built-in functions of PostgreSQL included common data types and their casts, date/time functions and operators, and string parsing and manipulation functions. While the most of the operators were familiar, I learned about several new ones, such as 'INTERVAL' and 'INITCAP'. Nevertheless, the postgreSQL extensions and full-text search capabilities were entirely new subjects, particularly 'tsvector' (text search vector) to execute a full text search beyond the scope of the 'LIKE' operator. Knowing that PostgreSQL offers built-in extensions such as fuzzy string matching through 'levenshtein' and'similarity' blew my mind as I had previously only used it in Python. Learning the syntax to develop my own functions was also quite instructive. Overall, it was a productive weekend spent learning more about PostgreSQL.
+
+</p>
+
+----
+
+##### Notes:
+
+<details>
+  <summary> &nbsp; INFORMATION_SCHEMA</summary>
+
+`INFORMATION_SCHEMA` provides access to database metadata, information about the MySQL server such as the name of a database or table, the data type of a column, or access privileges. 
+
+```
+-- Example 1 : Extracting all table names from system database
+SELECT table_name, table_type
+FROM INFORMATION_SCHEMA.TABLES
+WHERE table_schema = 'public';
+
+-- Example 2 : Extracting column data types from table
+SELECT
+    column_name,
+    data_type
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE table_name = 'actor';
+```
+
+</details>
+
+<details>
+  <summary> &nbsp; INTERVAL </summary>
+
+`INTERVAL` data type allows to store and manipulate a period of time in years, months, days, hours, minutes, seconds, etc. 
+
+```
+INTERVAL '3 days'                       -- goes forward in time
+INTERVAL '2 months ago';                -- goes back in time due to the keyword 'ago'
+INTERVAL '3 hours 20 minutes';
+
+-- Example 1 : Addition of timeframe
+SELECT rental_date + INTERVAL '2 days' as expected_return
+FROM rental;
+
+-- Example 2: Conversion of column to interval
+SELECT INTERVAL '1' day * rental_duration
+FROM rental
+```
+
+</details>
+
+<details>
+  <summary> &nbsp; DATETIME Operators </summary>
+
+| Operator | Description 
+| --- | ----------- 
+| AGE() | Subtract with current_date (at midnight) when empty and with the other arguments when two values are provided
+| NOW() | Get current timestamp with microsecond precision
+| CURRENT_TIMESTAMP() | Gets similar timestamp to now but allows precision parameter to round off seconds
+| CURRENT_DATE/CURRENT_TIME | Get current date and time
+| EXTRACT(`field` from `source`) | Get subfield
+| DATE_PART('`field`', `source`) | Get subfield (equivalent to extract)
+| DATE_TRUNC('`field`', `source`) | Truncate timestamp or interval data types with precision
+| ISFINITE() | Test for finite date, time and interval (not +/-infinity)
+
+</details>
+
+<details>
+  <summary> &nbsp; STRING Operators </summary>
+
+| Operator | Description 
+| --- | ----------- 
+| UPPER/LOWER(`source`) | Converts column to upper or lower case
+| INITCAP(`source`) | Converts column to title case
+| REPLACE(`source`, '`find_string`', '`replace_string`') | Replaces the source string with the replacement string
+| REVERSE(`source`) | Reverses the string
+| LENGTH(`source`) | Extract the length of the string
+| POSITION('`char`' IN `source`) | Extract the first position of a character in a string
+| LEFT(`source`, `n`) | Extract the `n` number of characters from left side of the given source
+| RIGHT(`source`, `n`) | Extract the `n` number of characters from right side of the given source
+| SUBSTRING(`source`, `start`, `length`) | Extract a string containing a specific number of characters from a particular position of a given string
+| TIRM([leading|trailing|both] [characters] FROM `source`) | Removes characters from source
+| LPAD(`source`, `n`, `char`) | Left-pads a string with another string, to a certain length
+| RPAD(`source`, `n`, `char`) | Right-pads a string with another string, to a certain length
+
+</details>
+
+<details>
+  <summary> &nbsp; FULL TEXT Search </summary>
+
+- Basic Search
+`to_tsvector(text)` : performs normalization and creates a list of tokens
+`to_tsquery(string)` : accepts a list of words that will be checked against the normalized vector
+`@@` : check if `tsquery` matches `tsvector`
+
+```
+-- Example 1 : Check if the title contains 'elf'
+SELECT title, description
+FROM film
+WHERE to_tsvector(title) @@ to_tsquery('elf');
+```
+
+- Fuzzystring
+```
+-- Enable the fuzzystrmatch extension
+CREATE EXTENSION IF NOT EXISTS fuzzystrmatch;
+-- Confirm that fuzzystrmatch has been enabled
+SELECT extname FROM pg_extension;
+
+SELECT levenshtein('hello', 'jelly');       -- number of edits required to be a perfect match
+SELECT similarity('hello', 'jelly');        -- similarity between two strings from 0 to 1
+```
+
+
+
+</details>
+
+<details>
+  <summary> &nbsp; User Defined Data Types </summary>
+
+Enumerated Data Types 
+- Allows to create list of values that will not change 
+```
+CREATE TYPE dayofweek AS 
+ENUM('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
+
+-- Check
+SELECT typname, typcategory
+FROM pg_type
+WHERE typname='dayofweek';
+```
+
+</details>
+
+<details>
+  <summary> &nbsp; User Defined Functions </summary>
+
+```
+CREATE FUNCTION squared(i integer) RETURNS integer AS $$ 
+    BEGIN
+        RETURN i * i;
+    END;
+$$ LANGUAGE plpgsql;
+```
+
+</details>
+
 
 </details>
