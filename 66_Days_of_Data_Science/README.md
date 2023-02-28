@@ -26,11 +26,17 @@
 
 </details>
 
+
+
 <br/>
 <hr/>
 </br/>
 
+
+
 #### Daily Logs
+
+
 
 <br/>
 <details> 
@@ -90,6 +96,8 @@ Course
 ----
 
 </details>
+
+
 
 <br/>
 <details> 
@@ -194,6 +202,8 @@ ORDER BY lang_num DESC;
 
 </details>
 
+
+
 <br/>
 <details> 
 	<br/>
@@ -280,6 +290,8 @@ ON c.id = m.country_id
 ----
 
 </details>
+
+
 
 <br/>
 <details> 
@@ -425,6 +437,8 @@ WHERE
 
 </details>
 
+
+
 <br/>
 <details> 
 	<br/>
@@ -499,6 +513,7 @@ Beside this,  I attempted to put my knowledge into practice by answering practic
 </details>
 
 
+
 <br/>
 <details> 
 	<br/>
@@ -525,8 +540,9 @@ Taking a break from the regular SQL courses, I delved into the everyday life of 
 
 </details>
 
-<br/>
 
+
+<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📝 &nbsp; Day 8 - PostgreSQL Window Functions</summary>
@@ -635,6 +651,8 @@ COALESCE(null, null, 1, null, 2)        -- returns 1
 </details>
 
 <br/>
+
+
 
 <details> 
 	<br/>
@@ -763,8 +781,6 @@ SELECT levenshtein('hello', 'jelly');       -- number of edits required to be a 
 SELECT similarity('hello', 'jelly');        -- similarity between two strings from 0 to 1
 ```
 
-
-
 </details>
 
 <details>
@@ -798,5 +814,89 @@ $$ LANGUAGE plpgsql;
 </details>
 
 ---
+
+</details>
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 10 - Exploratory Data Analysis in SQL</summary>
+
+    🗓️ Date: 2023-02-27
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/exploratory-data-analysis-in-sql">Exploratory Data Analysis in SQL (Datacamp)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+Breaking the usual heavy dosage of study sessions, this particular course covered about the usage of relationship diagrams, constraints (primary key, foreign key, unique and not null), and data types for the columns. The most significant functions from this course are 'corr' and 'percentile desc,' which allow you to get correlation and discrete value from a percentile. Moreover, temporary tables were a notion I had heard of but had never used in practice, and this course was a huge help in reinforcing the concept of breaking large queries into smaller chunks.
+</p>
+
+----
+
+##### Notes:
+
+<details>
+  <summary> &nbsp; CAST Function</summary>
+
+```
+-- Cast Function syntax
+SELECT CAST (value AS value_type);
+
+-- Alternate Cast Function with :: notation  
+SELECT value::new_type;
+
+--  Example 1 : Casting float to integer
+SELECT CAST (3.7 AS integer); 
+```
+
+</details>
+
+<details>
+  <summary> &nbsp; Series</summary>
+
+```
+-- Example 1 : Basic series
+SELECT generate_series(1, 10, 2);
+
+-- Example 2 : Float series
+SELECT generate_series(0, 1, 0.1);
+```
+
+</details>
+
+<details>
+  <summary> &nbsp; Summary functions</summary>
+
+| Function | Description 
+| --- | ----------- 
+| CORR(`source1`,`source2`) | Returns the correlation between two columns
+| percentile_disc(`percentile`) WITHIN GROUP (ORDER BY `column_name`) | Returns the value representing the percentile of the column using discrete method
+
+</details>
+
+<details>
+  <summary> &nbsp; Temporary Tables</summary>
+
+```
+-- Dropping the table
+DROP TABLE IF EXISTS table_name
+
+-- Create a temporary table
+CREATE TEMP TABLE table_name AS
+SELECT column1, column2
+FROM table;
+```
+
+</details>
+
+----
 
 </details>
