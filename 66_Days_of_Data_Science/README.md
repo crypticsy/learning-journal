@@ -906,7 +906,7 @@ FROM table;
 <br/>
 <details> 
 	<br/>
-    <summary> &nbsp; 📝 &nbsp; Day 10 - Exploratory Data Analysis in SQL (Continued)</summary>
+    <summary> &nbsp; 📝 &nbsp; Day 11 - Exploratory Data Analysis in SQL (Continued)</summary>
 
     🗓️ Date: 2023-02-28
 
@@ -920,11 +920,7 @@ Course
 ##### Summary:
 
 <p align="justify">
-postgresql character types (character, varchar and text)
-common issues while grouping categorical variable and unstructured text
-
-data cleaning (cases and white spaces)m, 
-data manipulation (spliting with delimeters and concatenating multiple strings)
+The remaining modules of the course delved into the topic of character types in PostgreSQL, specifically character, varchar, and text. It also covered common challenges that arise when grouping categorical variables and dealing with unstructured text data. The modules included exercises on data cleaning such as dealing with cases and white spaces, as well as data manipulation techniques such as splitting strings using delimiters and concatenating multiple strings. Additionally, the course covered working with date and timestamps to create complex queries through series.
 </p>
 
 ----
@@ -932,9 +928,15 @@ data manipulation (spliting with delimeters and concatenating multiple strings)
 ##### Notes:
 
 <details>
-  <summary> &nbsp; CAST Function</summary>
+  <summary> &nbsp; Series Generation</summary>
 
+```
+-- Syntax
+SELECT generate_series(from, to, interval);
 
+-- Example 1
+SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)
+```
 
 </details>
 
