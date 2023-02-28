@@ -900,3 +900,44 @@ FROM table;
 ----
 
 </details>
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 10 - Exploratory Data Analysis in SQL (Continued)</summary>
+
+    🗓️ Date: 2023-02-28
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/exploratory-data-analysis-in-sql">Exploratory Data Analysis in SQL (Datacamp)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+postgresql character types (character, varchar and text)
+common issues while grouping categorical variable and unstructured text
+
+data cleaning (cases and white spaces)m, 
+data manipulation (spliting with delimeters and concatenating multiple strings)
+</p>
+
+----
+
+##### Notes:
+
+<details>
+  <summary> &nbsp; CAST Function</summary>
+
+
+
+</details>
+
+----
+
+</details>
