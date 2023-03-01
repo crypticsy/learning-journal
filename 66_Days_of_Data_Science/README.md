@@ -25,6 +25,12 @@
 - [Become a Data Scientist](https://www.linkedin.com/learning/paths/become-a-data-scientist)
 
 </details>
+<details>
+    <summary> &nbsp; Youtube Playlist </summary> 
+
+- [Discrete Probability Distributions](https://youtube.com/playlist?list=PLvxOuBpazmsNIHP5cz37oOPZx0JKyNszN)
+
+</details>
 
 
 
@@ -939,6 +945,36 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)
 ```
 
 </details>
+
+----
+
+</details>
+
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 12 - Data-Driven Decision Making using SQL</summary>
+
+    🗓️ Date: 2023-03-01
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/data-driven-decision-making-in-sql">Data-Driven Decision Making in SQL(Datacamp)</a>
+
+Project
+- <a href="https://app.datacamp.com/learn/projects/1413">When Was the Golden Age of Video Games?(Datacamp)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+With all the skills that I had accumilated so far, it was only about implementing them. While a proper implementation is yet to come, I could still practice within a real evironment through the course "Data-Driven Decision Making in SQL" and the project "When Was the Golden Age of Video Games?". These allowed me to use all of the concepts from data cleaning, manipulation to aggregration and concentrated on using groupings, joins and pivots to create complex tables. Today marks the end of the career track, and I'm over the moon with all the knowledge I've gained in these 12 days. Yay for learning!
+</p>
 
 ----
 
