@@ -952,7 +952,6 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)
 
 
 
-
 <br/>
 <details> 
 	<br/>
@@ -974,6 +973,32 @@ Project
 
 <p align="justify">
 With all the skills that I had accumilated so far, it was only about implementing them. While a proper implementation is yet to come, I could still practice within a real evironment through the course "Data-Driven Decision Making in SQL" and the project "When Was the Golden Age of Video Games?". These allowed me to use all of the concepts from data cleaning, manipulation to aggregration and concentrated on using groupings, joins and pivots to create complex tables. Today marks the end of the career track, and I'm over the moon with all the knowledge I've gained in these 12 days. Yay for learning!
+</p>
+
+----
+
+</details>
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 13 - Data Science & Analytics Career Paths</summary>
+
+    🗓️ Date: 2023-03-02
+
+##### Resources : 
+
+Course
+- <a href="https://www.linkedin.com/learning/data-science-analytics-career-paths-certifications-first-steps-2018/welcome">Data Science & Analytics Career Paths & Certifications: First Steps (LinkedIn Learning)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+Before diving into the world of mathematica, I needed to grasp the foundations that I would need to build as a Data Analyst. Attending the LinkedIn Learning career course "Data Science & Analytics Career Pathways & Certifications" was quite beneficial in this regard. It began by discussing the applications of data science, such as fraud detection, social media analytics, disease control, dating services, simulations, climate research, and network security. It also discussed the abilities required to be relevant in the sector. Data mining, machine learning, natural language processing, statistics, and visualization were among the crucial skills mentioned. It also discussed certificates that can help advance one's career and establish one as a specialist in a particular subject. Overall, the course was beneficial in aiding comprehension of the principles of being relevant in the ever-changing world of data science.
 </p>
 
 ----
