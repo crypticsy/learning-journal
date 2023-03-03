@@ -1030,7 +1030,22 @@ Course
 ##### Summary:
 
 <p align="justify">
-Story structure and its components (begining, middle, end, plot, protagonist, problem and transformation)
+As visualizing data through narrative storytelling is one of the most crucial skills for a data analyst to have,  which sets them apart from their colleagues. I took a data visualization course that included story structure and its components (begining, middle, end, plot, protagonist, problem and transformation). It also demonstrated the use of flow diagrams to successfully represent linear data flow for effective story telling.
+
+Most notably, the course taught the principles of learning to demonstrate your analytic abilities utilizing the 4x4 progressive depth model:
+
+- The watercooler moment 
+    - The initial attention grabber determines whether or not individuals are interested in learning more.
+    - Example: Image or headline.
+
+- The cafe content
+    - Example : Blog post or short article
+
+- The research library
+    - Research portion, such as a PDF document.
+
+- The Lab Experience
+    - Interactive dashboard where data aficionados can examine the content and tinker to answer their in-depth questions
 
 </p>
 
