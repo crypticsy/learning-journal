@@ -9,3 +9,9 @@ Inspired by this remarkable research, I'm embarking on a thrilling quest to mast
 <br/>
 
 Series 1 : [66 Days of Data Science](./66_Days_of_Data_Science/)
+
+<br/>
+
+---
+
+Because knowing the entire tale might be time consuming, my learnings have been condensed into [cheatsheets](./CheatSheet/).

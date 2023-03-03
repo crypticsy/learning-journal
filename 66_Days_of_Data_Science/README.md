@@ -5,6 +5,12 @@
 #### Resources
 
 <details>
+    <summary> &nbsp; Coursera </summary> 
+
+- [Applied Data Science Specialization](https://www.coursera.org/specializations/applied-data-science) by IBM
+
+</details>
+<details>
     <summary> &nbsp; Datacamp </summary> 
 
 - [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) : Career track
@@ -999,6 +1005,33 @@ Course
 
 <p align="justify">
 Before diving into the world of mathematica, I needed to grasp the foundations that I would need to build as a Data Analyst. Attending the LinkedIn Learning career course "Data Science & Analytics Career Pathways & Certifications" was quite beneficial in this regard. It began by discussing the applications of data science, such as fraud detection, social media analytics, disease control, dating services, simulations, climate research, and network security. It also discussed the abilities required to be relevant in the sector. Data mining, machine learning, natural language processing, statistics, and visualization were among the crucial skills mentioned. It also discussed certificates that can help advance one's career and establish one as a specialist in a particular subject. Overall, the course was beneficial in aiding comprehension of the principles of being relevant in the ever-changing world of data science.
+</p>
+
+----
+
+</details>
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 14 - Data Visualization through Storytelling</summary>
+
+    🗓️ Date: 2023-03-03
+
+##### Resources : 
+
+Course
+- <a href="https://www.linkedin.com/learning/data-visualization-storytelling/the-art-of-storytelling">Data Visualization: Storytelling (LinkedIn Learning)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+Story structure and its components (begining, middle, end, plot, protagonist, problem and transformation)
+
 </p>
 
 ----
