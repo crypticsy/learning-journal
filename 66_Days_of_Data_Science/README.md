@@ -1028,7 +1028,7 @@ Course
 ----
 
 ##### Summary:
-
+    
 <p align="justify">
 As visualizing data through narrative storytelling is one of the most crucial skills for a data analyst to have,  which sets them apart from their colleagues. I took a data visualization course that included story structure and its components (begining, middle, end, plot, protagonist, problem and transformation). It also demonstrated the use of flow diagrams to successfully represent linear data flow for effective story telling.
 
@@ -1047,6 +1047,32 @@ Most notably, the course taught the principles of learning to demonstrate your a
 - The Lab Experience
     - Interactive dashboard where data aficionados can examine the content and tinker to answer their in-depth questions
 
+</p>
+
+----
+
+</details>
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 15 - Setup for IBM Watson and SpaceX Rest API</summary>
+
+    🗓️ Date: 2023-03-05
+
+##### Resources : 
+
+Course
+- <a href="https://www.coursera.org/learn/applied-data-science-capstone/">Applied Data Science Capstone: Week 1 (Coursera)</a>
+
+----
+
+##### Summary:
+    
+<p align="justify">
+I took a break from learning today to prepare for the journey ahead! I made my own IBM account and configured Watson Studio to publish notebooks directly to my GitHub repository. I also explored in the world of SpaceX's rest API in order to extract useful data for future projects. We can get so enthused in learning new things that we forget to take a deep breath and get organized. However, not today.
 </p>
 
 ----
