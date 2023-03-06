@@ -1078,3 +1078,29 @@ I took a break from learning today to prepare for the journey ahead! I made my o
 ----
 
 </details>
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 16 - Analyzing SpaceX Data</summary>
+
+    🗓️ Date: 2023-03-06
+
+##### Resources : 
+
+Course
+- <a href="https://www.coursera.org/learn/applied-data-science-capstone/">Applied Data Science Capstone: Week 1 & 2 (Coursera)</a>
+
+----
+
+##### Summary:
+    
+<p align="justify">
+Building on yesterday's exploration, today was all about extracting launch data from SpaceX using requests and beautiful soup. The objective was to determine the fruitfulness of starting a new business for a hypothetical company, SpaceY. During the course, I delved into the concepts of Exploratory Data Analysis and Feature Engineering, utilizing both python and SQL to analyze the data. Wrapping up the day, I visually represented our findings using scatterplots and barplots to identify factors such as landing site, booster, and payload mass that can contribute to a higher success rate.
+</p>
+
+----
+
+</details>
