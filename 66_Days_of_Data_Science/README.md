@@ -23,6 +23,7 @@
 - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql)
 - [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
 - [Pandas](https://www.kaggle.com/learn/pandas)
+- [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics)
 
 </details>
 <details>
@@ -1084,22 +1085,81 @@ I took a break from learning today to prepare for the journey ahead! I made my o
 <br/>
 <details> 
 	<br/>
-    <summary> &nbsp; 📝 &nbsp; Day 16 - Analyzing SpaceX Data</summary>
+    <summary> &nbsp; 📝 &nbsp; Day 16 - Analyzing SpaceX Data and AI ethics</summary>
 
     🗓️ Date: 2023-03-06
 
 ##### Resources : 
 
 Course
+- <a href="https://www.kaggle.com/learn/intro-to-ai-ethics">Intro to AI Ethics (Kaggle)</a>
 - <a href="https://www.coursera.org/learn/applied-data-science-capstone/">Applied Data Science Capstone: Week 1 & 2 (Coursera)</a>
 
 ----
 
 ##### Summary:
-    
+
 <p align="justify">
-Building on yesterday's exploration, today was all about extracting launch data from SpaceX using requests and beautiful soup. The objective was to determine the fruitfulness of starting a new business for a hypothetical company, SpaceY. During the course, I delved into the concepts of Exploratory Data Analysis and Feature Engineering, utilizing both python and SQL to analyze the data. Wrapping up the day, I visually represented our findings using scatterplots and barplots to identify factors such as landing site, booster, and payload mass that can contribute to a higher success rate.
+Building on yesterday's exploration, today was all about extracting launch data from SpaceX using requests and beautiful soup. The objective was to determine the fruitfulness of starting a new business for a hypothetical company, SpaceY. During the course, I delved into the concepts of Exploratory Data Analysis and Feature Engineering, utilizing both python and SQL to analyze the data. Wrapping up with data science, I visually represented our findings using scatterplots and barplots to identify factors such as landing site, booster, and payload mass that can contribute to a higher success rate.
 </p>
+
+<p align="justify">
+Aside from that, I took an AI ethics course and was introduced to Human-Centered-Design for AI and its significance. It not only helped me assess whether a project is worth transitioning to be done under AI, but it also helped me grasp that AI systems are more effective when they work alongside people rather than independently. Also, I learned about the numerous types of biases and fairness that can emerge in an ML model when biased data/model is used, as garbage in, garbage out.
+</p>
+
+----
+
+##### Notes:
+
+<details>
+  <summary> &nbsp; Six Types of Bias</summary>
+
+<br/>
+
+- Historical Bias
+    - Occurs when the state of the world in which the data was generated is flawed. 
+- Representation bias
+    - Occurs when building datasets for training a model, if those datasets poorly represent the people that the model will serve.
+    - Example : if the dataset used to train the models exclude darker skin tones.
+- Measurement bias 
+    - Occurs when the accuracy of the data varies across groups. 
+    - This can happen when working with proxy variables (variables that take the place of a variable that cannot be directly measured), if the quality of the proxy varies in different groups.
+    - Example : if the measurement apparatus shows reduced performance with dark skin tones.
+- Aggregation bias 
+    - Occurs when groups are inappropriately combined, resulting in a model that does not perform well for any group or only performs well for the majority group. 
+    - This is often not an issue, but most commonly arises in medical applications.
+- Evaluation bias 
+    - Occurs when evaluating a model.
+    - If the benchmark data (used to compare the model to other models that perform similar tasks) does not represent the population that the model will serve.
+    - Example : if the dataset used to benchmark the model excludes darker skin tones.
+- Deployment bias 
+    - Occurs when the problem the model is intended to solve is different from the way it is actually used. 
+    - If the end users don’t use the model in the way it is intended, there is no guarantee that the model will perform well.
+
+</details>
+
+<img src="./images/bias.png" alt="types of bias">
+<br/>
+
+<details>
+  <summary> &nbsp; Four fairness criteria</summary>
+
+<br/>
+
+- Demographic parity / statistical parity
+    - It says the model is fair if the composition of people who are selected by the model matches the group membership percentages of the applicants.
+- Equal opportunity fairness 
+    - It ensures that the proportion of people who should be selected by the model ("positives") that are correctly selected by the model is the same for each group. 
+    - We refer to this proportion as the true positive rate (TPR) or sensitivity of the model.
+-  Equal accuracy
+    - It is the percentage of correct classifications (people who should be denied and are denied, and people who should be approved who are approved) should be the same for each group. 
+    - If the model is 98% accurate for individuals in one group, it should be 98% accurate for other groups.
+- Group unaware / Fairness through unawareness
+    - Group unaware fairness removes all group membership information from the dataset. 
+    - For instance, we can remove gender data to try to make the model fair to different gender groups. 
+    - Similarly, we can remove information about race or age.
+
+</details>
 
 ----
 
