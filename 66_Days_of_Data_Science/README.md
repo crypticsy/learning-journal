@@ -1164,3 +1164,75 @@ Aside from that, I took an AI ethics course and was introduced to Human-Centered
 ----
 
 </details>
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 17 - Interactive Dashboard, Predective Analysis & Reporting</summary>
+
+    🗓️ Date: 2023-03-07
+
+##### Resources : 
+
+Course
+- <a href="https://www.coursera.org/learn/applied-data-science-capstone/">Applied Data Science Capstone: Week 3, 4 & 5 (Coursera)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+After completing exploratory data analysis, I delved into creating an interactive dashboard with plolty dash and folium to facilitate in real-time data analysis. It was a good refresher on the concept of dash callbacks to help translate user inputs and update existing charts based on those inputs. In addition, as part of the course, I touched on predictive analysis to determine the optimum model and hyperparameters needed to develop a model capable of predicting the launch's success rate. To do this, I used Preprocessing, GridSearchCV, LogisticRegression, DecisionTreeClassifier, and KNeighborsClassifier to help automate model selection, as well as a confusion matrix to evaluate true accuracy much more clearly.
+</p>
+
+<p align="justify">
+With plenty of time left in the day, I investigated the creation of an effective data analysis report and its components. While data reports vary depending on the use and data included, I was able to get a general idea of how a data report should look through the course.
+</p>
+
+
+----
+
+##### Notes:
+
+<details>
+  <summary> &nbsp; Elements of Data Finding Report</summary>
+
+<br/>
+
+- Cover Page
+    - Contains: Title, Date and Name of the presenter
+- Executive Summary
+    - Briefly explain the details
+    - Considered a stand-alone document
+    - No new information should be presented except from the main points
+- Table of Contents
+- Introduction
+    - Nature of the analysis
+    - States the problem
+    - States questions for analysis
+- Methodology
+    - Explains the data sources
+    - Outlines the plan for the collected data
+- Results
+    - Deatils of data collection
+    - How data was organized?
+    - How data was analyzed?
+    - Charts and graphs to show crucial finding
+- Discussion
+    - Engage the audience
+- Conclusion
+    - Conclusion of the report finding, reiterating the problem given in introduction
+    - Overall summary of the findings
+    - Outcome of the analysis
+    - Any steps taken in future
+- Appendix 
+    - Information that didn't fit in the report
+    - Resources and references
+
+</details>
+
+----
+
+</details>
