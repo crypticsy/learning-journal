@@ -1236,3 +1236,29 @@ With plenty of time left in the day, I investigated the creation of an effective
 ----
 
 </details>
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 18 - Using Powerpoint to Communicate Finding from Space X Launch Data </summary>
+
+    🗓️ Date: 2023-03-08
+
+##### Resources : 
+
+Course
+- <a href="https://www.coursera.org/learn/applied-data-science-capstone/">Applied Data Science Capstone: Week 5 (Coursera)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+After a thorough analysis of Space X's launches, it was time to predict the first stage's successful landing to give competition to the likes of Space X with the assistance of Company Y. Armed with a lengthy 50-page presentation, a combination of online resources and a dash of personal passion was instrumental in completing the task, and in the process, honed valuable presentation creation skills. In addition, the power of context cannot be overstated, as it aided in comprehending the insights more easily, with an executive summary for those uninterested in the subject matter. All in all, it was a remarkable learning experience that showcased the importance of a compelling narrative and a comprehensive overview for maximum impact.  
+</p>
+
+----
+
+</details>
