@@ -51,7 +51,6 @@
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 1 - Revision of Statistics and Basic SQL </summary>
@@ -84,7 +83,6 @@ Course
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 2 - Revision of Intermediate SQL Queries </summary>
@@ -112,7 +110,6 @@ Course
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 3 - Revision of Joins, Set theory & Subqueries in SQL </summary>
@@ -217,7 +214,6 @@ ORDER BY lang_num DESC;
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 4 - Exploring Data Manipulation in SQL </summary>
@@ -306,7 +302,6 @@ ON c.id = m.country_id
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 5 - (Continued) Data Manipulation in SQL</summary>
@@ -452,7 +447,6 @@ WHERE
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 6 - Understanding PostgreSQL Summary Stats </summary>
@@ -527,7 +521,6 @@ Beside this,  I attempted to put my knowledge into practice by answering practic
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 7 - Understanding Data Scientist Fundamentals</summary>
@@ -555,7 +548,6 @@ Taking a break from the regular SQL courses, I delved into the everyday life of 
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 8 - Exploring PostgreSQL Window Functions</summary>
@@ -662,8 +654,6 @@ COALESCE(null, null, 1, null, 2)        -- returns 1
 ---
 
 </details>
-
-<br/>
 
 
 
@@ -832,7 +822,6 @@ $$ LANGUAGE plpgsql;
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 10 - Exploratory Data Analysis in SQL</summary>
@@ -916,7 +905,6 @@ FROM table;
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 11 - (Continued) Exploratory Data Analysis in SQL</summary>
@@ -959,7 +947,6 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 12 - Data-Driven Decision Making using SQL</summary>
@@ -988,7 +975,6 @@ With all the skills that I had accumilated so far, it was only about implementin
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 13 - Understanding Data Science & Analytics Career Paths</summary>
@@ -1014,7 +1000,6 @@ Before diving into the world of mathematica, I needed to grasp the foundations t
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 14 - Exploring Data Visualization through Storytelling</summary>
@@ -1056,7 +1041,6 @@ Most notably, the course taught the principles of learning to demonstrate your a
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 15 - Setup for IBM Watson and SpaceX Rest API</summary>
@@ -1082,7 +1066,6 @@ I took a break from learning today to prepare for the journey ahead! I made my o
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 16 - Analyzing SpaceX Data and AI ethics</summary>
@@ -1167,7 +1150,6 @@ Aside from that, I took an AI ethics course and was introduced to Human-Centered
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 17 - Interactive Dashboard, Predective Analysis & Reporting</summary>
@@ -1238,7 +1220,6 @@ With plenty of time left in the day, I investigated the creation of an effective
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 18 - Using Powerpoint to Communicate Finding from Space X Launch Data </summary>
@@ -1264,7 +1245,6 @@ After a thorough analysis of Space X's launches, it was time to predict the firs
 
 
 
-<br/>
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 19 - Understanding Data Governance </summary>
