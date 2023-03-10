@@ -1191,7 +1191,6 @@ After completing exploratory data analysis, I delved into creating an interactiv
 With plenty of time left in the day, I investigated the creation of an effective data analysis report and its components. While data reports vary depending on the use and data included, I was able to get a general idea of how a data report should look through the course.
 </p>
 
-
 ----
 
 ##### Notes:
@@ -1258,6 +1257,50 @@ Course
 <p align="justify">
 After a thorough analysis of Space X's launches, it was time to predict the first stage's successful landing to give competition to the likes of Space X with the assistance of Company Y. Armed with a lengthy 50-page presentation, a combination of online resources and a dash of personal passion was instrumental in completing the task, and in the process, honed valuable presentation creation skills. In addition, the power of context cannot be overstated, as it aided in comprehending the insights more easily, with an executive summary for those uninterested in the subject matter. All in all, it was a remarkable learning experience that showcased the importance of a compelling narrative and a comprehensive overview for maximum impact.  
 </p>
+
+----
+
+</details>
+
+
+
+<br/>
+<details> 
+	<br/>
+    <summary> &nbsp; 📝 &nbsp; Day 19 - Data Governance </summary>
+
+    🗓️ Date: 2023-03-09
+
+##### Resources : 
+
+Course
+- <a href="https://www.linkedin.com/learning/learning-data-governance-14224082/data-governance-affects-everyone">Learning Data Governance (LinkedInLearning)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+In the data governance course, I gained insights into the significance of efficient data management in organizations. The course taught me that data governance involves creating and enforcing policies, procedures, and standards to manage data assets of an organization, which includes data privacy, quality, security, and access. A crucial lesson that I learned was how data governance plays a critical role in ensuring the trustworthiness and correctness of an organization's data. It enables high-quality data that can be relied upon to drive decision-making processes. Moreover, data governance can also aid organizations in complying with regulatory obligations related to data privacy and security.
+</p>
+
+----
+
+##### Notes:
+
+<details>
+  <summary> &nbsp; Principles of Data Governance</summary>
+
+<br/>
+
+- Transparency
+    - All data governance processes implemented throughout your organisation should exhibit the utmost transparency.
+- Accountability
+    - Ownership and accountability has to be applied across the organisation for the data being collected and stored by the individuals.
+- Standardization
+    - Any successful data governance process will need to define and abide by standardised rules and regulations to protect their data and to ensure it is used in accordance with all relevant external regulations (such as the GDPR).
+
+</details>
 
 ----
 
