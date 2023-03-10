@@ -5,19 +5,19 @@
 #### Resources
 
 <details>
-    <summary> 🔖 &nbsp; Coursera </summary> 
+    <summary> &nbsp; 🔖 &nbsp; Coursera </summary> 
 
 - [Applied Data Science Specialization](https://www.coursera.org/specializations/applied-data-science) by IBM
 
 </details>
 <details>
-    <summary> 🔖 &nbsp; Datacamp </summary> 
+    <summary> &nbsp; 🔖 &nbsp; Datacamp </summary> 
 
 - [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) : Career track
 
 </details>
 <details>
-    <summary> 🔖 &nbsp; Kaggle Learn </summary> 
+    <summary> &nbsp; 🔖 &nbsp; Kaggle Learn </summary> 
 
 - [Intro to Programming](https://www.kaggle.com/learn/intro-to-programming)
 - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql)
@@ -27,13 +27,13 @@
 
 </details>
 <details>
-    <summary> 🔖 &nbsp; LinkedIn learing </summary> 
+    <summary> &nbsp; 🔖 &nbsp; LinkedIn learing </summary> 
 
 - [Become a Data Scientist](https://www.linkedin.com/learning/paths/become-a-data-scientist)
 
 </details>
 <details>
-    <summary> 🔖 &nbsp; Youtube Playlist </summary> 
+    <summary> &nbsp; 📼 &nbsp; Youtube Playlist </summary> 
 
 - [Discrete Probability Distributions](https://youtube.com/playlist?list=PLvxOuBpazmsNIHP5cz37oOPZx0JKyNszN)
 
