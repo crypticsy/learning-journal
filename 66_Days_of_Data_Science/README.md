@@ -1283,3 +1283,28 @@ In the data governance course, I gained insights into the significance of effici
 ----
 
 </details>
+
+
+
+<details> 
+	<br/>
+    <summary> &nbsp; 📖 &nbsp; Day 20 - Lessons from Data Scientist and exploring side hussles </summary>
+
+    🗓️ Date: 2023-03-10
+
+##### Resources : 
+
+Course
+- <a href="https://www.linkedin.com/learning/lessons-from-data-scientists/insights-to-excel-in-data-science">Lessons from Data Scientists (LinkedInLearning)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+Six individuals, each with their unique experiences in data, shared their stories through the course. These narratives covered their journeys starting out in data analytics, the inspiration behind their work, the impact of their contributions on the organization, their current endeavors, and practical advice based on their experiences.
+</p>
+
+----
+
+</details>
