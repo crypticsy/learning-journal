@@ -20,10 +20,11 @@
     <summary> &nbsp; 🔖 &nbsp; Kaggle Learn </summary> 
 
 - [Intro to Programming](https://www.kaggle.com/learn/intro-to-programming)
+- [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics)
 - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql)
 - [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
 - [Pandas](https://www.kaggle.com/learn/pandas)
-- [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics)
+- [Data Cleaning](https://www.kaggle.com/learn/data-cleaning)
 
 </details>
 <details>
@@ -1296,6 +1297,7 @@ In the data governance course, I gained insights into the significance of effici
 
 Course
 - <a href="https://www.linkedin.com/learning/lessons-from-data-scientists/insights-to-excel-in-data-science">Lessons from Data Scientists (LinkedInLearning)</a>
+- <a href="https://www.linkedin.com/learning/side-hustle-strategies-for-data-science-and-analytics-experts/effectively-combining-data-science-and-being-an-entrepreneur">Side Hustle Strategies for Data Science and Analytics Experts (LinkedInLearning)</a>
 
 ----
 
@@ -1303,6 +1305,10 @@ Course
 
 <p align="justify">
 Six individuals, each with their unique experiences in data, shared their stories through the course. These narratives covered their journeys starting out in data analytics, the inspiration behind their work, the impact of their contributions on the organization, their current endeavors, and practical advice based on their experiences. One of the prominent discussions was about the ethical considerations that data scientists face while conducting an analysis, where certain data points may conflict with their personal values. However, what had a significant impact on my outlook towards the data science field was gaining insights about the industry and the people involved in it during the course.
+</p>
+
+<p align="justify">
+In addition to my current pursuits, I have become interested in side hustle strategies for data science. The monotony of only having one job motivated me to seek out new opportunities to expand my abilities and skills. I discovered a range of options such as writing, training, consulting, attending conferences, and engaging with academics. These activities may include co-authoring a book, writing a chapter in a second edition, providing training in R or Python during free time, through in-site or online classes. These endeavors not only benefit the individual but can also contribute to growing the data science industry. As one gains expertise, opportunities such as giving speeches at conferences and consulting with organizations can lead to expanding networks and discovering new possibilities. It's important to note that if one is currently involved in academics as a student or teacher, there are resources beyond the classroom that can be taken advantage of, such as university libraries and websites like GitHub Education. By making the most of what is available and staying informed about the latest tools and patterns in data analytics, one can continue to expand their knowledge and skills in this new and exciting field.
 </p>
 
 ----
