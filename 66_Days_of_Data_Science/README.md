@@ -1314,3 +1314,64 @@ In addition to my current pursuits, I have become interested in side hustle stra
 ----
 
 </details>
+
+
+
+<details> 
+	<br/>
+    <summary> &nbsp; 📖 &nbsp; Day 21 - Introduction to Tableau </summary>
+
+    🗓️ Date: 2023-03-19
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/introduction-to-tableau">Introduction to Tableau (Datacamp)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+Today marks the first day of my journey into the world of Tableau, following a 7-day break from my usual learning streak. I began my day by loading workbooks and familiarizing myself with the navigation of Tableau through the menu pane and tool bar. Next, I dove into the world of sorting and various types of filters (extract filter, data source filter, context filter, dimension filter, and measure filter) in Tableau. I then proceeded to using aggregration and creating custom columns using calculated fields that leverage the inbuilt functions within Tableau. Moving on, I explored the topic of creating visualizations on geo maps using geocoding. I was thrilled to see how easy it was to map data and extract meaningful insights based on the location of the data points. I also learned how to work with dates and create reference lines, trend lines, and forecasting using Tableau. Finally, I learned how to convey my findings with dashboards and stories in Tableau.
+</p>
+
+<p align="justify">
+Overall, it was an interesting and exciting day of learning to fully comprehend the tool that has/can significantly decrease my burden by providing rapid visualizations that would take hours to complete in Python. I'm looking forward to applying these skills to real-world scenarios and deepening my knowledge in the days to come.
+</p>
+
+----
+
+##### Notes:
+
+<details>
+  <summary> &nbsp; Data roles in Tableau</summary>
+
+<br/>
+
+- Discrete dimension
+    - Common, colored in blue
+    - Finite amount of values
+    - Can't be aggregated
+    - Example: Eye color, Gender, etc.
+- Discrete measure
+    - Not common, colored in blue
+    - Finite amount of values
+    - Can be aggregated
+    - Example: Shoe size, Age, etc.
+- Continuous dimension
+    - Not common, colored in green
+    - Infinite amount of values
+    - Can't be aggregated
+    - Example: Date, etc.
+- Continuous measure
+    - Common, colored in green
+    - Infinite amount of values
+    - Can be aggregated
+    - Example: Height, Weight, etc.
+
+</details>
+
+----
+
+</details>
