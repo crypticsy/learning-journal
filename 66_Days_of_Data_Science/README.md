@@ -14,6 +14,7 @@
     <summary> &nbsp; 🔖 &nbsp; Datacamp </summary> 
 
 - [Data Analyst in SQL](https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql) : Career track
+- [Data Analyst in Tableau](https://app.datacamp.com/learn/career-tracks/data-analyst-in-tableau) : Career track
 
 </details>
 <details>
