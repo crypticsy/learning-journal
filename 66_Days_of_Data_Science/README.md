@@ -70,7 +70,7 @@
 
 ### The Journey
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 1 - Revision of Statistics and Basic SQL </summary>
 <pre><code><small>🗓️ Date: 2023-02-15</small></code></pre>
@@ -97,7 +97,7 @@
 <hr/>
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 2 - Revision of Intermediate SQL Queries </summary>
 <pre><code><small>🗓️  Date: 2023-02-16</small></code></pre>
@@ -118,7 +118,7 @@
 <hr/>
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 3 - Revision of Joins, Set theory & Subqueries in SQL </summary>
 <pre><code><small>🗓️  Date: 2023-02-17</small></code></pre>
@@ -202,7 +202,7 @@ ORDER BY lang_num DESC;
 <hr/>
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 4 - Exploring Data Manipulation in SQL </summary>
 <pre><code><small>🗓️  Date: 2023-02-20</small></code></pre>

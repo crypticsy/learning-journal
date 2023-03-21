@@ -1,4 +1,4 @@
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 5 - (Continued) Data Manipulation in SQL</summary>
 <pre><code><small>🗓️  Date: 2023-02-21</small></code></pre>
@@ -133,7 +133,7 @@ WHERE
 <hr/>
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 6 - Understanding PostgreSQL Summary Stats </summary>
 <pre><code><small>🗓️  Date: 2023-02-22</small></code></pre>
@@ -207,7 +207,7 @@ Beside this,  I attempted to put my knowledge into practice by answering practic
 <hr/>
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 7 - Understanding Data Scientist Fundamentals</summary>
 <pre><code><small>🗓️  Date: 2023-02-23</small></code></pre>
@@ -235,7 +235,7 @@ Taking a break from the regular SQL courses, I delved into the everyday life of 
 <hr/>
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 8 - Exploring PostgreSQL Window Functions</summary>
 
@@ -355,7 +355,7 @@ COALESCE(null, null, 1, null, 2)        -- returns 1
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 9 - Exploring Functions for Data manipulation in SQL</summary>
 
@@ -527,7 +527,7 @@ $$ LANGUAGE plpgsql;
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 10 - Exploratory Data Analysis in SQL</summary>
 
@@ -614,7 +614,7 @@ FROM table;
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 11 - (Continued) Exploratory Data Analysis in SQL</summary>
 
@@ -660,7 +660,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 12 - Data-Driven Decision Making using SQL</summary>
 
@@ -691,7 +691,7 @@ With all the skills that I had accumilated so far, it was only about implementin
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 13 - Understanding Data Science & Analytics Career Paths</summary>
 
@@ -718,7 +718,7 @@ Before diving into the world of mathematica, I needed to grasp the foundations t
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 14 - Exploring Data Visualization through Storytelling</summary>
 
@@ -764,7 +764,7 @@ Most notably, the course taught the principles of learning to demonstrate your a
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 15 - Setup for IBM Watson and SpaceX Rest API</summary>
 
@@ -791,7 +791,7 @@ I took a break from learning today to prepare for the journey ahead! I made my o
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 16 - Analyzing SpaceX Data and AI ethics</summary>
 
@@ -879,7 +879,7 @@ Aside from that, I took an AI ethics course and was introduced to Human-Centered
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 17 - Interactive Dashboard, Predective Analysis & Reporting</summary>
 
@@ -953,7 +953,7 @@ With plenty of time left in the day, I investigated the creation of an effective
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 18 - Using Powerpoint to Communicate Finding from Space X Launch Data </summary>
 
@@ -980,7 +980,7 @@ After a thorough analysis of Space X's launches, it was time to predict the firs
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 19 - Understanding Data Governance </summary>
 
@@ -1027,7 +1027,7 @@ In the data governance course, I gained insights into the significance of effici
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 20 - Lessons from Data Scientist and exploring side hussles </summary>
 
@@ -1059,7 +1059,7 @@ In addition to my current pursuits, I have become interested in side hustle stra
 
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 21 - Introduction to Tableau </summary>
 
@@ -1120,7 +1120,7 @@ Overall, it was an interesting and exciting day of learning to fully comprehend 
 <hr/>
 </details>
 
-<details> 
+<details style="margin-bottom:5px;"> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 22 - Analyzing Data in Tableau </summary>
 <pre><code><small>🗓️  Date: 2023-03-20</small></code></pre>
