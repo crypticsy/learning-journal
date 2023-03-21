@@ -138,8 +138,7 @@
         <pre><code><small>--- Creates all possible combinations
 SELECT column_name(s)
 FROM table1
-CROSS JOIN table2;
-</small></code></pre>
+CROSS JOIN table2;</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; Operators</summary>
@@ -156,8 +155,7 @@ SELECT column_name(s) FROM table2;
 --- EXCEPT Operator : shows rows not present in the table
 SELECT column_name(s) FROM table1
 EXCEPT
-SELECT column_name(s) FROM table2;
-</small></code></pre>
+SELECT column_name(s) FROM table2;</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; Subquery</summary>
@@ -184,8 +182,7 @@ FROM countries,
 FROM languages
 GROUP BY code) AS sub
 WHERE countries.code = sub.code
-ORDER BY lang_num DESC;
-</small></code></pre>
+ORDER BY lang_num DESC;</small></code></pre>
     </details>
     <hr style="border: 0; height: 4px;" />
 </details>
@@ -253,7 +250,6 @@ FROM country AS c
 LEFT JOIN matches AS m
 ON c.id = m.country_id
 GROUP BY country;
-
 </small></code></pre>
     </details>
     <hr style="border: 0; height: 4px;" />
@@ -294,8 +290,7 @@ WHERE
         (SELECT MAX(home_goal + sub.away_goal)
         FROM match AS sub
         WHERE main.country_id = sub.country_id
-            AND main.season = sub.season);
-</small></code></pre>
+            AND main.season = sub.season);</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; Common Table Expressions</summary>
@@ -311,8 +306,7 @@ SELECT
 FROM league AS l
 -- Join the CTE to the league table
 LEFT JOIN match_list ON l.id = match_list.country_id
-GROUP BY l.name;
-</small></code></pre>
+GROUP BY l.name;</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; Window Function</summary>
@@ -370,8 +364,7 @@ SELECT
 FROM match
 WHERE
     hometeam_id = 9908
-    AND season = '2011/2012';
-</small></code></pre>
+    AND season = '2011/2012';</small></code></pre>
     </details>
     <hr style="border: 0; height: 4px;" />
 </details>
@@ -594,8 +587,7 @@ WHERE
         column_2 DATA_TYPE_2,
         ...,
         column_n DATA_TYPE_N
-    );
-</small></code></pre>
+    );</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; ROLLUP and CUBE</summary> The `ROLLUP` option allows to include extra rows that represent the subtotals, which are commonly referred to as super-aggregate rows, along with the grand total row.
@@ -603,18 +595,14 @@ WHERE
     country, warehouse, SUM(quantity)
 FROM
     inventory
-GROUP BY ROLLUP (country, warehouse);
-</small></code></pre> `ROLLUP` is hierarchical, de-aggregrating from the leftmost provided column to the right-most.
+GROUP BY ROLLUP (country, warehouse);</small></code></pre> `ROLLUP` is hierarchical, de-aggregrating from the leftmost provided column to the right-most.
         <pre><code><small>ROLLUP (country, warehouse)     -- includes country level totals
-ROLLUP (warehouse, country)     -- includes warehouse level totals
-</small></code></pre> However, when we need all possible group-level aggregrations, we use `CUBE` which shares similar properties to `ROLLUP`.
-        <pre><code><small>CUBE (country, warehouse)       -- country country level and warehouse level, and grand total
-</small></code></pre>
+ROLLUP (warehouse, country)     -- includes warehouse level totals</small></code></pre> However, when we need all possible group-level aggregrations, we use `CUBE` which shares similar properties to `ROLLUP`.
+        <pre><code><small>CUBE (country, warehouse)       -- country country level and warehouse level, and grand total</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; Useful Functions</summary> - COALESCE `COALESCE()` takes a list of values and returns the first non-null value, going from left to right
-        <pre><code><small>COALESCE(null, null, 1, null, 2)        -- returns 1
-</small></code></pre> - STRING_AGG `STRING_AGG(column, separator)` takes all the values of a column and concatenates them, with `separator` in between each value.
+        <pre><code><small>COALESCE(null, null, 1, null, 2)        -- returns 1</small></code></pre> - STRING_AGG `STRING_AGG(column, separator)` takes all the values of a column and concatenates them, with `separator` in between each value.
     </details>
     <hr style="border: 0; height: 4px;" />
 </details>
@@ -650,8 +638,7 @@ SELECT
     column_name,
     data_type
 FROM INFORMATION_SCHEMA.COLUMNS
-WHERE table_name = 'actor';
-</small></code></pre>
+WHERE table_name = 'actor';</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; INTERVAL </summary> `INTERVAL` data type allows to store and manipulate a period of time in years, months, days, hours, minutes, seconds, etc.
@@ -665,8 +652,7 @@ FROM rental;
 
 -- Example 2: Conversion of column to interval
 SELECT INTERVAL '1' day * rental_duration
-FROM rental
-</small></code></pre>
+FROM rental</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; DATETIME Operators </summary>
@@ -781,16 +767,14 @@ FROM rental
         <pre><code><small>-- Example 1 : Check if the title contains 'elf'
 SELECT title, description
 FROM film
-WHERE to_tsvector(title) @@ to_tsquery('elf');
-</small></code></pre> - Fuzzystring
+WHERE to_tsvector(title) @@ to_tsquery('elf');</small></code></pre> - Fuzzystring
         <pre><code><small>-- Enable the fuzzystrmatch extension
 CREATE EXTENSION IF NOT EXISTS fuzzystrmatch;
 -- Confirm that fuzzystrmatch has been enabled
 SELECT extname FROM pg_extension;
 
 SELECT levenshtein('hello', 'jelly');       -- number of edits required to be a perfect match
-SELECT similarity('hello', 'jelly');        -- similarity between two strings from 0 to 1
-</small></code></pre>
+SELECT similarity('hello', 'jelly');        -- similarity between two strings from 0 to 1</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; User Defined Data Types </summary> Enumerated Data Types - Allows to create list of values that will not change
@@ -800,8 +784,7 @@ ENUM('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday
 -- Check
 SELECT typname, typcategory
 FROM pg_type
-WHERE typname='dayofweek';
-</small></code></pre>
+WHERE typname='dayofweek';</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; User Defined Functions </summary>
@@ -809,8 +792,7 @@ WHERE typname='dayofweek';
     BEGIN
         RETURN i * i;
     END;
-$$ LANGUAGE plpgsql;
-</small></code></pre>
+$$ LANGUAGE plpgsql;</small></code></pre>
     </details>
     <hr style="border: 0; height: 4px;" />
 </details>
@@ -843,8 +825,7 @@ SELECT CAST (value AS value_type);
 SELECT value::new_type;
 
 --  Example 1 : Casting float to integer
-SELECT CAST (3.7 AS integer);
-</small></code></pre>
+SELECT CAST (3.7 AS integer);</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; Series</summary>
@@ -852,8 +833,7 @@ SELECT CAST (3.7 AS integer);
 SELECT generate_series(1, 10, 2);
 
 -- Example 2 : Float series
-SELECT generate_series(0, 1, 0.1);
-</small></code></pre>
+SELECT generate_series(0, 1, 0.1);</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; Summary functions</summary>
@@ -884,8 +864,7 @@ DROP TABLE IF EXISTS table_name
 -- Create a temporary table
 CREATE TEMP TABLE table_name AS
 SELECT column1, column2
-FROM table;
-</small></code></pre>
+FROM table;</small></code></pre>
     </details>
     <hr style="border: 0; height: 4px;" />
 </details>
@@ -915,8 +894,7 @@ FROM table;
 SELECT generate_series(from, to, interval);
 
 -- Example 1
-SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)
-</small></code></pre>
+SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></code></pre>
     </details>
     <hr style="border: 0; height: 4px;" />
 </details>
