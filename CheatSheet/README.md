@@ -2,7 +2,7 @@
 
 A collection of cheat sheet for quick recall.
 
-* [Bash](./bash.txt)
-* [Git](./git.txt)
-* [Pandas](./pandas.txt)
-* [Regex](./regex.txt)
+* [Bash](./bash.md)
+* [Git](./git.md)
+* [Pandas](./pandas.md)
+* [Regex](./regex.md)
