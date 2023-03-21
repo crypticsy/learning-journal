@@ -1,4 +1,4 @@
-<h4> RegEx Functions </h4>
+<h3> RegEx Functions </h3>
 
 The <code>re</code> module offers a set of functions that allows us to search a string for a match:
 
@@ -25,9 +25,9 @@ The <code>re</code> module offers a set of functions that allows us to search a 
   </tr>
 </table>
 
-<hr/>
+<br/>
 
-<h4>Metacharacters</h4>
+<h3>Metacharacters</h3>
 <p>Metacharacters are characters with a special meaning:</p>
 <table style="width:100%;text-align: justify;">
   <tr>
@@ -97,9 +97,9 @@ The <code>re</code> module offers a set of functions that allows us to search a 
   </tr>
 </table>
 
-<hr/>
+<br/>
 
-<h4>Special Sequences</h4>
+<h3>Special Sequences</h3>
 
 A special sequence is a <code>\\</code> followed by one of the characters in the list below, and has a special meaning:
 
@@ -162,9 +162,9 @@ A special sequence is a <code>\\</code> followed by one of the characters in the
     </tr>
 </table>
 
-<hr/>
+<br/>
 
-<h4>Sets</h4>
+<h3>Sets</h3>
 <p>A set is a set of characters inside a pair of square brackets [] with a special meaning:</p>
 <table style="width:100%;text-align: justify;">
     <tr>

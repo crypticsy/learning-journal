@@ -75,7 +75,7 @@
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 1 - Revision of Statistics and Basic SQL </summary>
-<pre><code>🗓️ Date: 2023-02-15</pre></code>
+<pre><code>🗓️ Date: 2023-02-15</code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 <ul>
