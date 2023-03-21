@@ -1,8 +1,8 @@
-# 66 Days of Data Science 
+# 66 Days of Data Science
 
-<br /> 
+<br />
 
-### Resources 
+### Resources
 
 <div style="line-height: 200%;">
     <details>
@@ -67,11 +67,7 @@
 <br />
 <hr />
 
-
-
- ### The Journey 
- 
-
+### The Journey
 
  <details style="margin-bottom:7px;">
     <br />
@@ -93,7 +89,7 @@
     <h4> Summary : </h4>
     <p align="justify"> While taking the course <a href="https://app.datacamp.com/learn/courses/introduction-to-statistics" target="_blank">Introduction to Statistics</a> as part of the track <a href="https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql" target="_blank">Data Analyst in SQL,</a> I had the chance to review probability, distributions, the central limit theorem, correlation, and hypothesis testing. While revising the dependence and conditional probabilities, I was also able to recall the normal and poisson distributions (k = * n). </p>
     <p align="justify"> I also took <a href="https://app.datacamp.com/learn/courses/introduction-to-sql" target="_blank">Introduction to SQL</a> as part of the same curriculum, which helped me revise the basic sql queries to read and view data from tables. Because of this revision, I learned about "VIEW," a concept I was never aware of before. To summarize, views are virtual tables whose contents are determined by queries. It only allows you to restrict access to the database and does not significantly increase the performance of SQL queries. Nonetheless, it was a useful trick to have in my SQL toolbox for increasing readability. </p>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -111,7 +107,7 @@
     </center>
     <h4> Summary : </h4>
     <p align="justify"> Continuing on from Day 1, I chose the <a href="https://app.datacamp.com/learn/courses/intermediate-sql" target="_blank">Intermediate SQL</a> course from the same track, which included queries for selecting, filtering, aggregating, sorting, and grouping. Unlike the previous time, I did not get to learn a new concept, but it was a good recollection of all these principles, particularly concerning conventions for writing SQL to promote readability, as I had become a little sloopy regarding this. </p>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -156,10 +152,10 @@ SELECT column_name(s) FROM table2;
 SELECT column_name(s) FROM table1
 EXCEPT
 SELECT column_name(s) FROM table2;</small></code></pre>
-    </details>
-    <details>
-        <summary> &nbsp; Subquery</summary>
-        <pre><code><small>--- Example 1: Sub query with in WHERE
+</details>
+<details>
+<summary> &nbsp; Subquery</summary>
+<pre><code><small>--- Example 1: Sub query with in WHERE
 SELECT name, country_code
 FROM cities
 WHERE name in (
@@ -183,8 +179,9 @@ FROM languages
 GROUP BY code) AS sub
 WHERE countries.code = sub.code
 ORDER BY lang_num DESC;</small></code></pre>
-    </details>
-    <hr style="border: 0; height: 4px;" />
+</details>
+<hr style="border: 0; height: 4px;" /><br/>
+
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -224,6 +221,7 @@ SELECT title,
 FROM film
 ORDER BY title;
 
+<br/>
 --- Example 2 : Count
 SELECT
 c.name AS country,
@@ -251,8 +249,9 @@ LEFT JOIN matches AS m
 ON c.id = m.country_id
 GROUP BY country;
 </small></code></pre>
-    </details>
-    <hr style="border: 0; height: 4px;" />
+</details>
+<hr style="border: 0; height: 4px;" /><br/>
+
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -322,13 +321,12 @@ SELECT
 FROM match AS m
 LEFT JOIN country AS c ON m.country_id = c.id;
 
-
 -- Example 2 : Rank function
 SELECT
-    l.name AS league,
-    AVG(m.home_goal + m.away_goal) AS avg_goals,
-    -- Rank each league according to the average goals
-    RANK() OVER(ORDER BY AVG(m.home_goal + m.away_goal) DESC) AS league_rank
+l.name AS league,
+AVG(m.home_goal + m.away_goal) AS avg_goals,
+-- Rank each league according to the average goals
+RANK() OVER(ORDER BY AVG(m.home_goal + m.away_goal) DESC) AS league_rank
 FROM league AS l
 LEFT JOIN match AS m
 ON l.id = m.country_id
@@ -336,37 +334,36 @@ WHERE m.season = '2011/2012'
 GROUP BY l.name
 ORDER BY league_rank;
 
-
 -- Example 3 : Partition function
 
 SELECT
-    c.name,
-    m.season,
-    (home_goal + away_goal) AS goals,
-    AVG(home_goal + away_goal)
-        OVER(PARTITION BY m.season, c.name) AS season_country_avg
+c.name,
+m.season,
+(home_goal + away_goal) AS goals,
+AVG(home_goal + away_goal)
+OVER(PARTITION BY m.season, c.name) AS season_country_avg
 FROM country AS c
 LEFT JOIN match AS m
 ON c.id = m.country_id;
 
-
 -- Example 4 : Sliding Function
 
 SELECT
-    date,
-    home_goal,
-    away_goal,
-    -- Create a running total and running average of home goals
-    SUM(home_goal) OVER(ORDER BY date
-        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS running_total,
-    AVG(home_goal) OVER(ORDER BY date
-        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS running_avg
+date,
+home_goal,
+away_goal,
+-- Create a running total and running average of home goals
+SUM(home_goal) OVER(ORDER BY date
+ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS running_total,
+AVG(home_goal) OVER(ORDER BY date
+ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS running_avg
 FROM match
 WHERE
-    hometeam_id = 9908
-    AND season = '2011/2012';</small></code></pre>
-    </details>
-    <hr style="border: 0; height: 4px;" />
+hometeam_id = 9908
+AND season = '2011/2012';</small></code></pre>
+</details>
+<hr style="border: 0; height: 4px;" /><br/>
+
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -497,7 +494,7 @@ WHERE
             </tbody>
         </table>
     </details>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -512,8 +509,8 @@ WHERE
         <li>
             <a href="https://www.linkedin.com/learning/the-non-technical-skills-of-effective-data-scientists/" target="_blank">The Non-Technical Skills of Effective Data Scientists (Linkedin Learning)</a>
         </li>
-        </li>
-        <a href="https://www.kaggle.com/learn/pandas" target="_blank">Pandas (Kaggle)</a>
+        <li>
+            <a href="https://www.kaggle.com/learn/pandas" target="_blank">Pandas (Kaggle)</a>
         </li>
     </ul>
     <center>
@@ -521,7 +518,7 @@ WHERE
     </center>
     <h4> Summary : </h4>
     <p align="justify"> Taking a break from the regular SQL courses, I delved into the everyday life of a data scientist, complete with current data science issues and how data scientists manage themselves and the organizations for which they operate. I was also able to take the following course on the non-technical abilities of a successful data scientist, which addressed not just the attributes that a person should have but also the role diplomacy plays while working in a professional setting. In addition, to polish my pandas abilities, I completed a Kaggle Learn course that served as a refresher on the techniques I use on a daily basis. </p>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -593,18 +590,20 @@ WHERE
         <summary> &nbsp; ROLLUP and CUBE</summary> The `ROLLUP` option allows to include extra rows that represent the subtotals, which are commonly referred to as super-aggregate rows, along with the grand total row.
         <pre><code><small>SELECT
     country, warehouse, SUM(quantity)
+
 FROM
-    inventory
+inventory
 GROUP BY ROLLUP (country, warehouse);</small></code></pre> `ROLLUP` is hierarchical, de-aggregrating from the leftmost provided column to the right-most.
-        <pre><code><small>ROLLUP (country, warehouse)     -- includes country level totals
-ROLLUP (warehouse, country)     -- includes warehouse level totals</small></code></pre> However, when we need all possible group-level aggregrations, we use `CUBE` which shares similar properties to `ROLLUP`.
-        <pre><code><small>CUBE (country, warehouse)       -- country country level and warehouse level, and grand total</small></code></pre>
-    </details>
-    <details>
-        <summary> &nbsp; Useful Functions</summary> - COALESCE `COALESCE()` takes a list of values and returns the first non-null value, going from left to right
-        <pre><code><small>COALESCE(null, null, 1, null, 2)        -- returns 1</small></code></pre> - STRING_AGG `STRING_AGG(column, separator)` takes all the values of a column and concatenates them, with `separator` in between each value.
-    </details>
-    <hr style="border: 0; height: 4px;" />
+<pre><code><small>ROLLUP (country, warehouse) -- includes country level totals
+ROLLUP (warehouse, country) -- includes warehouse level totals</small></code></pre> However, when we need all possible group-level aggregrations, we use `CUBE` which shares similar properties to `ROLLUP`.
+<pre><code><small>CUBE (country, warehouse) -- country country level and warehouse level, and grand total</small></code></pre>
+</details>
+<details>
+<summary> &nbsp; Useful Functions</summary> - COALESCE `COALESCE()` takes a list of values and returns the first non-null value, going from left to right
+<pre><code><small>COALESCE(null, null, 1, null, 2) -- returns 1</small></code></pre> - STRING_AGG `STRING_AGG(column, separator)` takes all the values of a column and concatenates them, with `separator` in between each value.
+</details>
+<hr style="border: 0; height: 4px;" /><br/>
+
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -635,15 +634,15 @@ WHERE table_schema = 'public';
 
 -- Example 2 : Extracting column data types from table
 SELECT
-    column_name,
-    data_type
+column_name,
+data_type
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE table_name = 'actor';</small></code></pre>
-    </details>
-    <details>
-        <summary> &nbsp; INTERVAL </summary> `INTERVAL` data type allows to store and manipulate a period of time in years, months, days, hours, minutes, seconds, etc.
-        <pre><code><small>INTERVAL '3 days'                       -- goes forward in time
-INTERVAL '2 months ago';                -- goes back in time due to the keyword 'ago'
+</details>
+<details>
+<summary> &nbsp; INTERVAL </summary> `INTERVAL` data type allows to store and manipulate a period of time in years, months, days, hours, minutes, seconds, etc.
+<pre><code><small>INTERVAL '3 days' -- goes forward in time
+INTERVAL '2 months ago'; -- goes back in time due to the keyword 'ago'
 INTERVAL '3 hours 20 minutes';
 
 -- Example 1 : Addition of timeframe
@@ -651,151 +650,152 @@ SELECT rental_date + INTERVAL '2 days' as expected_return
 FROM rental;
 
 -- Example 2: Conversion of column to interval
-SELECT INTERVAL '1' day * rental_duration
+SELECT INTERVAL '1' day \* rental_duration
 FROM rental</small></code></pre>
-    </details>
-    <details>
-        <summary> &nbsp; DATETIME Operators </summary>
-        <table>
-            <thead>
-                <tr>
-                    <th>Operator</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>AGE()</td>
-                    <td>Subtract with current_date (at midnight) when empty and with the other arguments when two values are provided</td>
-                </tr>
-                <tr>
-                    <td>NOW()</td>
-                    <td>Get current timestamp with microsecond precision</td>
-                </tr>
-                <tr>
-                    <td>CURRENT_TIMESTAMP()</td>
-                    <td>Gets similar timestamp to now but allows precision parameter to round off seconds</td>
-                </tr>
-                <tr>
-                    <td>CURRENT_DATE/CURRENT_TIME</td>
-                    <td>Get current date and time</td>
-                </tr>
-                <tr>
-                    <td>EXTRACT( <code>field</code> from <code>source</code>) </td>
-                    <td>Get subfield</td>
-                </tr>
-                <tr>
-                    <td>DATE_PART(&#39; <code>field</code>&#39;, <code>source</code>) </td>
-                    <td>Get subfield (equivalent to extract)</td>
-                </tr>
-                <tr>
-                    <td>DATE_TRUNC(&#39; <code>field</code>&#39;, <code>source</code>) </td>
-                    <td>Truncate timestamp or interval data types with precision</td>
-                </tr>
-                <tr>
-                    <td>ISFINITE()</td>
-                    <td>Test for finite date, time and interval (not +/-infinity)</td>
-                </tr>
-            </tbody>
-        </table>
-    </details>
-    <details>
-        <summary> &nbsp; STRING Operators </summary>
-        <table>
-            <thead>
-                <tr>
-                    <th>Operator</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>UPPER/LOWER( <code>source</code>) </td>
-                    <td>Converts column to upper or lower case</td>
-                </tr>
-                <tr>
-                    <td>INITCAP( <code>source</code>) </td>
-                    <td>Converts column to title case</td>
-                </tr>
-                <tr>
-                    <td>REPLACE( <code>source</code>, &#39; <code>find_string</code>&#39;, &#39; <code>replace_string</code>&#39;) </td>
-                    <td>Replaces the source string with the replacement string</td>
-                </tr>
-                <tr>
-                    <td>REVERSE( <code>source</code>) </td>
-                    <td>Reverses the string</td>
-                </tr>
-                <tr>
-                    <td>LENGTH( <code>source</code>) </td>
-                    <td>Extract the length of the string</td>
-                </tr>
-                <tr>
-                    <td>POSITION(&#39; <code>char</code>&#39; IN <code>source</code>) </td>
-                    <td>Extract the first position of a character in a string</td>
-                </tr>
-                <tr>
-                    <td>LEFT( <code>source</code>, <code>n</code>) </td>
-                    <td>Extract the <code>n</code> number of characters from left side of the given source </td>
-                </tr>
-                <tr>
-                    <td>RIGHT( <code>source</code>, <code>n</code>) </td>
-                    <td>Extract the <code>n</code> number of characters from right side of the given source </td>
-                </tr>
-                <tr>
-                    <td>SUBSTRING( <code>source</code>, <code>start</code>, <code>length</code>) </td>
-                    <td>Extract a string containing a specific number of characters from a particular position of a given string</td>
-                </tr>
-                <tr>
-                    <td>TIRM([leading</td>
-                    <td>trailing</td>
-                    <td>both] [characters] FROM <code>source</code>) </td>
-                    <td>Removes characters from source</td>
-                </tr>
-                <tr>
-                    <td>LPAD( <code>source</code>, <code>n</code>, <code>char</code>) </td>
-                    <td>Left-pads a string with another string, to a certain length</td>
-                </tr>
-                <tr>
-                    <td>RPAD( <code>source</code>, <code>n</code>, <code>char</code>) </td>
-                    <td>Right-pads a string with another string, to a certain length</td>
-                </tr>
-            </tbody>
-        </table>
-    </details>
-    <details>
-        <summary> &nbsp; FULL TEXT Search </summary> - Basic Search `to_tsvector(text)` : performs normalization and creates a list of tokens `to_tsquery(string)` : accepts a list of words that will be checked against the normalized vector `@@` : check if `tsquery` matches `tsvector`
-        <pre><code><small>-- Example 1 : Check if the title contains 'elf'
+</details>
+<details>
+<summary> &nbsp; DATETIME Operators </summary>
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AGE()</td>
+<td>Subtract with current_date (at midnight) when empty and with the other arguments when two values are provided</td>
+</tr>
+<tr>
+<td>NOW()</td>
+<td>Get current timestamp with microsecond precision</td>
+</tr>
+<tr>
+<td>CURRENT_TIMESTAMP()</td>
+<td>Gets similar timestamp to now but allows precision parameter to round off seconds</td>
+</tr>
+<tr>
+<td>CURRENT_DATE/CURRENT_TIME</td>
+<td>Get current date and time</td>
+</tr>
+<tr>
+<td>EXTRACT( <code>field</code> from <code>source</code>) </td>
+<td>Get subfield</td>
+</tr>
+<tr>
+<td>DATE_PART(&#39; <code>field</code>&#39;, <code>source</code>) </td>
+<td>Get subfield (equivalent to extract)</td>
+</tr>
+<tr>
+<td>DATE_TRUNC(&#39; <code>field</code>&#39;, <code>source</code>) </td>
+<td>Truncate timestamp or interval data types with precision</td>
+</tr>
+<tr>
+<td>ISFINITE()</td>
+<td>Test for finite date, time and interval (not +/-infinity)</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details>
+<summary> &nbsp; STRING Operators </summary>
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UPPER/LOWER( <code>source</code>) </td>
+<td>Converts column to upper or lower case</td>
+</tr>
+<tr>
+<td>INITCAP( <code>source</code>) </td>
+<td>Converts column to title case</td>
+</tr>
+<tr>
+<td>REPLACE( <code>source</code>, &#39; <code>find_string</code>&#39;, &#39; <code>replace_string</code>&#39;) </td>
+<td>Replaces the source string with the replacement string</td>
+</tr>
+<tr>
+<td>REVERSE( <code>source</code>) </td>
+<td>Reverses the string</td>
+</tr>
+<tr>
+<td>LENGTH( <code>source</code>) </td>
+<td>Extract the length of the string</td>
+</tr>
+<tr>
+<td>POSITION(&#39; <code>char</code>&#39; IN <code>source</code>) </td>
+<td>Extract the first position of a character in a string</td>
+</tr>
+<tr>
+<td>LEFT( <code>source</code>, <code>n</code>) </td>
+<td>Extract the <code>n</code> number of characters from left side of the given source </td>
+</tr>
+<tr>
+<td>RIGHT( <code>source</code>, <code>n</code>) </td>
+<td>Extract the <code>n</code> number of characters from right side of the given source </td>
+</tr>
+<tr>
+<td>SUBSTRING( <code>source</code>, <code>start</code>, <code>length</code>) </td>
+<td>Extract a string containing a specific number of characters from a particular position of a given string</td>
+</tr>
+<tr>
+<td>TIRM([leading|trailing|both] [characters] FROM <code>source</code>) </td>
+<td>Removes characters from source</td>
+</tr>
+<tr>
+<td>LPAD( <code>source</code>, <code>n</code>, <code>char</code>) </td>
+<td>Left-pads a string with another string, to a certain length</td>
+</tr>
+<tr>
+<td>RPAD( <code>source</code>, <code>n</code>, <code>char</code>) </td>
+<td>Right-pads a string with another string, to a certain length</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details>
+<summary> &nbsp; FULL TEXT Search </summary> - Basic Search `to_tsvector(text)` : performs normalization and creates a list of tokens `to_tsquery(string)` : accepts a list of words that will be checked against the normalized vector `@@` : check if `tsquery` matches `tsvector`
+<pre><code><small>-- Example 1 : Check if the title contains 'elf'
 SELECT title, description
 FROM film
 WHERE to_tsvector(title) @@ to_tsquery('elf');</small></code></pre> - Fuzzystring
-        <pre><code><small>-- Enable the fuzzystrmatch extension
+<pre><code><small>-- Enable the fuzzystrmatch extension
 CREATE EXTENSION IF NOT EXISTS fuzzystrmatch;
 -- Confirm that fuzzystrmatch has been enabled
 SELECT extname FROM pg_extension;
 
-SELECT levenshtein('hello', 'jelly');       -- number of edits required to be a perfect match
-SELECT similarity('hello', 'jelly');        -- similarity between two strings from 0 to 1</small></code></pre>
-    </details>
-    <details>
-        <summary> &nbsp; User Defined Data Types </summary> Enumerated Data Types - Allows to create list of values that will not change
-        <pre><code><small>CREATE TYPE dayofweek AS
+SELECT levenshtein('hello', 'jelly'); -- number of edits required to be a perfect match
+SELECT similarity('hello', 'jelly'); -- similarity between two strings from 0 to 1</small></code></pre>
+</details>
+<details>
+<summary> &nbsp; User Defined Data Types </summary> Enumerated Data Types - Allows to create list of values that will not change
+<pre><code><small>CREATE TYPE dayofweek AS
 ENUM('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
 
 -- Check
 SELECT typname, typcategory
 FROM pg_type
 WHERE typname='dayofweek';</small></code></pre>
-    </details>
-    <details>
-        <summary> &nbsp; User Defined Functions </summary>
-        <pre><code><small>CREATE FUNCTION squared(i integer) RETURNS integer AS $$
-    BEGIN
-        RETURN i * i;
-    END;
-$$ LANGUAGE plpgsql;</small></code></pre>
-    </details>
-    <hr style="border: 0; height: 4px;" />
 </details>
+<details>
+<summary> &nbsp; User Defined Functions </summary>
+<pre><code><small>CREATE FUNCTION squared(i integer) RETURNS integer AS $$
+        BEGIN
+            RETURN i * i;
+        END;
+    $$ LANGUAGE plpgsql;
+</small></code></pre>
+</details>
+<hr style="border: 0; height: 4px;" /><br/>
+
+</details>
+
 <details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 10 - Exploratory Data Analysis in SQL</summary>
@@ -824,49 +824,50 @@ SELECT CAST (value AS value_type);
 -- Alternate Cast Function with :: notation
 SELECT value::new_type;
 
---  Example 1 : Casting float to integer
+-- Example 1 : Casting float to integer
 SELECT CAST (3.7 AS integer);</small></code></pre>
-    </details>
-    <details>
-        <summary> &nbsp; Series</summary>
-        <pre><code><small>-- Example 1 : Basic series
+</details>
+<details>
+<summary> &nbsp; Series</summary>
+<pre><code><small>-- Example 1 : Basic series
 SELECT generate_series(1, 10, 2);
 
 -- Example 2 : Float series
 SELECT generate_series(0, 1, 0.1);</small></code></pre>
-    </details>
-    <details>
-        <summary> &nbsp; Summary functions</summary>
-        <table>
-            <thead>
-                <tr>
-                    <th>Function</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>CORR( <code>source1</code>, <code>source2</code>) </td>
-                    <td>Returns the correlation between two columns</td>
-                </tr>
-                <tr>
-                    <td>percentile_disc( <code>percentile</code>) WITHIN GROUP (ORDER BY <code>column_name</code>) </td>
-                    <td>Returns the value representing the percentile of the column using discrete method</td>
-                </tr>
-            </tbody>
-        </table>
-    </details>
-    <details>
-        <summary> &nbsp; Temporary Tables</summary>
-        <pre><code><small>-- Dropping the table
+</details>
+<details>
+<summary> &nbsp; Summary functions</summary>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CORR( <code>source1</code>, <code>source2</code>) </td>
+<td>Returns the correlation between two columns</td>
+</tr>
+<tr>
+<td>percentile_disc( <code>percentile</code>) WITHIN GROUP (ORDER BY <code>column_name</code>) </td>
+<td>Returns the value representing the percentile of the column using discrete method</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details>
+<summary> &nbsp; Temporary Tables</summary>
+<pre><code><small>-- Dropping the table
 DROP TABLE IF EXISTS table_name
 
 -- Create a temporary table
 CREATE TEMP TABLE table_name AS
 SELECT column1, column2
 FROM table;</small></code></pre>
-    </details>
-    <hr style="border: 0; height: 4px;" />
+</details>
+<hr style="border: 0; height: 4px;" /><br/>
+
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -895,8 +896,9 @@ SELECT generate_series(from, to, interval);
 
 -- Example 1
 SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></code></pre>
-    </details>
-    <hr style="border: 0; height: 4px;" />
+</details>
+<hr style="border: 0; height: 4px;" /><br/>
+
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -918,7 +920,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify"> With all the skills that I had accumilated so far, it was only about implementing them. While a proper implementation is yet to come, I could still practice within a real evironment through the course "Data-Driven Decision Making in SQL" and the project "When Was the Golden Age of Video Games?". These allowed me to use all of the concepts from data cleaning, manipulation to aggregration and concentrated on using groupings, joins and pivots to create complex tables. Today marks the end of the career track, and I'm over the moon with all the knowledge I've gained in these 12 days. Yay for learning! </p>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -936,7 +938,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify"> Before diving into the world of mathematica, I needed to grasp the foundations that I would need to build as a Data Analyst. Attending the LinkedIn Learning career course "Data Science & Analytics Career Pathways & Certifications" was quite beneficial in this regard. It began by discussing the applications of data science, such as fraud detection, social media analytics, disease control, dating services, simulations, climate research, and network security. It also discussed the abilities required to be relevant in the sector. Data mining, machine learning, natural language processing, statistics, and visualization were among the crucial skills mentioned. It also discussed certificates that can help advance one's career and establish one as a specialist in a particular subject. Overall, the course was beneficial in aiding comprehension of the principles of being relevant in the ever-changing world of data science. </p>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -982,7 +984,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
         </li>
     </ul>
     </p>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1000,7 +1002,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify"> I took a break from learning today to prepare for the journey ahead! I made my own IBM account and configured Watson Studio to publish notebooks directly to my GitHub repository. I also explored in the world of SpaceX's rest API in order to extract useful data for future projects. We can get so enthused in learning new things that we forget to take a deep breath and get organized. However, not today. </p>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1091,7 +1093,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
             </li>
         </ul>
     </details>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1165,7 +1167,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
             </li>
         </ul>
     </details>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1183,7 +1185,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify"> After a thorough analysis of Space X's launches, it was time to predict the first stage's successful landing to give competition to the likes of Space X with the assistance of Company Y. Armed with a lengthy 50-page presentation, a combination of online resources and a dash of personal passion was instrumental in completing the task, and in the process, honed valuable presentation creation skills. In addition, the power of context cannot be overstated, as it aided in comprehending the insights more easily, with an executive summary for those uninterested in the subject matter. All in all, it was a remarkable learning experience that showcased the importance of a compelling narrative and a comprehensive overview for maximum impact. </p>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1223,7 +1225,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
             </li>
         </ul>
     </details>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1245,7 +1247,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <h4> Summary : </h4>
     <p align="justify"> Six individuals, each with their unique experiences in data, shared their stories through the course. These narratives covered their journeys starting out in data analytics, the inspiration behind their work, the impact of their contributions on the organization, their current endeavors, and practical advice based on their experiences. One of the prominent discussions was about the ethical considerations that data scientists face while conducting an analysis, where certain data points may conflict with their personal values. However, what had a significant impact on my outlook towards the data science field was gaining insights about the industry and the people involved in it during the course. </p>
     <p align="justify"> In addition to my current pursuits, I have become interested in side hustle strategies for data science. The monotony of only having one job motivated me to seek out new opportunities to expand my abilities and skills. I discovered a range of options such as writing, training, consulting, attending conferences, and engaging with academics. These activities may include co-authoring a book, writing a chapter in a second edition, providing training in R or Python during free time, through in-site or online classes. These endeavors not only benefit the individual but can also contribute to growing the data science industry. As one gains expertise, opportunities such as giving speeches at conferences and consulting with organizations can lead to expanding networks and discovering new possibilities. It's important to note that if one is currently involved in academics as a student or teacher, there are resources beyond the classroom that can be taken advantage of, such as university libraries and websites like GitHub Education. By making the most of what is available and staying informed about the latest tools and patterns in data analytics, one can continue to expand their knowledge and skills in this new and exciting field. </p>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1302,8 +1304,9 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
             </li>
         </ul>
     </details>
-    <hr style="border: 0; height: 4px;" />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
+
 <details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 22 - Analyzing Data in Tableau </summary>
@@ -1320,5 +1323,5 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify"> Preparing for Analysis Exploring visualizations Mapping analysis Groups, sets and parameters </p>
-    <hr />
+    <hr style="border: 0; height: 4px;" /><br/>
 </details>
