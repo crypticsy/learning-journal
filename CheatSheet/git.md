@@ -207,7 +207,7 @@
         <td>If there are merge conflicts (meaning files are incompatible), --abort can be used to abort the merge action</td>
     </tr>
     <tr>
-        <td>git push -u origin [branch_name]></td>
+        <td>git push -u origin [branch_name]</td>
         <td>Creates branch in remote repo</td>
     </tr>
     <tr>

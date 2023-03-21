@@ -98,3 +98,189 @@
 </p>
 <hr/>
 </details>
+
+<details> 
+	<br/>
+    <summary> &nbsp; 📖 &nbsp; Day 2 - Revision of Intermediate SQL Queries </summary>
+<pre><code>🗓️  Date: 2023-02-16</code></pre>
+<h4> Resources : </h4>
+<p>Course</p>
+<ul>
+    <li>
+        <a href="https://app.datacamp.com/learn/courses/intermediate-sql" target="_blank">Intermediate SQL (Datacamp)</a>
+    </li>
+</ul>
+<center>
+    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+</center>
+<h4> Summary : </h4>
+<p align="justify">
+    Continuing on from Day 1, I chose the <a href="https://app.datacamp.com/learn/courses/intermediate-sql" target="_blank">Intermediate SQL</a> course from the same track, which included queries for selecting, filtering, aggregating, sorting, and grouping. Unlike the previous time, I did not get to learn a new concept, but it was a good recollection of all these principles, particularly concerning conventions for writing SQL to promote readability, as I had become a little sloopy regarding this.
+</p>
+<hr/>
+</details>
+
+<details> 
+	<br/>
+    <summary> &nbsp; 📖 &nbsp; Day 3 - Revision of Joins, Set theory & Subqueries in SQL </summary>
+<pre><code>🗓️  Date: 2023-02-17</code></pre>
+<h4> Resources : </h4>
+<p>Course</p>
+<ul>
+    <li>
+        <a href="https://app.datacamp.com/learn/courses/joining-data-in-sql" target="_blank">Joining Data in SQL (Datacamp)</a>
+    </li>
+</ul>
+<center>
+    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+</center>
+<h4> Summary : </h4>
+<p align="justify">
+    I took the course <a href="https://app.datacamp.com/learn/courses/joining-data-in-sql" target="_blank">Joining Data in SQL</a>, the fifth Course under the track <a href="https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql" target="_blank">Data Analyst in SQL</a>. It included an introduction to various types of joins (inner, outer, cross & self) as well as set theory (union, intersect & except) joins. The cross joins and set theory section was incredibly beneficial as my perspective on desiging tables using minimal readable query was expanded due to these concepts.  While I recall reading about it in my undergrad curriculum, putting it into practice has helped me comprehend it much better. In addition, subqueries in the "WHERE", "FROM" and "SELECT" keywords were covered in the course. I had never used subqueries in the "SELECT" & "FROM" section before, hence I learned some cool tricks up my sleeves. I have added some syntaxes that I learned as follows:
+</p>
+<center>
+    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+</center>
+<h4> Notes : </h4>
+<details>
+    <summary> &nbsp; Cross Join Query</summary>
+<pre><code>
+--- Creates all possible combinations
+SELECT column_name(s)
+FROM table1
+CROSS JOIN table2;
+</code></pre>
+</details>
+<details>
+  <summary> &nbsp; Operators</summary>
+<pre><code>
+--- UNION Operator : shows unique rows
+SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;
+
+--- UNION ALL Operator : shows duplicate rows
+SELECT column_name(s) FROM table1
+UNION ALL
+SELECT column_name(s) FROM table2;
+
+--- EXCEPT Operator : shows rows not present in the table
+SELECT column_name(s) FROM table1
+EXCEPT
+SELECT column_name(s) FROM table2;
+</code></pre>
+
+</details>
+<details>
+  <summary> &nbsp; Subquery</summary>
+<pre><code>
+--- Example 1: Sub query with in WHERE
+
+SELECT name, country_code
+FROM cities
+WHERE name in (
+SELECT capital
+FROM countries
+)
+
+--- Example 2: Sub query with in SELECT
+
+SELECT countries.name AS country_name, (
+SELECT COUNT(\*)
+FROM cities
+WHERE cities.country_code = country.code
+) AS cities_num
+FROM countries
+
+--- Example 3: Sub query with in FROM
+
+SELECT coutries.name AS country_name, lang_num
+FROM countries,
+(SELECT code, COUNT(\*) AS lang_num
+FROM languages
+GROUP BY code) AS sub
+WHERE countries.code = sub.code
+ORDER BY lang_num DESC;
+</code></pre>
+
+</details>
+<hr/>
+</details>
+
+<details> 
+	<br/>
+    <summary> &nbsp; 📖 &nbsp; Day 4 - Exploring Data Manipulation in SQL </summary>
+<pre><code>🗓️  Date: 2023-02-20</code></pre>
+<h4> Resources : </h4>
+<p>Course</p>
+<ul>
+    <li>
+        <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql" target="_blank">Data Manipulation in SQL (Datacamp)</a>
+    </li>
+</ul>
+<center>
+    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+</center>
+<h4> Summary : </h4>
+<p align="justify">
+    Machine learning, the most trending topic in today's generation is nothing more than a series of if and else statements. With SQL, a similar scenario occurs when you use the CASE statement to insert new values into a table based on existing records. To be more specific, the first module in <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql" target="_blank">Data Manipulation in SQL</a> that I took,' 'We'll Take the CASE' module focused on using case statements to generate labels, probability, and percentage based on supplied criteria. While accounting for only one-quarter of the course, this subject proved useful in a variety of ways. The following are some examples of the statement:
+</p>
+<center>
+    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+</center>
+<h4> Notes : </h4>
+<details>
+  <summary> &nbsp; CASE Statement</summary>
+<pre><code>
+--- Example 1 : Basic
+
+SELECT title,
+    length,
+    CASE
+        WHEN length> 0 AND length <= 50
+            THEN 'Short'
+        WHEN length > 50 AND length <= 120
+            THEN 'Medium'
+        WHEN length> 120
+            THEN 'Long'
+        ELSE
+            'Outlier'
+    END AS duration
+FROM film
+ORDER BY title;
+
+
+--- Example 2 : Count
+
+SELECT
+    c.name AS country,
+    -- Count games from the 2012/2013 season
+    count(CASE WHEN m.season = '2012/2013'
+            THEN m.id ELSE NULL end) AS matches_2012_2013
+FROM country AS c
+LEFT JOIN match AS m
+ON c.id = m.country_id
+-- Group by country name alias
+GROUP BY country;
+
+
+--- Example 3 : Percentage
+
+SELECT
+    c.name AS country,
+    -- Round the percentage of tied games to 2 decimal points
+    ROUND(AVG(CASE WHEN m.season='2013/2014' AND m.home_goal = m.away_goal THEN 1
+            WHEN m.season='2013/2014' AND m.home_goal != m.away_goal THEN 0
+            END),2) AS pct_ties_2013_2014,
+    ROUND(AVG(CASE WHEN m.season='2014/2015' AND m.home_goal = m.away_goal THEN 1
+            WHEN m.season='2014/2015' AND m.home_goal != m.away_goal THEN 0
+            END),2) AS pct_ties_2014_2015
+FROM country AS c
+LEFT JOIN matches AS m
+ON c.id = m.country_id
+    GROUP BY country;
+</code></pre>
+
+</details>
+<hr/>
+</details>

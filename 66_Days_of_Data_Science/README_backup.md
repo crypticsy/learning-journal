@@ -1,390 +1,28 @@
-# 66 Days of Data Science
-
-<br/>
-
-### Resources
-
-<div style="line-height: 200%;">
-<details>
-    <summary> &nbsp; 🔖 &nbsp; Coursera </summary>
-    <ul>
-        <li>
-            <a url="https://www.coursera.org/specializations/applied-data-science" >Applied Data Science Specialization</a>  by IBM
-        </li>
-    </ul>
-</details>
-<details>
-    <summary> &nbsp; 🔖 &nbsp; Datacamp </summary>
-    <ul>
-        <li>
-            <a url="https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql" >Data Analyst in SQL</a> : Career track
-        </li>
-        <li>
-            <a url="https://app.datacamp.com/learn/career-tracks/data-analyst-in-tableau" >Data Analyst in Tableau</a> : Career track
-        </li>
-    </ul>
-</details>
-<details>
-    <summary> &nbsp; 🔖 &nbsp; Kaggle Learn </summary>
-    <ul>
-        <li>
-            <a url="https://www.kaggle.com/learn/intro-to-programming">Intro to Programming</a>
-        </li>
-        <li>
-            <a url="https://www.kaggle.com/learn/intro-to-ai-ethics" >Intro to AI Ethics</a>
-        </li>
-        <li>
-            <a url="https://www.kaggle.com/learn/intro-to-sql" >Intro to SQL</a>
-        </li>
-        <li>
-            <a url="https://www.kaggle.com/learn/advanced-sql" >Advanced SQL</a>
-        </li>
-        <li>
-            <a url="https://www.kaggle.com/learn/pandas" >Pandas</a>
-        </li>
-        <li>
-            <a url="https://www.kaggle.com/learn/data-cleaning" >Data Cleaning</a>
-        </li>
-    </ul>
-</details>
-<details>
-    <summary> &nbsp; 🔖 &nbsp; LinkedIn learing </summary>
-    <ul>
-        <li>
-            <a url="https://www.linkedin.com/learning/paths/become-a-data-scientist" >Become a Data Scientist</a>
-        </li>
-    </ul>
-</details>
-<details>
-    <summary> &nbsp; 📼 &nbsp; Youtube Playlist </summary>
-    <ul>
-        <li>
-            <a url="https://youtube.com/playlist?list=PLvxOuBpazmsNIHP5cz37oOPZx0JKyNszN" >Discrete Probability Distributions</a>
-        </li>
-    </ul>
-</details>
-</div>
-
-<br/>
-<hr/>
-
-### The Journey
-
-<div style="line-height: 200%;">
-
 <details> 
 	<br/>
-    <summary> &nbsp; 📖 &nbsp; Day 1 - Revision of Statistics and Basic SQL </summary>
-<md-block>
-```
-🗓️ Date: 2023-02-15
-```
-</md-block>
+    <summary> &nbsp; 📖 &nbsp; Day 5 - (Continued) Data Manipulation in SQL</summary>
+<pre><code>🗓️  Date: 2023-02-21</code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 <ul>
     <li>
-        <a href="https://app.datacamp.com/learn/courses/introduction-to-statistics">Introduction to Statistics (Datacamp)</a>
-    </li>
-    <li>
-        <a href="https://app.datacamp.com/learn/courses/introduction-to-sql">Introduction to SQL (Datacamp)</a>
+        <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql" target="_blank">Data Manipulation in SQL (Datacamp)</a>
     </li>
 </ul>
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
 </center>
 <h4> Summary : </h4>
-<p align="justify">
-    While taking the course <a href="https://app.datacamp.com/learn/courses/introduction-to-statistics" target="_blank">Introduction to Statistics</a> as part of the track <a href="https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql" target="_blank">Data Analyst in SQL,</a> I had the chance to review probability, distributions, the central limit theorem, correlation, and hypothesis testing. While revising the dependence and conditional probabilities, I was also able to recall the normal and poisson distributions (k = * n). 
-</p>
-<p align="justify">
-    I also took <a href="https://app.datacamp.com/learn/courses/introduction-to-sql" target="_blank">Introduction to SQL</a> as part of the same curriculum, which helped me revise the basic sql queries to read and view data from tables. Because of this revision, I learned about "VIEW," a concept I was never aware of before. To summarize, views are virtual tables whose contents are determined by queries. It only allows you to restrict access to the database and does not significantly increase the performance of SQL queries. Nonetheless, it was a useful trick to have in my SQL toolbox for increasing readability.
-</p>
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-</details>
-
-<details> 
-	<br/>
-    <summary> &nbsp; 📖 &nbsp; Day 2 - Revision of Intermediate SQL Queries </summary>
-
-```
-🗓️ Date: 2023-02-16
-```
-
-<h4> Resources : </h4>
-
-Course
-
-<ul>
-    <li>
-        <a href="https://app.datacamp.com/learn/courses/intermediate-sql">Intermediate SQL (Datacamp)</a>
-    </li>
-</ul>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
-<h4> Summary : </h4>
-
-<p align="justify">
-    Continuing on from Day 1, I chose the <a href="https://app.datacamp.com/learn/courses/intermediate-sql" target="_blank">Intermediate SQL</a> course from the same track, which included queries for selecting, filtering, aggregating, sorting, and grouping. Unlike the previous time, I did not get to learn a new concept, but it was a good recollection of all these principles, particularly concerning conventions for writing SQL to promote readability, as I had become a little sloopy regarding this.
-</p>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
-</details>
-
-<details> 
-	<br/>
-    <summary> &nbsp; 📖 &nbsp; Day 3 - Revision of Joins, Set theory & Subqueries in SQL </summary>
-
-    🗓️ Date: 2023-02-17
-
-<h4> Resources : </h4>
-
-Course
-
-- <a href="https://app.datacamp.com/learn/courses/joining-data-in-sql">Joining Data in SQL (Datacamp)</a>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
-<h4> Summary : </h4>
-
-<p align="justify">
-    I took the course <a href="https://app.datacamp.com/learn/courses/joining-data-in-sql" target="_blank">Joining Data in SQL</a>, the fifth Course under the track <a href="https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql" target="_blank">Data Analyst in SQL</a>. It included an introduction to various types of joins (inner, outer, cross & self) as well as set theory (union, intersect & except) joins. The cross joins and set theory section was incredibly beneficial as my perspective on desiging tables using minimal readable query was expanded due to these concepts.  While I recall reading about it in my undergrad curriculum, putting it into practice has helped me comprehend it much better. In addition, subqueries in the "WHERE", "FROM" and "SELECT" keywords were covered in the course. I had never used subqueries in the "SELECT" & "FROM" section before, hence I learned some cool tricks up my sleeves. I have added some syntaxes that I learned as follows:
-</p>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
-<h4> Notes : </h4>
-
-<details>
-  <summary> &nbsp; Cross Join Query</summary>
-
-```
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> Creates all possible combinations
-SELECT column_name(s)
-FROM table1
-CROSS JOIN table2;
-```
-
-</details>
-
-<details>
-  <summary> &nbsp; Operators</summary>
-
-```
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> UNION Operator : shows unique rows
-SELECT column_name(s) FROM table1
-UNION
-SELECT column_name(s) FROM table2;
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> UNION ALL Operator : shows duplicate rows
-SELECT column_name(s) FROM table1
-UNION ALL
-SELECT column_name(s) FROM table2;
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> EXCEPT Operator : shows rows not present in the table
-SELECT column_name(s) FROM table1
-EXCEPT
-SELECT column_name(s) FROM table2;
-```
-
-</details>
-
-<details>
-  <summary> &nbsp; Subquery</summary>
-
-```
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> Example 1: Sub query with in WHERE
-
-SELECT name, country_code
-FROM cities
-WHERE name in (
-    SELECT capital
-    FROM countries
-)
-
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> Example 2: Sub query with in SELECT
-
-SELECT countries.name AS country_name, (
-        SELECT COUNT(*)
-        FROM cities
-        WHERE cities.country_code = country.code
-    ) AS cities_num
-FROM countries
-
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> Example 3: Sub query with in FROM
-
-SELECT coutries.name AS country_name, lang_num
-FROM countries,
-    (SELECT code, COUNT(*) AS lang_num
-    FROM languages
-    GROUP BY code) AS sub
-WHERE countries.code = sub.code
-ORDER BY lang_num DESC;
-```
-
-</details>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
-</details>
-
-<details> 
-	<br/>
-    <summary> &nbsp; 📖 &nbsp; Day 4 - Exploring Data Manipulation in SQL </summary>
-
-    🗓️ Date: 2023-02-20
-
-<h4> Resources : </h4>
-
-Course
-
-- <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql">Data Manipulation in SQL (Datacamp)</a>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
-<h4> Summary : </h4>
-
-<p align="justify">
-    Machine learning, the most trending topic in today's generation is nothing more than a series of if and else statements. With SQL, a similar scenario occurs when you use the CASE statement to insert new values into a table based on existing records. To be more specific, the first module in <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql" target="_blank">Data Manipulation in SQL</a> that I took,' 'We'll Take the CASE' module focused on using case statements to generate labels, probability, and percentage based on supplied criteria. While accounting for only one-quarter of the course, this subject proved useful in a variety of ways. The following are some examples of the statement:
-</p>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
-<h4> Notes : </h4>
-
-<details>
-  <summary> &nbsp; CASE Statement</summary>
-
-```
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> Example 1 : Basic
-
-SELECT title,
-    length,
-    CASE
-        WHEN length> 0 AND length <= 50
-            THEN 'Short'
-        WHEN length > 50 AND length <= 120
-            THEN 'Medium'
-        WHEN length> 120
-            THEN 'Long'
-        ELSE
-            'Outlier'
-    END AS duration
-FROM film
-ORDER BY title;
-
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> Example 2 : Count
-
-SELECT
-    c.name AS country,
-    -- Count games from the 2012/2013 season
-    count(CASE WHEN m.season = '2012/2013'
-            THEN m.id ELSE NULL end) AS matches_2012_2013
-FROM country AS c
-LEFT JOIN match AS m
-ON c.id = m.country_id
--- Group by country name alias
-GROUP BY country;
-
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center> Example 3 : Percentage
-
-SELECT
-    c.name AS country,
-    -- Round the percentage of tied games to 2 decimal points
-    ROUND(AVG(CASE WHEN m.season='2013/2014' AND m.home_goal = m.away_goal THEN 1
-            WHEN m.season='2013/2014' AND m.home_goal != m.away_goal THEN 0
-            END),2) AS pct_ties_2013_2014,
-    ROUND(AVG(CASE WHEN m.season='2014/2015' AND m.home_goal = m.away_goal THEN 1
-            WHEN m.season='2014/2015' AND m.home_goal != m.away_goal THEN 0
-            END),2) AS pct_ties_2014_2015
-FROM country AS c
-LEFT JOIN matches AS m
-ON c.id = m.country_id
-    GROUP BY country;
-```
-
-</details>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
-</details>
-
-<details> 
-	<br/>
-    <summary> &nbsp; 📖 &nbsp; Day 5 - (Continued) Data Manipulation in SQL</summary>
-
-    🗓️ Date: 2023-02-21
-
-<h4> Resources : </h4>
-
-Course
-
-- <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql">Data Manipulation in SQL (Datacamp)</a>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
-<h4> Summary : </h4>
-
 <p align="justify">
     Continuing the remaining modules <a href="https://app.datacamp.com/learn/courses/data-manipulation-in-sql" target="_blank">Data Manipulation in SQL</a> course, I was able to gain insights on Simple Subqueires Joins, Correlated Subqueries (takes higher processing time), Multiple/Nested Subqueries, and Common Table Expressions (CTE). These concepts were handful in allowing to perform complex actions within SQL and gain data points that I once thought were only possible through pandas (a python library).
 </p>
-
 <p align="justify">
     However, more significantly, I learned about window functions and the various types, such as Over, Rank, Partition, and Slide, throughout this course. While I had seen it before, I had never utilized it in practice, and I am pleased that this course allowed me to do so. Aggregating on columns that aren't in the grouping columns is likely the most useful skill to have, especially when doing comparative analysis.
 </p>
-
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
 </center>
-
 <h4> Notes : </h4>
-
 <details>
   <summary> &nbsp; Correlated subquery with multiple conditions</summary>
 
@@ -492,48 +130,42 @@ WHERE
 ```
 
 </details>
-
-<center>
-    <hr style="border: 0; height: 1px; width: 80%; text-align: center;">
-</center>
-
+<hr/>
 </details>
 
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 6 - Understanding PostgreSQL Summary Stats </summary>
-
-    🗓️ Date: 2023-02-22
-
+<pre><code>🗓️  Date: 2023-02-22</code></pre>
 <h4> Resources : </h4>
-
-Course
-
-- <a href="https://www.kaggle.com/learn/advanced-sql">Advanced SQL (Kaggle)</a>
-- <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions (Datacamp)</a>
-
-Articles
-
-- <a href="https://medium.com/yavar/window-functions-in-sql-a7239bb97104">Window functions in SQL (Medium)</a>
-
+<p>Course</p>
+<ul>
+    <li>
+        <a href="https://www.kaggle.com/learn/advanced-sql" target="_blank">Advanced SQL (Kaggle)</a>
+    </li>
+    <li>
+        <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions" target="_blank">PostgreSQL Summary Stats and Window Functions (Datacamp)</a>
+    </li>
+</ul>
+<p>Articles</p>
+<ul>
+    <li>
+        <a href="https://medium.com/yavar/window-functions-in-sql-a7239bb97104" target="_blank">Window functions in SQL (Medium)</a>
+    </li>
+</ul>
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
 </center>
-
 <h4> Summary : </h4>
-
 <p align="justify">
 With the continuation of window functions, I have gotten slightly familiar with the notion of window function types, particularly fetching, framing, and ranking functions, which I had practiced today. While these functions seemed intimidating at first, they turned out to be considerably easy than I had anticipated.
 </p>
-
 <p align="justify">
 Beside this,  I attempted to put my knowledge into practice by answering practice questions in the "Advanced sql" section of kaggle. It was a valuable experience since I was able to accurately utilize window functions and also learn about the 'UNNEST' function to load nested and repeated data from the tables.
 </p>
-
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
 </center>
-
 <h4> Notes : </h4>
 
 <details>
@@ -572,55 +204,48 @@ Beside this,  I attempted to put my knowledge into practice by answering practic
 | NTILE      | Distribute the rows in to the rows set with a specific `n` number of groups.                                      |
 
 </details>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
+<hr/>
 </details>
 
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 7 - Understanding Data Scientist Fundamentals</summary>
-
-    🗓️ Date: 2023-02-23
-
+<pre><code>🗓️  Date: 2023-02-23</code></pre>
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.linkedin.com/learning/a-day-in-the-life-of-a-data-scientist/serving-the-client/">A Day In The Life of a Data Scientist (Linkedin Learning)</a>
-- <a href="https://www.linkedin.com/learning/the-non-technical-skills-of-effective-data-scientists/">The Non-Technical Skills of Effective Data Scientists (Linkedin Learning)</a>
-- <a href="https://www.kaggle.com/learn/pandas">Pandas (Kaggle)</a>
-
+<ul>
+    <li>
+        <a href="https://www.linkedin.com/learning/a-day-in-the-life-of-a-data-scientist/serving-the-client/" target="_blank">A Day In The Life of a Data Scientist (Linkedin Learning)</a>
+    <li>
+    </li>
+        <a href="https://www.linkedin.com/learning/the-non-technical-skills-of-effective-data-scientists/" target="_blank">The Non-Technical Skills of Effective Data Scientists (Linkedin Learning)</a>
+     <li>
+    </li>
+        <a href="https://www.kaggle.com/learn/pandas" target="_blank">Pandas (Kaggle)</a>
+    </li>
+</ul>
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
 </center>
-
 <h4> Summary : </h4>
-
 <p align="justify">
 Taking a break from the regular SQL courses, I delved into the everyday life of a data scientist, complete with current data science issues and how data scientists manage themselves and the organizations for which they operate. I was also able to take the following course on the non-technical abilities of a successful data scientist, which addressed not just the attributes that a person should have but also the role diplomacy plays while working in a professional setting. In addition, to polish my pandas abilities, I completed a Kaggle Learn course that served as a refresher on the techniques I use on a daily basis.
 </p>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
+<hr/>
 </details>
 
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 8 - Exploring PostgreSQL Window Functions</summary>
 
-    🗓️ Date: 2023-02-24
+<pre><code>🗓️  Date: 2023-02-24</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.kaggle.com/learn/intro-to-programming">Intro to Programming (Kaggle)</a>
-- <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions">PostgreSQL Summary Stats and Window Functions (Datacamp)</a>
+- <a href="https://www.kaggle.com/learn/intro-to-programming" target="_blank">Intro to Programming (Kaggle)</a>
+- <a href="https://app.datacamp.com/learn/courses/postgresql-summary-stats-and-window-functions" target="_blank">PostgreSQL Summary Stats and Window Functions (Datacamp)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -734,13 +359,12 @@ COALESCE(null, null, 1, null, 2)        -- returns 1
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 9 - Exploring Functions for Data manipulation in SQL</summary>
 
-    🗓️ Date: 2023-02-25
+<pre><code>🗓️  Date: 2023-02-25</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://app.datacamp.com/learn/courses/functions-for-manipulating-data-in-postgresql">Functions for Manipulating Data in PostgreSQL (Datacamp)</a>
+- <a href="https://app.datacamp.com/learn/courses/functions-for-manipulating-data-in-postgresql" target="_blank">Functions for Manipulating Data in PostgreSQL (Datacamp)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -907,13 +531,12 @@ $$ LANGUAGE plpgsql;
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 10 - Exploratory Data Analysis in SQL</summary>
 
-    🗓️ Date: 2023-02-27
+<pre><code>🗓️  Date: 2023-02-27</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://app.datacamp.com/learn/courses/exploratory-data-analysis-in-sql">Exploratory Data Analysis in SQL (Datacamp)</a>
+- <a href="https://app.datacamp.com/learn/courses/exploratory-data-analysis-in-sql" target="_blank">Exploratory Data Analysis in SQL (Datacamp)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -995,13 +618,12 @@ FROM table;
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 11 - (Continued) Exploratory Data Analysis in SQL</summary>
 
-    🗓️ Date: 2023-02-28
+<pre><code>🗓️  Date: 2023-02-28</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://app.datacamp.com/learn/courses/exploratory-data-analysis-in-sql">Exploratory Data Analysis in SQL (Datacamp)</a>
+- <a href="https://app.datacamp.com/learn/courses/exploratory-data-analysis-in-sql" target="_blank">Exploratory Data Analysis in SQL (Datacamp)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1042,17 +664,16 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 12 - Data-Driven Decision Making using SQL</summary>
 
-    🗓️ Date: 2023-03-01
+<pre><code>🗓️  Date: 2023-03-01</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://app.datacamp.com/learn/courses/data-driven-decision-making-in-sql">Data-Driven Decision Making in SQL(Datacamp)</a>
+- <a href="https://app.datacamp.com/learn/courses/data-driven-decision-making-in-sql" target="_blank">Data-Driven Decision Making in SQL(Datacamp)</a>
 
 Project
 
-- <a href="https://app.datacamp.com/learn/projects/1413">When Was the Golden Age of Video Games?(Datacamp)</a>
+- <a href="https://app.datacamp.com/learn/projects/1413" target="_blank">When Was the Golden Age of Video Games?(Datacamp)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1074,13 +695,12 @@ With all the skills that I had accumilated so far, it was only about implementin
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 13 - Understanding Data Science & Analytics Career Paths</summary>
 
-    🗓️ Date: 2023-03-02
+<pre><code>🗓️  Date: 2023-03-02</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.linkedin.com/learning/data-science-analytics-career-paths-certifications-first-steps-2018/welcome">Data Science & Analytics Career Paths & Certifications: First Steps (LinkedIn Learning)</a>
+- <a href="https://www.linkedin.com/learning/data-science-analytics-career-paths-certifications-first-steps-2018/welcome" target="_blank">Data Science & Analytics Career Paths & Certifications: First Steps (LinkedIn Learning)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1102,13 +722,12 @@ Before diving into the world of mathematica, I needed to grasp the foundations t
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 14 - Exploring Data Visualization through Storytelling</summary>
 
-    🗓️ Date: 2023-03-03
+<pre><code>🗓️  Date: 2023-03-03</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.linkedin.com/learning/data-visualization-storytelling/the-art-of-storytelling">Data Visualization: Storytelling (LinkedIn Learning)</a>
+- <a href="https://www.linkedin.com/learning/data-visualization-storytelling/the-art-of-storytelling" target="_blank">Data Visualization: Storytelling (LinkedIn Learning)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1149,13 +768,12 @@ Most notably, the course taught the principles of learning to demonstrate your a
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 15 - Setup for IBM Watson and SpaceX Rest API</summary>
 
-    🗓️ Date: 2023-03-05
+<pre><code>🗓️  Date: 2023-03-05</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.coursera.org/learn/applied-data-science-capstone/">Applied Data Science Capstone: Week 1 (Coursera)</a>
+- <a href="https://www.coursera.org/learn/applied-data-science-capstone/" target="_blank">Applied Data Science Capstone: Week 1 (Coursera)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1177,14 +795,13 @@ I took a break from learning today to prepare for the journey ahead! I made my o
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 16 - Analyzing SpaceX Data and AI ethics</summary>
 
-    🗓️ Date: 2023-03-06
+<pre><code>🗓️  Date: 2023-03-06</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.kaggle.com/learn/intro-to-ai-ethics">Intro to AI Ethics (Kaggle)</a>
-- <a href="https://www.coursera.org/learn/applied-data-science-capstone/">Applied Data Science Capstone: Week 1 & 2 (Coursera)</a>
+- <a href="https://www.kaggle.com/learn/intro-to-ai-ethics" target="_blank">Intro to AI Ethics (Kaggle)</a>
+- <a href="https://www.coursera.org/learn/applied-data-science-capstone/" target="_blank">Applied Data Science Capstone: Week 1 & 2 (Coursera)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1266,13 +883,12 @@ Aside from that, I took an AI ethics course and was introduced to Human-Centered
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 17 - Interactive Dashboard, Predective Analysis & Reporting</summary>
 
-    🗓️ Date: 2023-03-07
+<pre><code>🗓️  Date: 2023-03-07</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.coursera.org/learn/applied-data-science-capstone/">Applied Data Science Capstone: Week 3, 4 & 5 (Coursera)</a>
+- <a href="https://www.coursera.org/learn/applied-data-science-capstone/" target="_blank">Applied Data Science Capstone: Week 3, 4 & 5 (Coursera)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1341,13 +957,12 @@ With plenty of time left in the day, I investigated the creation of an effective
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 18 - Using Powerpoint to Communicate Finding from Space X Launch Data </summary>
 
-    🗓️ Date: 2023-03-08
+<pre><code>🗓️  Date: 2023-03-08</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.coursera.org/learn/applied-data-science-capstone/">Applied Data Science Capstone: Week 5 (Coursera)</a>
+- <a href="https://www.coursera.org/learn/applied-data-science-capstone/" target="_blank">Applied Data Science Capstone: Week 5 (Coursera)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1369,13 +984,12 @@ After a thorough analysis of Space X's launches, it was time to predict the firs
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 19 - Understanding Data Governance </summary>
 
-    🗓️ Date: 2023-03-09
+<pre><code>🗓️  Date: 2023-03-09</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.linkedin.com/learning/learning-data-governance-14224082/data-governance-affects-everyone">Learning Data Governance (LinkedInLearning)</a>
+- <a href="https://www.linkedin.com/learning/learning-data-governance-14224082/data-governance-affects-everyone" target="_blank">Learning Data Governance (LinkedInLearning)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1417,14 +1031,13 @@ In the data governance course, I gained insights into the significance of effici
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 20 - Lessons from Data Scientist and exploring side hussles </summary>
 
-    🗓️ Date: 2023-03-10
+<pre><code>🗓️  Date: 2023-03-10</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://www.linkedin.com/learning/lessons-from-data-scientists/insights-to-excel-in-data-science">Lessons from Data Scientists (LinkedInLearning)</a>
-- <a href="https://www.linkedin.com/learning/side-hustle-strategies-for-data-science-and-analytics-experts/effectively-combining-data-science-and-being-an-entrepreneur">Side Hustle Strategies for Data Science and Analytics Experts (LinkedInLearning)</a>
+- <a href="https://www.linkedin.com/learning/lessons-from-data-scientists/insights-to-excel-in-data-science" target="_blank">Lessons from Data Scientists (LinkedInLearning)</a>
+- <a href="https://www.linkedin.com/learning/side-hustle-strategies-for-data-science-and-analytics-experts/effectively-combining-data-science-and-being-an-entrepreneur" target="_blank">Side Hustle Strategies for Data Science and Analytics Experts (LinkedInLearning)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1450,13 +1063,12 @@ In addition to my current pursuits, I have become interested in side hustle stra
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 21 - Introduction to Tableau </summary>
 
-    🗓️ Date: 2023-03-19
+<pre><code>🗓️  Date: 2023-03-19</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://app.datacamp.com/learn/courses/introduction-to-tableau">Introduction to Tableau (Datacamp)</a>
+- <a href="https://app.datacamp.com/learn/courses/introduction-to-tableau" target="_blank">Introduction to Tableau (Datacamp)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
@@ -1516,13 +1128,12 @@ Overall, it was an interesting and exciting day of learning to fully comprehend 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 22 - Analyzing Data in Tableau </summary>
 
-    🗓️ Date: 2023-03-20
+<pre><code>🗓️  Date: 2023-03-20</code></pre>
 
 <h4> Resources : </h4>
+<p>Course</p>
 
-Course
-
-- <a href="https://app.datacamp.com/learn/courses/analyzing-data-in-tableau">Analyzing Data in Tableau (Datacamp)</a>
+- <a href="https://app.datacamp.com/learn/courses/analyzing-data-in-tableau" target="_blank">Analyzing Data in Tableau (Datacamp)</a>
 
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
