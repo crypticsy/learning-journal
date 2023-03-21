@@ -1,7 +1,7 @@
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 5 - (Continued) Data Manipulation in SQL</summary>
-<pre><code>🗓️  Date: 2023-02-21</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-21</small></code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 <ul>
@@ -136,7 +136,7 @@ WHERE
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 6 - Understanding PostgreSQL Summary Stats </summary>
-<pre><code>🗓️  Date: 2023-02-22</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-22</small></code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 <ul>
@@ -210,7 +210,7 @@ Beside this,  I attempted to put my knowledge into practice by answering practic
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 7 - Understanding Data Scientist Fundamentals</summary>
-<pre><code>🗓️  Date: 2023-02-23</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-23</small></code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 
@@ -239,7 +239,7 @@ Taking a break from the regular SQL courses, I delved into the everyday life of 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 8 - Exploring PostgreSQL Window Functions</summary>
 
-<pre><code>🗓️  Date: 2023-02-24</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-24</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -359,7 +359,7 @@ COALESCE(null, null, 1, null, 2)        -- returns 1
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 9 - Exploring Functions for Data manipulation in SQL</summary>
 
-<pre><code>🗓️  Date: 2023-02-25</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-25</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -531,7 +531,7 @@ $$ LANGUAGE plpgsql;
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 10 - Exploratory Data Analysis in SQL</summary>
 
-<pre><code>🗓️  Date: 2023-02-27</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-27</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -618,7 +618,7 @@ FROM table;
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 11 - (Continued) Exploratory Data Analysis in SQL</summary>
 
-<pre><code>🗓️  Date: 2023-02-28</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-28</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -664,7 +664,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 12 - Data-Driven Decision Making using SQL</summary>
 
-<pre><code>🗓️  Date: 2023-03-01</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-01</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -695,7 +695,7 @@ With all the skills that I had accumilated so far, it was only about implementin
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 13 - Understanding Data Science & Analytics Career Paths</summary>
 
-<pre><code>🗓️  Date: 2023-03-02</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-02</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -722,7 +722,7 @@ Before diving into the world of mathematica, I needed to grasp the foundations t
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 14 - Exploring Data Visualization through Storytelling</summary>
 
-<pre><code>🗓️  Date: 2023-03-03</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-03</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -768,7 +768,7 @@ Most notably, the course taught the principles of learning to demonstrate your a
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 15 - Setup for IBM Watson and SpaceX Rest API</summary>
 
-<pre><code>🗓️  Date: 2023-03-05</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-05</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -795,7 +795,7 @@ I took a break from learning today to prepare for the journey ahead! I made my o
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 16 - Analyzing SpaceX Data and AI ethics</summary>
 
-<pre><code>🗓️  Date: 2023-03-06</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-06</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -883,7 +883,7 @@ Aside from that, I took an AI ethics course and was introduced to Human-Centered
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 17 - Interactive Dashboard, Predective Analysis & Reporting</summary>
 
-<pre><code>🗓️  Date: 2023-03-07</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-07</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -957,7 +957,7 @@ With plenty of time left in the day, I investigated the creation of an effective
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 18 - Using Powerpoint to Communicate Finding from Space X Launch Data </summary>
 
-<pre><code>🗓️  Date: 2023-03-08</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-08</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -984,7 +984,7 @@ After a thorough analysis of Space X's launches, it was time to predict the firs
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 19 - Understanding Data Governance </summary>
 
-<pre><code>🗓️  Date: 2023-03-09</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-09</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -1031,7 +1031,7 @@ In the data governance course, I gained insights into the significance of effici
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 20 - Lessons from Data Scientist and exploring side hussles </summary>
 
-<pre><code>🗓️  Date: 2023-03-10</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-10</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -1063,7 +1063,7 @@ In addition to my current pursuits, I have become interested in side hustle stra
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 21 - Introduction to Tableau </summary>
 
-<pre><code>🗓️  Date: 2023-03-19</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-19</small></code></pre>
 
 <h4> Resources : </h4>
 <p>Course</p>
@@ -1123,7 +1123,7 @@ Overall, it was an interesting and exciting day of learning to fully comprehend 
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 22 - Analyzing Data in Tableau </summary>
-<pre><code>🗓️  Date: 2023-03-20</code></pre>
+<pre><code><small>🗓️  Date: 2023-03-20</small></code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 <ul>
@@ -1144,7 +1144,6 @@ Groups, sets and parameters
 <hr/>
 </details>
 
-</div>
 
 
 <ul>

@@ -70,12 +70,10 @@
 
 ### The Journey
 
-<div style="line-height: 200%;">
-
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 1 - Revision of Statistics and Basic SQL </summary>
-<pre><code>🗓️ Date: 2023-02-15</code></pre>
+<pre><code><small>🗓️ Date: 2023-02-15</small></code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 <ul>
@@ -102,7 +100,7 @@
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 2 - Revision of Intermediate SQL Queries </summary>
-<pre><code>🗓️  Date: 2023-02-16</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-16</small></code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 <ul>
@@ -123,7 +121,7 @@
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 3 - Revision of Joins, Set theory & Subqueries in SQL </summary>
-<pre><code>🗓️  Date: 2023-02-17</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-17</small></code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 <ul>
@@ -144,15 +142,15 @@
 <h4> Notes : </h4>
 <details>
     <summary> &nbsp; Cross Join Query</summary>
-<pre><code>--- Creates all possible combinations
+<pre><code><small>--- Creates all possible combinations
 SELECT column_name(s)
 FROM table1
 CROSS JOIN table2;
-</code></pre>
+</small></code></pre>
 </details>
 <details>
   <summary> &nbsp; Operators</summary>
-<pre><code>--- UNION Operator : shows unique rows
+<pre><code><small>--- UNION Operator : shows unique rows
 SELECT column_name(s) FROM table1
 UNION
 SELECT column_name(s) FROM table2;
@@ -166,12 +164,12 @@ SELECT column_name(s) FROM table2;
 SELECT column_name(s) FROM table1
 EXCEPT
 SELECT column_name(s) FROM table2;
-</code></pre>
+</small></code></pre>
 
 </details>
 <details>
   <summary> &nbsp; Subquery</summary>
-<pre><code>--- Example 1: Sub query with in WHERE
+<pre><code><small>--- Example 1: Sub query with in WHERE
 
 SELECT name, country_code
 FROM cities
@@ -198,7 +196,7 @@ FROM languages
 GROUP BY code) AS sub
 WHERE countries.code = sub.code
 ORDER BY lang_num DESC;
-</code></pre>
+</small></code></pre>
 
 </details>
 <hr/>
@@ -207,7 +205,7 @@ ORDER BY lang_num DESC;
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 4 - Exploring Data Manipulation in SQL </summary>
-<pre><code>🗓️  Date: 2023-02-20</code></pre>
+<pre><code><small>🗓️  Date: 2023-02-20</small></code></pre>
 <h4> Resources : </h4>
 <p>Course</p>
 <ul>
@@ -228,7 +226,7 @@ ORDER BY lang_num DESC;
 <h4> Notes : </h4>
 <details>
   <summary> &nbsp; CASE Statement</summary>
-<pre><code><small>--- Example 1 : Basic
+<pre><code><small><small>--- Example 1 : Basic
 
 SELECT title,
     length,
@@ -275,7 +273,7 @@ FROM country AS c
 LEFT JOIN matches AS m
 ON c.id = m.country_id
     GROUP BY country;
-</small></code></pre>
+</small></small></code></pre>
 
 </details>
 <hr/>
