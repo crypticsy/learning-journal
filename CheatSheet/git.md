@@ -1,18 +1,40 @@
-------------------------------------	Git setup commands  ------------------------------------
+<h4> Git setup commands   </h4>
 
-git config --global user.name <username>            -->   Add username
-git config --global user.email <user_email_id>      -->   Add emailid
+<table style="width:100%;text-align: justify;">
+    <tr>
+        <th>Command</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>git config --global user.name [username] </td>
+        <td>Add username</td>
+    <tr>
+    <tr>
+        <td>git config --global user.email [user_email_id] </td>
+        <td>Add email</td>
+    <tr>
+    <tr>
+        <td>git init </td>
+        <td>Add tracker to the folder</td>
+    <tr>
+    <tr>
+        <td>rm -rf .git </td>
+        <td>Remove tracker from the folder</td>
+    <tr>
+    <tr>
+        <td>git clone [URL] [path] </td>
+        <td>Cloning a remote repository</td>
+    <tr>
+    <tr>
+        <td>git remote -v</td>
+        <td>Shows info of the original repository</td>
+    <tr>
+</table>
 
-git init                                            -->   Add tracker to the folder
-rm -rf .git                                         -->   Remove tracker from the folder
 
-git clone <URL> <where to clone>                    -->   Cloning a remote repository
-git remote -v                                       -->   Shows info of the original repository
+<hr/>
 
-
-
-
-------------------------------------	Difference commands  ------------------------------------
+<h4>Difference commands </h4>
 
 git diff            -->     Shows changes made in the files
 git status          -->     Shows untracked and tracked files
