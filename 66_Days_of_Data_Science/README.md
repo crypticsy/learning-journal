@@ -144,8 +144,7 @@
 <h4> Notes : </h4>
 <details>
     <summary> &nbsp; Cross Join Query</summary>
-<pre><code>
---- Creates all possible combinations
+<pre><code>--- Creates all possible combinations
 SELECT column_name(s)
 FROM table1
 CROSS JOIN table2;
@@ -153,8 +152,7 @@ CROSS JOIN table2;
 </details>
 <details>
   <summary> &nbsp; Operators</summary>
-<pre><code>
---- UNION Operator : shows unique rows
+<pre><code>--- UNION Operator : shows unique rows
 SELECT column_name(s) FROM table1
 UNION
 SELECT column_name(s) FROM table2;
@@ -173,8 +171,7 @@ SELECT column_name(s) FROM table2;
 </details>
 <details>
   <summary> &nbsp; Subquery</summary>
-<pre><code>
---- Example 1: Sub query with in WHERE
+<pre><code>--- Example 1: Sub query with in WHERE
 
 SELECT name, country_code
 FROM cities
@@ -231,8 +228,7 @@ ORDER BY lang_num DESC;
 <h4> Notes : </h4>
 <details>
   <summary> &nbsp; CASE Statement</summary>
-<pre><code>
---- Example 1 : Basic
+<pre><code><small>--- Example 1 : Basic
 
 SELECT title,
     length,
@@ -279,7 +275,7 @@ FROM country AS c
 LEFT JOIN matches AS m
 ON c.id = m.country_id
     GROUP BY country;
-</code></pre>
+</small></code></pre>
 
 </details>
 <hr/>

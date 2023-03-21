@@ -1117,46 +1117,37 @@ Overall, it was an interesting and exciting day of learning to fully comprehend 
   - Example: Height, Weight, etc.
 
 </details>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
+<hr/>
 </details>
 
 <details> 
 	<br/>
     <summary> &nbsp; 📖 &nbsp; Day 22 - Analyzing Data in Tableau </summary>
-
 <pre><code>🗓️  Date: 2023-03-20</code></pre>
-
 <h4> Resources : </h4>
 <p>Course</p>
-
-- <a href="https://app.datacamp.com/learn/courses/analyzing-data-in-tableau" target="_blank">Analyzing Data in Tableau (Datacamp)</a>
-
+<ul>
+    <li>
+        <a href="https://app.datacamp.com/learn/courses/analyzing-data-in-tableau" target="_blank">Analyzing Data in Tableau (Datacamp)</a>
+    </li>
+</ul>
 <center>
     <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
 </center>
-
 <h4> Summary : </h4>
-
 <p align="justify">
-
 Preparing for Analysis
-
 Exploring visualizations
-
 Mapping analysis
-
 Groups, sets and parameters
-
 </p>
-
-<center>
-    <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
-</center>
-
+<hr/>
 </details>
 
 </div>
+
+
+<ul>
+    <li>
+    </li>
+</ul>
