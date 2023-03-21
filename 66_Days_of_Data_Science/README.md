@@ -1376,3 +1376,35 @@ Overall, it was an interesting and exciting day of learning to fully comprehend 
 ----
 
 </details>
+
+
+
+<details> 
+	<br/>
+    <summary> &nbsp; 📖 &nbsp; Day 22 - Analyzing Data in Tableau </summary>
+
+    🗓️ Date: 2023-03-20
+
+##### Resources : 
+
+Course
+- <a href="https://app.datacamp.com/learn/courses/analyzing-data-in-tableau">Analyzing Data in Tableau (Datacamp)</a>
+
+----
+
+##### Summary:
+
+<p align="justify">
+
+Preparing for Analysis
+
+Exploring visualizations
+
+Mapping analysis
+
+Groups, sets and parameters
+</p>
+
+----
+
+</details>
