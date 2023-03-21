@@ -69,7 +69,7 @@
 
 ### The Journey
 
- <details style="margin-bottom:7px;">
+<details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 1 - Revision of Statistics and Basic SQL </summary>
     <pre><code><small>🗓️ Date: 2023-02-15</small></code></pre>
@@ -1310,7 +1310,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
 <details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 22 - Analyzing Data in Tableau </summary>
-    <pre><code><small>🗓️  Date: 2023-03-20</small></code></pre>
+    <pre><code><small>🗓️  Date: 2023-03-21</small></code></pre>
     <h4> Resources : </h4>
     <p>Course</p>
     <ul>
@@ -1322,6 +1322,9 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
         <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
     </center>
     <h4> Summary : </h4>
-    <p align="justify"> Preparing for Analysis Exploring visualizations Mapping analysis Groups, sets and parameters </p>
+    <p align="justify">Today's focus was on preparing for analysis using Tableau. I began by familiarizing myself with various slicing and dicing functions and visualizations that are readily available in the software. It was exciting to get the opportunity to make complex visualizations and help analyze a hypothetical scenario. The scenario contained a "Two by two discount" promotional campaign, which seeks to increase customer purchases on the two overall lowest riding days, as well as the two lowest windows of time, excluding nighttime. Some of my favorite visualizations included a heat map to show sales volume by product and a scatter plot to show the correlation between time of day and sales. It was a challenging yet rewarding experience that allowed me to build on my existing Tableau skills and gain new insights into data analysis.</p>
+    <img src="./images/trend_by_day_and_gender.png" alt="trend by day and gender">
+    <img src="./images/weekday_trends_by_gender_and_time_segment.png" alt="weekday_trends_by_gender_and_time_segment">
+    <p align="justify">Furthermore, I explored more of Tableau's capabilities with user data. I added filters and created KPI for dashboards, which helped to better understand user behavior and trends. Additionally, I created a histogram using bins and compared it with a traditional line chart to understand the distribution of a specific variable. I found that the histogram provided a more granular view of the data and revealed insights that were not visible through the line chart. </p>
     <hr style="border: 0; height: 4px;" /><br/>
 </details>
