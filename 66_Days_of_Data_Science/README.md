@@ -89,7 +89,7 @@
     <h4> Summary : </h4>
     <p align="justify"> While taking the course <a href="https://app.datacamp.com/learn/courses/introduction-to-statistics" target="_blank">Introduction to Statistics</a> as part of the track <a href="https://app.datacamp.com/learn/career-tracks/data-analyst-in-sql" target="_blank">Data Analyst in SQL,</a> I had the chance to review probability, distributions, the central limit theorem, correlation, and hypothesis testing. While revising the dependence and conditional probabilities, I was also able to recall the normal and poisson distributions (k = * n). </p>
     <p align="justify"> I also took <a href="https://app.datacamp.com/learn/courses/introduction-to-sql" target="_blank">Introduction to SQL</a> as part of the same curriculum, which helped me revise the basic sql queries to read and view data from tables. Because of this revision, I learned about "VIEW," a concept I was never aware of before. To summarize, views are virtual tables whose contents are determined by queries. It only allows you to restrict access to the database and does not significantly increase the performance of SQL queries. Nonetheless, it was a useful trick to have in my SQL toolbox for increasing readability. </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -107,7 +107,7 @@
     </center>
     <h4> Summary : </h4>
     <p align="justify"> Continuing on from Day 1, I chose the <a href="https://app.datacamp.com/learn/courses/intermediate-sql" target="_blank">Intermediate SQL</a> course from the same track, which included queries for selecting, filtering, aggregating, sorting, and grouping. Unlike the previous time, I did not get to learn a new concept, but it was a good recollection of all these principles, particularly concerning conventions for writing SQL to promote readability, as I had become a little sloopy regarding this. </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -152,6 +152,7 @@ SELECT column_name(s) FROM table2;
 SELECT column_name(s) FROM table1
 EXCEPT
 SELECT column_name(s) FROM table2;</small></code></pre>
+
 </details>
 <details>
 <summary> &nbsp; Subquery</summary>
@@ -179,8 +180,9 @@ FROM languages
 GROUP BY code) AS sub
 WHERE countries.code = sub.code
 ORDER BY lang_num DESC;</small></code></pre>
+
 </details>
-<hr style="border: 0; height: 4px;" /><br/>
+<br/><hr style="border: 0; height: 4px;" /><br/>
 
 </details>
 <details style="margin-bottom:7px;">
@@ -249,8 +251,9 @@ LEFT JOIN matches AS m
 ON c.id = m.country_id
 GROUP BY country;
 </small></code></pre>
+
 </details>
-<hr style="border: 0; height: 4px;" /><br/>
+<br/><hr style="border: 0; height: 4px;" /><br/>
 
 </details>
 <details style="margin-bottom:7px;">
@@ -361,8 +364,9 @@ FROM match
 WHERE
 hometeam_id = 9908
 AND season = '2011/2012';</small></code></pre>
+
 </details>
-<hr style="border: 0; height: 4px;" /><br/>
+<br/><hr style="border: 0; height: 4px;" /><br/>
 
 </details>
 <details style="margin-bottom:7px;">
@@ -494,7 +498,7 @@ AND season = '2011/2012';</small></code></pre>
             </tbody>
         </table>
     </details>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -518,7 +522,7 @@ AND season = '2011/2012';</small></code></pre>
     </center>
     <h4> Summary : </h4>
     <p align="justify"> Taking a break from the regular SQL courses, I delved into the everyday life of a data scientist, complete with current data science issues and how data scientists manage themselves and the organizations for which they operate. I was also able to take the following course on the non-technical abilities of a successful data scientist, which addressed not just the attributes that a person should have but also the role diplomacy plays while working in a professional setting. In addition, to polish my pandas abilities, I completed a Kaggle Learn course that served as a refresher on the techniques I use on a daily basis. </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -594,6 +598,7 @@ AND season = '2011/2012';</small></code></pre>
 FROM
 inventory
 GROUP BY ROLLUP (country, warehouse);</small></code></pre> `ROLLUP` is hierarchical, de-aggregrating from the leftmost provided column to the right-most.
+
 <pre><code><small>ROLLUP (country, warehouse) -- includes country level totals
 ROLLUP (warehouse, country) -- includes warehouse level totals</small></code></pre> However, when we need all possible group-level aggregrations, we use `CUBE` which shares similar properties to `ROLLUP`.
 <pre><code><small>CUBE (country, warehouse) -- country country level and warehouse level, and grand total</small></code></pre>
@@ -602,7 +607,7 @@ ROLLUP (warehouse, country) -- includes warehouse level totals</small></code></p
 <summary> &nbsp; Useful Functions</summary> - COALESCE `COALESCE()` takes a list of values and returns the first non-null value, going from left to right
 <pre><code><small>COALESCE(null, null, 1, null, 2) -- returns 1</small></code></pre> - STRING_AGG `STRING_AGG(column, separator)` takes all the values of a column and concatenates them, with `separator` in between each value.
 </details>
-<hr style="border: 0; height: 4px;" /><br/>
+<br/><hr style="border: 0; height: 4px;" /><br/>
 
 </details>
 <details style="margin-bottom:7px;">
@@ -638,6 +643,7 @@ column_name,
 data_type
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE table_name = 'actor';</small></code></pre>
+
 </details>
 <details>
 <summary> &nbsp; INTERVAL </summary> `INTERVAL` data type allows to store and manipulate a period of time in years, months, days, hours, minutes, seconds, etc.
@@ -652,6 +658,7 @@ FROM rental;
 -- Example 2: Conversion of column to interval
 SELECT INTERVAL '1' day \* rental_duration
 FROM rental</small></code></pre>
+
 </details>
 <details>
 <summary> &nbsp; DATETIME Operators </summary>
@@ -772,6 +779,7 @@ SELECT extname FROM pg_extension;
 
 SELECT levenshtein('hello', 'jelly'); -- number of edits required to be a perfect match
 SELECT similarity('hello', 'jelly'); -- similarity between two strings from 0 to 1</small></code></pre>
+
 </details>
 <details>
 <summary> &nbsp; User Defined Data Types </summary> Enumerated Data Types - Allows to create list of values that will not change
@@ -782,6 +790,7 @@ ENUM('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday
 SELECT typname, typcategory
 FROM pg_type
 WHERE typname='dayofweek';</small></code></pre>
+
 </details>
 <details>
 <summary> &nbsp; User Defined Functions </summary>
@@ -792,7 +801,7 @@ WHERE typname='dayofweek';</small></code></pre>
     $$ LANGUAGE plpgsql;
 </small></code></pre>
 </details>
-<hr style="border: 0; height: 4px;" /><br/>
+<br/><hr style="border: 0; height: 4px;" /><br/>
 
 </details>
 
@@ -826,6 +835,7 @@ SELECT value::new_type;
 
 -- Example 1 : Casting float to integer
 SELECT CAST (3.7 AS integer);</small></code></pre>
+
 </details>
 <details>
 <summary> &nbsp; Series</summary>
@@ -834,6 +844,7 @@ SELECT generate_series(1, 10, 2);
 
 -- Example 2 : Float series
 SELECT generate_series(0, 1, 0.1);</small></code></pre>
+
 </details>
 <details>
 <summary> &nbsp; Summary functions</summary>
@@ -865,8 +876,9 @@ DROP TABLE IF EXISTS table_name
 CREATE TEMP TABLE table_name AS
 SELECT column1, column2
 FROM table;</small></code></pre>
+
 </details>
-<hr style="border: 0; height: 4px;" /><br/>
+<br/><hr style="border: 0; height: 4px;" /><br/>
 
 </details>
 <details style="margin-bottom:7px;">
@@ -896,8 +908,9 @@ SELECT generate_series(from, to, interval);
 
 -- Example 1
 SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></code></pre>
+
 </details>
-<hr style="border: 0; height: 4px;" /><br/>
+<br/><hr style="border: 0; height: 4px;" /><br/>
 
 </details>
 <details style="margin-bottom:7px;">
@@ -920,7 +933,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify"> With all the skills that I had accumilated so far, it was only about implementing them. While a proper implementation is yet to come, I could still practice within a real evironment through the course "Data-Driven Decision Making in SQL" and the project "When Was the Golden Age of Video Games?". These allowed me to use all of the concepts from data cleaning, manipulation to aggregration and concentrated on using groupings, joins and pivots to create complex tables. Today marks the end of the career track, and I'm over the moon with all the knowledge I've gained in these 12 days. Yay for learning! </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -938,7 +951,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify"> Before diving into the world of mathematica, I needed to grasp the foundations that I would need to build as a Data Analyst. Attending the LinkedIn Learning career course "Data Science & Analytics Career Pathways & Certifications" was quite beneficial in this regard. It began by discussing the applications of data science, such as fraud detection, social media analytics, disease control, dating services, simulations, climate research, and network security. It also discussed the abilities required to be relevant in the sector. Data mining, machine learning, natural language processing, statistics, and visualization were among the crucial skills mentioned. It also discussed certificates that can help advance one's career and establish one as a specialist in a particular subject. Overall, the course was beneficial in aiding comprehension of the principles of being relevant in the ever-changing world of data science. </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -984,7 +997,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
         </li>
     </ul>
     </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1002,7 +1015,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify"> I took a break from learning today to prepare for the journey ahead! I made my own IBM account and configured Watson Studio to publish notebooks directly to my GitHub repository. I also explored in the world of SpaceX's rest API in order to extract useful data for future projects. We can get so enthused in learning new things that we forget to take a deep breath and get organized. However, not today. </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1093,7 +1106,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
             </li>
         </ul>
     </details>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1167,7 +1180,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
             </li>
         </ul>
     </details>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1185,7 +1198,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify"> After a thorough analysis of Space X's launches, it was time to predict the first stage's successful landing to give competition to the likes of Space X with the assistance of Company Y. Armed with a lengthy 50-page presentation, a combination of online resources and a dash of personal passion was instrumental in completing the task, and in the process, honed valuable presentation creation skills. In addition, the power of context cannot be overstated, as it aided in comprehending the insights more easily, with an executive summary for those uninterested in the subject matter. All in all, it was a remarkable learning experience that showcased the importance of a compelling narrative and a comprehensive overview for maximum impact. </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1225,7 +1238,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
             </li>
         </ul>
     </details>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1247,7 +1260,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <h4> Summary : </h4>
     <p align="justify"> Six individuals, each with their unique experiences in data, shared their stories through the course. These narratives covered their journeys starting out in data analytics, the inspiration behind their work, the impact of their contributions on the organization, their current endeavors, and practical advice based on their experiences. One of the prominent discussions was about the ethical considerations that data scientists face while conducting an analysis, where certain data points may conflict with their personal values. However, what had a significant impact on my outlook towards the data science field was gaining insights about the industry and the people involved in it during the course. </p>
     <p align="justify"> In addition to my current pursuits, I have become interested in side hustle strategies for data science. The monotony of only having one job motivated me to seek out new opportunities to expand my abilities and skills. I discovered a range of options such as writing, training, consulting, attending conferences, and engaging with academics. These activities may include co-authoring a book, writing a chapter in a second edition, providing training in R or Python during free time, through in-site or online classes. These endeavors not only benefit the individual but can also contribute to growing the data science industry. As one gains expertise, opportunities such as giving speeches at conferences and consulting with organizations can lead to expanding networks and discovering new possibilities. It's important to note that if one is currently involved in academics as a student or teacher, there are resources beyond the classroom that can be taken advantage of, such as university libraries and websites like GitHub Education. By making the most of what is available and staying informed about the latest tools and patterns in data analytics, one can continue to expand their knowledge and skills in this new and exciting field. </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 <details style="margin-bottom:7px;">
     <br />
@@ -1304,7 +1317,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
             </li>
         </ul>
     </details>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 
 <details style="margin-bottom:7px;">
@@ -1323,8 +1336,36 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </center>
     <h4> Summary : </h4>
     <p align="justify">Today's focus was on preparing for analysis using Tableau. I began by familiarizing myself with various slicing and dicing functions and visualizations that are readily available in the software. It was exciting to get the opportunity to make complex visualizations and help analyze a hypothetical scenario. The scenario contained a "Two by two discount" promotional campaign, which seeks to increase customer purchases on the two overall lowest riding days, as well as the two lowest windows of time, excluding nighttime. Some of my favorite visualizations included a heat map to show sales volume by product and a scatter plot to show the correlation between time of day and sales. It was a challenging yet rewarding experience that allowed me to build on my existing Tableau skills and gain new insights into data analysis.</p>
-    <img src="./images/trend_by_day_and_gender.png" alt="trend by day and gender">
-    <img src="./images/weekday_trends_by_gender_and_time_segment.png" alt="weekday_trends_by_gender_and_time_segment">
+    <br/><img src="./images/trend_by_day_and_gender.png" alt="trend by day and gender">
+    <br/><img src="./images/weekday_trends_by_gender_and_time_segment.png" alt="weekday_trends_by_gender_and_time_segment">
     <p align="justify">Furthermore, I explored more of Tableau's capabilities with user data. I added filters and created KPI for dashboards, which helped to better understand user behavior and trends. Additionally, I created a histogram using bins and compared it with a traditional line chart to understand the distribution of a specific variable. I found that the histogram provided a more granular view of the data and revealed insights that were not visible through the line chart. </p>
-    <hr style="border: 0; height: 4px;" /><br/>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 23 - (Continued) Analyzing Data in Tableau </summary>
+    <pre><code><small>🗓️  Date: 2023-03-27</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/analyzing-data-in-tableau" target="_blank">Analyzing Data in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+     Today, I learnt how to use Tableau to map customer activity by analyzing popular bike locations and looking at each station's user base. This involves using various techniques such as color, size, layers, tooltips, pages, and quick table calculations to create maps that reveal trends and insights in the data. I have also learned the importance of adding other charts inside tooltips to view data more closely and provide additional context. 
+    </p>
+    <br/><img src="./images/charts_in_tooltip.png" alt="charts_in_tooltip">
+    <br/><img src="./gifs/concentration_of_activity.gif" alt="concentration_of_activity">
+    <p align="justify">
+    Similarly, tableau provides various features that can be used to group, filter, and parameterize data in order to gain insights and create more meaningful visualizations that I was able to utilize. To explain further, groups can be used to combine similar data points into a single category. Sets are similar to groups, but instead of combining data points into a category, they allow you to create subsets of data based on specific criteria. Parameters allow you to create user-defined inputs that can be used to adjust various aspects of a visualization.
+    </p>
+    <br/><img src="./images/region_grouping.png" alt="region_grouping">
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+
 </details>
