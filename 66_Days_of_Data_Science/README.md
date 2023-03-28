@@ -1367,5 +1367,27 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </p>
     <br/><img src="./images/region_grouping.png" alt="region_grouping">
     <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
 
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 24 - Creating Dashboards in Tableau </summary>
+    <pre><code><small>🗓️  Date: 2023-03-28</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/creating-dashboards-in-tableau" target="_blank">Creating Dashboards in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+    Today, I learned how to create interactive dashboards in Tableau that can be used to share data insights with others. By combining different worksheets and allowing self-serve data exploration, I was able to create dashboards that provide users with the ability to analyze data in a more interactive and meaningful way. Through the course, I learned best practices for creating dashboards, including alignment and adding worksheets inside tooltips to allow for better analysis. Using the Divy dataset provided in DataCamp, I was able to create various dashboards with appropriate worksheets, parameters, objects, and actions to increase the readability and interactivity of the dashboard. Overall, I found the process of creating interactive dashboards in Tableau to be both challenging and rewarding, and I look forward to applying these skills in future data science projects.
+    </p>
+    <br/><img src="./images/dashboard_fundamental.png" alt="dashboard_fundamental">
+    <br/><img src="./images/time_analysis_dashboard.png" alt="time_analysis_dashboard">
+    <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
