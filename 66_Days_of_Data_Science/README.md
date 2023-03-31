@@ -1391,3 +1391,40 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><img src="./images/time_analysis_dashboard.png" alt="time_analysis_dashboard">
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
+
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 26 - (Continued) Creating Dashboards in Tableau </summary>
+    <pre><code><small>🗓️  Date: 2023-03-30</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/creating-dashboards-in-tableau" target="_blank">Creating Dashboards in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+    Today, I learned about sharing insights from data using different techniques, with a focus on the importance of effective presentation. Specifically, I gained knowledge on the ways to utilize the power of Tableau to create visually appealing and informative presentations through the use of stories, annotations, and highlights. This will enable me to effectively convey key points to my audience and keep their attention focused on the most important parts of the visualization. Additionally, I discovered tips for optimizing dashboards to ensure they are responsive and user-friendly on mobile devices.  
+    </p>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Notes : </h4>
+    <details>
+        <summary> &nbsp; Essential elements of an analytical presentation</summary>
+        <br />
+        <ul>
+            <li>Big picture question or hypothesis</li>
+            <li>Data description</li>
+            <li>Insights</li>
+            <li>Observations and implications</li>
+            <li>Recommendations and next steps</li>
+        </ul>
+    </details>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
