@@ -1428,3 +1428,28 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </details>
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
+
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 27 - Case Study: Analyzing Customer Churn in Tableau </summary>
+    <pre><code><small>🗓️  Date: 2023-04-01</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/case-study-analyzing-customer-churn-in-tableau" target="_blank">Case Study: Analyzing Customer Churn in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+    Today's learning focused on understanding the data analysis flow in Tableau, which involves data check, data exploration, analyzing and visualizing data, dashboarding, and communicating insights. To effectively learn these concepts, I decided to download Tableau Public and perform the analysis. This decision proved to be helpful, as it eliminated any lag present while using the virtual machine provided by Datacamp, allowing me to work faster and more efficiently. However, using the public version meant that I was restricted and couldn't save my progress. During the analysis process, I utilized a range of visualizations, such as dual-axis graphs, scatter plots, and maps, to better understand the data. Additionally, I made use of calculated fields, bins, and bin sizes, which helped me analyze the data more effectively. To take advantage of Tableau's interactivity feature, I leveraged the power of filters, visualizations as filters, and parameters. By understanding the data analysis flow in Tableau and utilizing its features, I was able to effectively find customer churn for a hypothetical company.
+    </p>
+    <br/><img src="./images/churned_customers_by_state.png" alt="churned_customers_by_state">
+    <br/><img src="./images/churn_analysis_monthly_charge.png" alt="churn_analysis_monthly_charge">
+    <br/><img src="./images/churn_analysis_contract_payment.png" alt="churn_analysis_contract_payment">
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
