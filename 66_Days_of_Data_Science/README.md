@@ -1453,3 +1453,26 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><img src="./images/churn_analysis_contract_payment.png" alt="churn_analysis_contract_payment">
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
+
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 28 - Connecting Data in Tableau</summary>
+    <pre><code><small>🗓️  Date: 2023-04-02</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/connecting-data-in-tableau" target="_blank">Connecting Data in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+    Today's course focused on the crucial task of combining multiple datasets into one. As data rarely comes in one single file, this process is essential in the real world. Fortunately, Tableau has built-in features to combine multiple datasets using unions, joins, and relationships, which made the course comparatively straightforward. Along with learning about combining datasets, I was also introduced to the different types of Tableau file formats, including packaged workbooks, workbooks, data sources, and extracts. These formats enable users to share their worksheets with their peers easily. Although the course was relatively short compared to others I had taken, it was crucial as it laid the foundation for the data import process, which is arguably the most important part of data analysis as analysis can't start without data.
+    </p>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
+
