@@ -600,8 +600,10 @@ inventory
 GROUP BY ROLLUP (country, warehouse);</small></code></pre> `ROLLUP` is hierarchical, de-aggregrating from the leftmost provided column to the right-most.
 
 <pre><code><small>ROLLUP (country, warehouse) -- includes country level totals
-ROLLUP (warehouse, country) -- includes warehouse level totals</small></code></pre> However, when we need all possible group-level aggregrations, we use `CUBE` which shares similar properties to `ROLLUP`.
-<pre><code><small>CUBE (country, warehouse) -- country country level and warehouse level, and grand total</small></code></pre>
+ROLLUP (warehouse, country) -- includes warehouse level totals
+</small></code></pre> 
+However, when we need all possible group-level aggregrations, we use `CUBE` which shares similar properties to `ROLLUP`.
+<pre><code><small>CUBE (country, warehouse) -- country level and warehouse level, and grand total</small></code></pre>
 </details>
 <details>
 <summary> &nbsp; Useful Functions</summary> - COALESCE `COALESCE()` takes a list of values and returns the first non-null value, going from left to right
