@@ -578,7 +578,7 @@ AND season = '2011/2012';</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; CROSSTAB</summary>
-        <pre><code><small>Before using crosstab, use the to create an extension
+<pre><code><small>Before using crosstab, use the to create an extension
     CREATE EXTENSION IF NOT EXISTS tablefunc;
 
     SELECT * FROM CROSSTAB($$
@@ -588,7 +588,8 @@ AND season = '2011/2012';</small></code></pre>
         column_2 DATA_TYPE_2,
         ...,
         column_n DATA_TYPE_N
-    );</small></code></pre>
+    );
+</small></code></pre>
     </details>
     <details>
         <summary> &nbsp; ROLLUP and CUBE</summary> The `ROLLUP` option allows to include extra rows that represent the subtotals, which are commonly referred to as super-aggregate rows, along with the grand total row.
