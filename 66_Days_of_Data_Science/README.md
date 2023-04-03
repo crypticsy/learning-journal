@@ -589,12 +589,13 @@ AND season = '2011/2012';</small></code></pre>
         ...,
         column_n DATA_TYPE_N
     );
+
 </small></code></pre>
-    </details>
-    <details>
-        <summary> &nbsp; ROLLUP and CUBE</summary> The `ROLLUP` option allows to include extra rows that represent the subtotals, which are commonly referred to as super-aggregate rows, along with the grand total row.
-        <pre><code><small>SELECT
-    country, warehouse, SUM(quantity)
+</details>
+<details>
+<summary> &nbsp; ROLLUP and CUBE</summary> The `ROLLUP` option allows to include extra rows that represent the subtotals, which are commonly referred to as super-aggregate rows, along with the grand total row.
+<pre><code><small>SELECT
+country, warehouse, SUM(quantity)
 
 FROM
 inventory
@@ -602,8 +603,10 @@ GROUP BY ROLLUP (country, warehouse);</small></code></pre> `ROLLUP` is hierarchi
 
 <pre><code><small>ROLLUP (country, warehouse) -- includes country level totals
 ROLLUP (warehouse, country) -- includes warehouse level totals
-</small></code></pre> 
+</small></code></pre>
+
 However, when we need all possible group-level aggregrations, we use `CUBE` which shares similar properties to `ROLLUP`.
+
 <pre><code><small>CUBE (country, warehouse) -- country level and warehouse level, and grand total</small></code></pre>
 </details>
 <details>
@@ -1395,7 +1398,6 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 
-
 <details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 26 - (Continued) Creating Dashboards in Tableau </summary>
@@ -1432,7 +1434,6 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 
-
 <details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 27 - Case Study: Analyzing Customer Churn in Tableau </summary>
@@ -1457,7 +1458,6 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 
-
 <details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 28 - Connecting Data in Tableau</summary>
@@ -1479,3 +1479,25 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 29 - Data Visualization in Tableau</summary>
+    <pre><code><small>🗓️  Date: 2023-04-03</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/data-visualization-in-tableau" target="_blank">Data Visualization in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+    Today's course was focused on the importance and need of data visualization in businesses, as well as the process of creating effective data visualization using Tableau. In addition to this, the course emphasized the use of various visualization tools such as boxplots, waterfall/bridge charts, heat maps, and scatter plots to depict complex data analysis, using IMdb movie reviews as a case study. Despite being mentally exhausted, I was able to learn a great deal from today's class.
+    </p>
+    <br/><img src="./images/chart_viz_treemap.png" alt="chart_viz_treemap">
+    <br/><img src="./images/chart_viz_scatterplot_quadrant.png" alt="chart_viz_scatterplot_quadrant">
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
