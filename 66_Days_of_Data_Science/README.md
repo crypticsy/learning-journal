@@ -1501,3 +1501,25 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><img src="./images/chart_viz_scatterplot_quadrant.png" alt="chart_viz_scatterplot_quadrant">
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 30 - (Continued) Data Visualization in Tableau</summary>
+    <pre><code><small>🗓️  Date: 2023-04-06</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/data-visualization-in-tableau" target="_blank">Data Visualization in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+   Despite feeling exhausted from work and physically sick, I remained committed to learning and decided to focus on one manageable module. Today's course centered on the best practices for creating effective data visualizations, highlighting common mistakes such as using the wrong type of visualization, misleading design elements, and mishandling missing data. The course also emphasized the importance of designing dashboards thoughtfully, considering factors such as design, formatting, and interactivity, rather than overloading a single page with charts. What really hit home for me, though, was the importance of designing dashboards thoughtfully. Instead of cramming all the charts onto one page, it's crucial to consider the design, formatting, and interactivity of the dashboard. This way, you can make sure that your dashboard is clear, concise, and easy to use.
+    </p>
+    <br/><img src="./images/popular_genre_wordcloud.png" alt="popular_genre_wordcloud">
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
