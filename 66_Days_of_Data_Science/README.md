@@ -591,6 +591,7 @@ AND season = '2011/2012';</small></code></pre>
     );
 
 </small></code></pre>
+
 </details>
 <details>
 <summary> &nbsp; ROLLUP and CUBE</summary> The `ROLLUP` option allows to include extra rows that represent the subtotals, which are commonly referred to as super-aggregate rows, along with the grand total row.
@@ -1524,7 +1525,6 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 
-
 <details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 31 - Data Fluency: Exploring and Describing Data</summary>
@@ -1542,6 +1542,27 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <h4> Summary : </h4>
     <p align="justify">
    Taking a break from Tableau, I jumped back into the LinkedIn course for becoming a data scientist. As expected, the course started with a focus on preparing data using in-house data, open data, and third-party data sources, all while adhering to data ethics and staying within the scope of the analysis. Next, the course covered sorting and filtering data to perform exploratory data analysis, and emphasized the usage of ratios to gain a better understanding of the overall picture. But what really caught my attention was when the course revisited various charts that can be used to visualize data. The instructor highlighted the limitations of pie charts, and warned against using them as they can often mislead the data. Instead, the course introduced me to some new concepts such as dot plots, sparklines, and data maps, and explained their unique use cases. I found it fascinating to learn about these new techniques and how they can help convey complex data in a more meaningful way. 
+    </p>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 32 - (Continued) Data Fluency: Exploring and Describing Data</summary>
+    <pre><code><small>🗓️  Date: 2023-04-08</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://www.linkedin.com/learning/data-fluency-exploring-and-describing-data-15815339/make-better-decisions-with-your-data?autoplay=true&resume=false&u=57118729" target="_blank">Data Fluency: Exploring and Describing Data (LinkedinLearning)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+    Today, I continued with the remaining modules from the last course and came across a section that was all about describing data. This involved looking at various methods to access the center, variability, rescale, and associations within a dataset. When it comes to finding the center of the data, data analysts usually refer to the mode (most common score), mean (average), and median (middle score/50%). On the other hand, variability or how spread out the data is can be found using techniques such as range (difference from maximum to minimum), quartiles (split into 4 equal parts), IQR (Q3 - Q1), variance, and standard deviation (average distance from the mean). In order to rescale data for better interpretation, comparison, and probability analysis, the course introduced the use of z-score. The course concluded with a summary of basic and conditional probability, along with sampling variations. 
     </p>
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
