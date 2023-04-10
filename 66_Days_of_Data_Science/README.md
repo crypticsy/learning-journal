@@ -1566,3 +1566,28 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </p>
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
+
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 33 - (Continued) Data Visualization in Tableau</summary>
+    <pre><code><small>🗓️  Date: 2023-04-10</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/data-visualization-in-tableau" target="_blank">Data Visualization in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+   Today, as I returned to Tableau, I delved into the world of digital cartography by learning how to create maps using geo-coordinates. Although it was a short module, it covered some essential topics from converting a measure to geo-coordinate to creating your own maps using x and y coordinates. However, the most exciting part of the module was the visualization of paths for a hypothetical museum where the size of the line represented the number of visitors who visited based on the hour. This technique provides a fascinating and intuitive way to represent data, and I look forward to using it in my future visualizations. 
+    </p>
+    <br/><img src="./images/beautified_map.png" alt="beautified_map">
+    <br/><img src="./images/animating_hourly_traffic.png" alt="animating_hourly_traffic">
+    <br/><img src="./images/animated_museum_paths.gif" alt="animated_museum_paths">
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
