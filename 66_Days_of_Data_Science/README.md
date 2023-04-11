@@ -1567,7 +1567,6 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
 
-
 <details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 33 - (Continued) Data Visualization in Tableau</summary>
@@ -1589,5 +1588,29 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><img src="./images/beautified_map.png" alt="beautified_map">
     <br/><img src="./images/animating_hourly_traffic.png" alt="animating_hourly_traffic">
     <br/><img src="./images/animated_museum_paths.gif" alt="animated_museum_paths">
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 34 - (Continued) Data Visualization in Tableau</summary>
+    <pre><code><small>🗓️  Date: 2023-04-11</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/data-visualization-in-tableau" target="_blank">Data Visualization in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+   In today's course, I encountered advanced visualization techniques such as the waffle chart, DNA chart, sparklines, and the famous Sankey chart. It was fascinating to see how these visualizations could be used to communicate complex information in an intuitive way. The waffle chart, for example, allowed me to represent the percentage of a whole using a grid of squares, while the DNA chart provided a unique way to represent hierarchical data. Additionally, the sparkline chart enabled me to visualize trends over time using a small line chart within a single cell. Although the Sankey chart wasn't a part of the module, the remaining charts challenged me to find creative ways to create them within the limitations of Tableau.
+    </p>
+    <br/><img src="./images/waffle_chart.png" alt="waffle_chart">
+    <br/><img src="./images/dna_chart.png" alt="dna_chart">
+    <br/><img src="./images/sparklines.png" alt="sparklines">
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
