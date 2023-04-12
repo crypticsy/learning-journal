@@ -1614,3 +1614,25 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><img src="./images/sparklines.png" alt="sparklines">
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 35 - Calculations in Tableau</summary>
+    <pre><code><small>🗓️  Date: 2023-04-12</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/calculations-in-tableau" target="_blank">Calculations in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+   Today's course in Tableau was focused on performing calculations within the software to create new columns and rows using calculated fields. Throughout the lesson, I encountered various types of errors, which were detected by Tableau, as well as errors that resulted from the equations themselves. The course provided exercises to sharpen my skills in finding and tackling these errors. Following this, the course delved into data granularity and how it increases with the number of dimensions exposed in Rows and Columns or in the Marks, such as detail, color, shape, and so on. While "Group by" is used to tackle data granularity in pandas and SQL, in Tableau, LOD expressions are used to compute aggregations easily. There are three types of LOD Expressions: INCLUDE, EXCLUDE, and FIXED, each controlling the level of detail at which a calculation is performed and not depending on the dimensions used in the visualization.
+    </p>
+    <br/><img src="./images/cohort_analysis.png" alt="cohort_analysis">
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
