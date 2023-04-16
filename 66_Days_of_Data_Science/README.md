@@ -1636,3 +1636,24 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     <br/><img src="./images/cohort_analysis.png" alt="cohort_analysis">
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 36 - (Continued) Calculations in Tableau</summary>
+    <pre><code><small>🗓️  Date: 2023-04-15</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/calculations-in-tableau" target="_blank">Calculations in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+   Today's module focused on table calculations, covering both inbuilt and custom expressions based on single and multiple dimensions. Various examples of table calculations were explored, including running average, running table, window sum, and more. Following this, the module also revisited parameters, which allow for custom interactions between the user and the worksheet.
+    </p>
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
