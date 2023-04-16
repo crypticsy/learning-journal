@@ -1640,7 +1640,7 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
 <details style="margin-bottom:7px;">
     <br />
     <summary> &nbsp; 📖 &nbsp; Day 36 - (Continued) Calculations in Tableau</summary>
-    <pre><code><small>🗓️  Date: 2023-04-15</small></code></pre>
+    <pre><code><small>🗓️  Date: 2023-04-16</small></code></pre>
     <h4> Resources : </h4>
     <p>Course</p>
     <ul>
