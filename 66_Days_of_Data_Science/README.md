@@ -1657,3 +1657,25 @@ SELECT generate_series('2018-01-01', '2018-01-15', '2 days'::interval)</small></
     </p>
     <br/><hr style="border: 0; height: 4px;" /><br/>
 </details>
+
+<details style="margin-bottom:7px;">
+    <br />
+    <summary> &nbsp; 📖 &nbsp; Day 37 - (Continued) Calculations in Tableau</summary>
+    <pre><code><small>🗓️  Date: 2023-04-17</small></code></pre>
+    <h4> Resources : </h4>
+    <p>Course</p>
+    <ul>
+        <li>
+            <a href="https://app.datacamp.com/learn/courses/calculations-in-tableau" target="_blank">Calculations in Tableau (Datacamp)</a>
+        </li>
+    </ul>
+    <center>
+        <hr style="border: 0; height: 2px; width: 80%; text-align: center;">
+    </center>
+    <h4> Summary : </h4>
+    <p align="justify">
+   Today's course module was centered on time series analysis, including the common calculations used in time series, along with a summary of how to use individual rows of data to create date and time. After covering these topics, I performed analysis on the data source to find patterns and growth by analyzing seasonality and year-to-year trends.
+    </p>
+    <br/><img src="./images/seasonality.png" alt="seasonality">
+    <br/><hr style="border: 0; height: 4px;" /><br/>
+</details>
