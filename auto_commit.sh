@@ -4,7 +4,7 @@
 TODAY=$(date +"%a,%d %b, %Y %I:%M %p")
 
 # add all changes
-git add *
+git add .
 # commit changes
-git commit -m "66 Days of DS : Updated learning log till $TODAY"
+git commit -m "🤖 Updated learning log till $TODAY with leetcode"
 git push origin master

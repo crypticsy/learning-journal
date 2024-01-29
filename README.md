@@ -8,7 +8,9 @@ Inspired by this remarkable research, I'm embarking on a thrilling quest to mast
 
 <br/>
 
-Series 1 : [66 Days of Data Science](./66_Days_of_Data_Science/)
+Series 1 : [66 Days of Data Science](./66%20Days%20of%20Data%20Science/) 
+
+Series 2 : [LeetCode 75](./LeetCode%2075/)
 
 <br/>
 
