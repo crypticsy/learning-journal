@@ -3,206 +3,616 @@
 <br/>
 
 ##### Array / String
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Merge Strings Alternately | Easy | [Solved](./1768%20Merge%20Strings%20Alternately.py) |
-| Greatest Common Divisor of Strings | Easy | [Solved](./1071%20Greatest%20Common%20Divisor%20of%20Strings.py) |
-| Kids With the Greatest Number of Candies | Easy |  |
-| Can Place Flowers | Easy |  |
-| Reverse Vowels of a String | Easy |  |
-| Reverse Words in a String | Medium |  |
-| Product of Array Except Self | Medium |  |
-| Increasing Triplet Subsequence | Medium |  |
-| String Compression | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Merge Strings Alternately </td>
+        <td> Easy </td>
+        <td> <a href="./1768 Merge Strings Alternately.py" target="_blank">Solved</a> </td>
+    </tr><tr>
+        <td> Greatest Common Divisor of Strings </td>
+        <td> Easy </td>
+        <td> <a href="./1071 Greatest Common Divisor of Strings.py" target="_blank">Solved</a> </td>
+    </tr>
+    <tr>
+        <td> Kids With the Greatest Number of Candies </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Can Place Flowers </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Reverse Vowels of a String </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Reverse Words in a String </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Product of Array Except Self </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Increasing Triplet Subsequence </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> String Compression </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Two Pointers
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Move Zeroes | Easy |  |
-| Is Subsequence | Easy |  |
-| Container With Most Water | Medium |  |
-| Max Number of K-Sum Pairs | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Move Zeroes </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Is Subsequence </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Container With Most Water </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Max Number of K-Sum Pairs </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Sliding Window
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Maximum Average Subarray I | Easy |  |
-| Maximum Number of Vowels in a Substring of Given Length | Medium |  |
-| Max Consecutive Ones III | Medium |  |
-| Longest Subarray of 1's After Deleting One Element | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Maximum Average Subarray I </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Maximum Number of Vowels in a Substring of Given Length </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Max Consecutive Ones III </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Longest Subarray of 1's After Deleting One Element </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Prefix Sum
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Find the Highest Altitude | Easy |  |
-| Find Pivot Index | Easy |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Find the Highest Altitude </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Find Pivot Index </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Hash Map / Set
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Find the Difference of Two Arrays | Easy |  |
-| Unique Number of Occurrences | Easy |  |
-| Determine if Two Strings Are Close | Medium |  |
-| Equal Row and Column Pairs | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Find the Difference of Two Arrays </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Unique Number of Occurrences </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Determine if Two Strings Are Close </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Equal Row and Column Pairs </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Stack
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Removing Stars From a String | Medium |  |
-| Asteroid Collision | Medium |  |
-| Decode String | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Removing Stars From a String </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Asteroid Collision </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Decode String </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Queue
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Number of Recent Calls | Easy |  |
-| Dota2 Senate | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Number of Recent Calls </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Dota2 Senate </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Linked List
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Reverse Linked List | Easy |  |
-| Delete the Middle Node of a Linked List | Medium |  |
-| Odd Even Linked List | Medium |  |
-| Maximum Twin Sum of a Linked List | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Delete the Middle Node of a Linked List </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Odd Even Linked List </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Reverse Linked List </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Maximum Twin Sum of a Linked List </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Binary Tree - DFS
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Maximum Depth of Binary Tree | Easy |  |
-| Leaf-Similar Trees | Easy |  |
-| Count Good Nodes in Binary Tree | Medium |  |
-| Path Sum III | Medium |  |
-| Longest ZigZag Path in a Binary Tree | Medium |  |
-| Lowest Common Ancestor of a Binary Tree | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Maximum Depth of Binary Tree </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Leaf-Similar Trees </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Count Good Nodes in Binary Tree </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Path Sum III </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Longest ZigZag Path in a Binary Tree </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Lowest Common Ancestor of a Binary Tree </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Binary Tree - BFS
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Binary Tree Right Side View | Medium |  |
-| Maximum Level Sum of a Binary Tree | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Binary Tree Right Side View </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Maximum Level Sum of a Binary Tree </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Binary Search Tree
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Search in a Binary Search Tree | Easy |  |
-| Delete Node in a BST | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Search in a Binary Search Tree </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Delete Node in a BST </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Graphs - DFS
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Keys and Rooms | Medium |  |
-| Number of Provinces | Medium |  |
-| Reorder Routes to Make All Paths Lead to the City Zero | Medium |  |
-| Evaluate Division | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Keys and Rooms </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Number of Provinces </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Reorder Routes to Make All Paths Lead to the City Zero </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Evaluate Division </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Graphs - BFS
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Nearest Exit from Entrance in Maze | Medium |  |
-| Rotting Oranges | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Nearest Exit from Entrance in Maze </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Rotting Oranges </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Heap / Priority Queue
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Kth Largest Element in an Array | Medium |  |
-| Smallest Number in Infinite Set | Medium |  |
-| Maximum Subsequence Score | Medium |  |
-| Total Cost to Hire K Workers | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Kth Largest Element in an Array </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Smallest Number in Infinite Set </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Maximum Subsequence Score </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Total Cost to Hire K Workers </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Binary Search
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Guess Number Higher or Lower | Easy |  |
-| Successful Pairs of Spells and Potions | Medium |  |
-| Find Peak Element | Medium |  |
-| Koko Eating Bananas | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Guess Number Higher or Lower </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Successful Pairs of Spells and Potions </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Find Peak Element </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Koko Eating Bananas </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Backtracking
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Letter Combinations of a Phone Number | Medium |  |
-| Combination Sum III | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Letter Combinations of a Phone Number </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Combination Sum III </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### DP - 1D
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| N-th Tribonacci Number | Easy |  |
-| Min Cost Climbing Stairs | Easy |  |
-| House Robber | Medium |  |
-| Domino and Tromino Tiling | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> N-th Tribonacci Number </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Min Cost Climbing Stairs </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> House Robber </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Domino and Tromino Tiling </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### DP - Multidimensional
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Unique Paths | Medium |  |
-| Longest Common Subsequence | Medium |  |
-| Best Time to Buy and Sell Stock with Transaction Fee | Medium |  |
-| Edit Distance | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Unique Paths </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Longest Common Subsequence </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Best Time to Buy and Sell Stock with Transaction Fee </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Edit Distance </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Bit Manipulation
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Counting Bits | Easy |  |
-| Single Number | Easy |  |
-| Minimum Flips to Make a OR b Equal to c | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Counting Bits </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Single Number </td>
+        <td> Easy </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Minimum Flips to Make a OR b Equal to c </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Trie
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Implement Trie (Prefix Tree) | Medium |  |
-| Search Suggestions System | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Implement Trie (Prefix Tree) </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Search Suggestions System </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Intervals
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Non-overlapping Intervals | Medium |  |
-| Minimum Number of Arrows to Burst Balloons | Medium |  |
 
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Non-overlapping Intervals </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Minimum Number of Arrows to Burst Balloons </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
 <br/>
 
 ##### Monotonic Stack
-| Problem | Difficulty | Status |
-| --- | --- | --- |
-| Daily Temperatures | Medium |  |
-| Online Stock Span | Medium |  |
+
+<table>
+    <tr>
+        <th> Problem </th>
+        <th> Difficulty </th>
+        <th> Status </th>
+    </tr>
+    <tr>
+        <td> Daily Temperatures </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td> Online Stock Span </td>
+        <td> Medium </td>
+        <td>  </td>
+    </tr>
+</table>
