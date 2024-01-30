@@ -22,12 +22,12 @@
     <tr>
         <td> Kids With the Greatest Number of Candies </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./1431 Kids With the Greatest Number of Candies.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Can Place Flowers </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./605 Can Place Flowers.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Reverse Vowels of a String </td>
