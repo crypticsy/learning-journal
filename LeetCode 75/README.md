@@ -32,7 +32,7 @@
     <tr>
         <td> Reverse Vowels of a String </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./345 Reverse Vowels of a String.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Reverse Words in a String </td>
