@@ -37,12 +37,12 @@
     <tr>
         <td> Reverse Words in a String </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./151 Reverse Words in a String.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Product of Array Except Self </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./238 Product of Array Except Self.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Increasing Triplet Subsequence </td>
