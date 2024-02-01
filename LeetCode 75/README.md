@@ -47,12 +47,12 @@
     <tr>
         <td> Increasing Triplet Subsequence </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./334 Increasing Triplet Subsequence.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> String Compression </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./443 String Compression.py" target="_blank">Solved</a>  </td>
     </tr>
 </table>
 <br/>
