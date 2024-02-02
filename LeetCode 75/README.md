@@ -68,12 +68,12 @@
     <tr>
         <td> Move Zeroes </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./283 Move Zeroes.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Is Subsequence </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./392 Is Subsequence.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Container With Most Water </td>
