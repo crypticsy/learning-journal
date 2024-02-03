@@ -68,22 +68,22 @@
     <tr>
         <td> Move Zeroes </td>
         <td> Easy </td>
-        <td> <a href="./283 Move Zeroes.py" target="_blank">Solved</a>  </td>
+        <td> <a href="./283 Move Zeroes.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Is Subsequence </td>
         <td> Easy </td>
-        <td> <a href="./392 Is Subsequence.py" target="_blank">Solved</a>  </td>
+        <td> <a href="./392 Is Subsequence.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Container With Most Water </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./11 Container With Most Water.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Max Number of K-Sum Pairs </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./1679 Max Number of K-Sum Pairs.py" target="_blank">Solved</a> </td>
     </tr>
 </table>
 <br/>
