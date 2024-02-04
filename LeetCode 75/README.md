@@ -99,12 +99,12 @@
     <tr>
         <td> Maximum Average Subarray I </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./643 Maximum Average Subarray I.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Maximum Number of Vowels in a Substring of Given Length </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./1456 Maximum Number of Vowels in a Substring of Given Length.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Max Consecutive Ones III </td>
