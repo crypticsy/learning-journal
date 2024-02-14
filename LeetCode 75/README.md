@@ -130,12 +130,12 @@
     <tr>
         <td> Find the Highest Altitude </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./1732 Find the Highest Altitude.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Find Pivot Index </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./724 Find Pivot Index.py" target="_blank">Solved</a> </td>
     </tr>
 </table>
 <br/>
