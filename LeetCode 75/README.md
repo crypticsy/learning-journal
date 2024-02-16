@@ -109,7 +109,7 @@
     <tr>
         <td> Max Consecutive Ones III </td>
         <td> Medium </td>
-        <td> <a href="./1004 Max Consecutive Ones III.py target="_blank">Solved</a> </td>
+        <td> <a href="./1004 Max Consecutive Ones III.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Longest Subarray of 1's After Deleting One Element </td>
