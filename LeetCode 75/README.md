@@ -109,7 +109,7 @@
     <tr>
         <td> Max Consecutive Ones III </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./1004 Max Consecutive Ones III.py target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Longest Subarray of 1's After Deleting One Element </td>
@@ -151,12 +151,12 @@
     <tr>
         <td> Find the Difference of Two Arrays </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./2215 Find the Difference of Two Arrays.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Unique Number of Occurrences </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./1207 Unique Number of Occurrences.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Determine if Two Strings Are Close </td>
