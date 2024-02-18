@@ -114,7 +114,7 @@
     <tr>
         <td> Longest Subarray of 1's After Deleting One Element </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./1493 Longest Subarray of 1s After Deleting One Element.py" target="_blank">Solved</a> </td>
     </tr>
 </table>
 <br/>
