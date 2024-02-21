@@ -161,12 +161,12 @@
     <tr>
         <td> Determine if Two Strings Are Close </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./1657 Determine if Two Strings Are Close.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Equal Row and Column Pairs </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./2352 Equal Row and Column Pairs.py" target="_blank">Solved</a>  </td>
     </tr>
 </table>
 <br/>
