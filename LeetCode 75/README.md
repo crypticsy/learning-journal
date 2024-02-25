@@ -166,7 +166,7 @@
     <tr>
         <td> Equal Row and Column Pairs </td>
         <td> Medium </td>
-        <td> <a href="./2352 Equal Row and Column Pairs.py" target="_blank">Solved</a>  </td>
+        <td> <a href="./2352 Equal Row and Column Pairs.py" target="_blank">Solved</a> </td>
     </tr>
 </table>
 <br/>
@@ -182,12 +182,12 @@
     <tr>
         <td> Removing Stars From a String </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./2390 Removing Stars From a String.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Asteroid Collision </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./735 Asteroid Collision.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Decode String </td>
