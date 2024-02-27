@@ -192,7 +192,7 @@
     <tr>
         <td> Decode String </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./394 Decode String.py" target="_blank">Solved</a> </td>
     </tr>
 </table>
 <br/>
@@ -208,12 +208,12 @@
     <tr>
         <td> Number of Recent Calls </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./933 Number of Recent Calls.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Dota2 Senate </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./649 Dota2 Senate.py" target="_blank">Solved</a> </td>
     </tr>
 </table>
 <br/>
