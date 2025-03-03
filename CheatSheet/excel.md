@@ -18,19 +18,19 @@
 | `=MAX(A1:A10)` | Returns the maximum value in the range |
 | `=MIN(A1:A10)` | Returns the minimum value in the range |
 | `=SUM(A1:A10)` | Returns the sum of the values in the range |
+| `=SUMIF(A1:A10, ">10")` | Returns the sum of the values in the range that are greater than 10 |
+| `=SUMIF(A1:A10, ">10", B1:B10)` | Returns the sum of the values in the range B1:B10 if the value in the range A1:A10 is greater than 10 |
+| `=SUMIFS(A1:A10, ">10", B1:B10, "<20")` | Returns the sum of the values in the range that are greater than 10 and less than 20 |
 | `=AVERAGE(A1:A10)` | Returns the average of the values in the range |
+| `=AVERAGEIF(A1:A10, ">10")` | Returns the average of the values in the range that are greater than 10 |
+| `=AVERAGEIFS(A1:A10, ">10", B1:B10, "<20")` | Returns the average of the values in the range that are greater than 10 and less than 20 |
 | `=COUNT(A1:A10)` | Returns the number of values in the range |
 | `=COUNTA(A1:A10)` | Returns the number of non-empty values in the range |
 | `=COUNTBLANK(A1:A10)` | Returns the number of empty values in the range |
 | `=COUNTIF(A1:A10, ">10")` | Returns the number of values in the range that are greater than 10 |
 | `=COUNTIFS(A1:A10, ">10", B1:B10, "<20")` | Returns the number of values in the range that are greater than 10 and less than 20 |
-| `=SUMIF(A1:A10, ">10")` | Returns the sum of the values in the range that are greater than 10 |
-| `=SUMIFS(A1:A10, ">10", B1:B10, "<20")` | Returns the sum of the values in the range that are greater than 10 and less than 20 |
-| `=AVERAGEIF(A1:A10, ">10")` | Returns the average of the values in the range that are greater than 10 |
-| `=AVERAGEIFS(A1:A10, ">10", B1:B10, "<20")` | Returns the average of the values in the range that are greater than 10 and less than 20 |
 | `=IF(A1>10, "Greater than 10", "Less than 10")` | Returns "Greater than 10" if the value in A1 is greater than 10, otherwise returns "Less than 10" |
 | `=OR(A1>10, B1>10)` | Returns TRUE if either A1 or B1 is greater than 10 |
-| `=SUMIF(A1:A10, ">10", B1:B10)` | Returns the sum of the values in the range B1:B10 if the value in the range A1:A10 is greater than 10 |
 
 > **Note:** You can also return a formula in an IF statement (e.g. `=IF(A1>10, A1*2, A1*3)`)
 
