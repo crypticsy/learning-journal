@@ -229,7 +229,7 @@
     <tr>
         <td> Delete the Middle Node of a Linked List </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./2095 Delete the Middle Node of a Linked List.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Odd Even Linked List </td>
@@ -239,7 +239,7 @@
     <tr>
         <td> Reverse Linked List </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./206 Reverse LInked List.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Maximum Twin Sum of a Linked List </td>

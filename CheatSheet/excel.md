@@ -19,7 +19,7 @@
 | `=MIN(A1:A10)` | Returns the minimum value in the range |
 | `=SUM(A1:A10)` | Returns the sum of the values in the range |
 | `=SUMIF(A1:A10, ">10")` | Returns the sum of the values in the range that are greater than 10 |
-| `=SUMIF(A1:A10, ">10", B1:B10)` | Returns the sum of the values in the range B1:B10 if the value in the range A1:A10 is greater than 10 |
+| `=SUMIF(A1:A10, ">10", B1:B10)` | Returns the sum of the values in the range B1:B10 if the value in the range A1:A10 is greater than 10 |r
 | `=SUMIFS(A1:A10, ">10", B1:B10, "<20")` | Returns the sum of the values in the range that are greater than 10 and less than 20 |
 | `=AVERAGE(A1:A10)` | Returns the average of the values in the range |
 | `=AVERAGEIF(A1:A10, ">10")` | Returns the average of the values in the range that are greater than 10 |
