@@ -234,7 +234,7 @@
     <tr>
         <td> Odd Even Linked List </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./328 Odd Even Linked List.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Reverse Linked List </td>
