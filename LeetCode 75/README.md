@@ -244,7 +244,7 @@
     <tr>
         <td> Maximum Twin Sum of a Linked List </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./2130 Maximum Twin Sum of a Linked List.py" target="_blank">Solved</a> </td>
     </tr>
 </table>
 <br/>
@@ -260,7 +260,7 @@
     <tr>
         <td> Maximum Depth of Binary Tree </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./104 Maximum Depth of Binary Tree.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Leaf-Similar Trees </td>
