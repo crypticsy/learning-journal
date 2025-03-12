@@ -265,7 +265,7 @@
     <tr>
         <td> Leaf-Similar Trees </td>
         <td> Easy </td>
-        <td>  </td>
+        <td> <a href="./872 Leaf-Similar Trees.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Count Good Nodes in Binary Tree </td>
