@@ -270,12 +270,12 @@
     <tr>
         <td> Count Good Nodes in Binary Tree </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./1448 Count Good Nodes in Binary Tree.py" target="_blank">Solved</a>  </td>
     </tr>
     <tr>
         <td> Path Sum III </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./437 Path Sum III.py" target="_blank">Solved</a> </td>
     </tr>
     <tr>
         <td> Longest ZigZag Path in a Binary Tree </td>

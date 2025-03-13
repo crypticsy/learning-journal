@@ -38,5 +38,5 @@ class Solution:
 
         return max(max_depth)
     
-    def maxDepth(self, root: list[TreeNode]) -> int:
+    def maxDepth(self, root: TreeNode) -> int:
         return self.depthSearch(root, 1)

@@ -40,7 +40,7 @@ class Solution:
             self.getLeafSequence(head.right, sequence)
 
 
-    def leafSimilar(self, root1: list[TreeNode], root2: list[TreeNode]) -> bool:
+    def leafSimilar(self, root1: TreeNode, root2: TreeNode) -> bool:
         leftSequence = []
         self.getLeafSequence(root1, leftSequence)
         rightSequence = []
