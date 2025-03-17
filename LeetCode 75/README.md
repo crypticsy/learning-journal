@@ -285,7 +285,7 @@
     <tr>
         <td> Lowest Common Ancestor of a Binary Tree </td>
         <td> Medium </td>
-        <td>  </td>
+        <td> <a href="./236 Lowest Common Ancestor of a Binary Tree.py" target="_blank">Solved</a>  </td>
     </tr>
 </table>
 <br/>
